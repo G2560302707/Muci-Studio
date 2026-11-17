@@ -1,0 +1,20 @@
+{
+  "name": "MaskText",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-MaskText",
+  "sourcePath": "src/components/MaskText.tsx",
+  "previewPath": "out/previews/MaskText.mp4",
+  "description": "白色窗口内的逐字揭示文本组件。",
+  "props": {
+    "text": "string",
+    "from": "number?",
+    "duration": "number?",
+    "style": "React.CSSProperties?"
+  },
+  "usageRules": {
+    "background": "#FFFFFF",
+    "typography": "MiSans Semibold 600",
+    "rule": "one visual center; no decorative motion"
+  }
+}

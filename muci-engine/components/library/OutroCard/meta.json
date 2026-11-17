@@ -1,0 +1,21 @@
+{
+  "name": "OutroCard",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-OutroCard",
+  "sourcePath": "src/components/OutroCard.tsx",
+  "previewPath": "out/previews/OutroCard.mp4",
+  "description": "结尾引导卡，总结榜单并建立互动问题。",
+  "props": {
+    "title": "string",
+    "items": "Array<{ title: string; org: string; weeklyStars: number }>",
+    "question": "string",
+    "button": "string"
+  },
+  "usageRules": {
+    "background": "#FFFFFF",
+    "typography": "MiSans Semibold 600",
+    "highlight": "#7C3AED",
+    "rule": "end on a stable final frame"
+  }
+}

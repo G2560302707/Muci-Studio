@@ -1,0 +1,7 @@
+{
+  "name": "RankingIntro",
+  "description": "榜单标题和项目列表的逐条入场卡。",
+  "props": ["title", "items"],
+  "usage": "周榜、推荐清单、对比总结。",
+  "relations": ["榜单", "清单", "排名"]
+}

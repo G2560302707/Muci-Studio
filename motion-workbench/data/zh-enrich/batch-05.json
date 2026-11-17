@@ -1,0 +1,702 @@
+[
+ {
+  "id": "remocn:icon-trophy",
+  "name": "icon-trophy",
+  "title": "Trophy",
+  "desc": "Animated Lucide trophy icon — draws on, then hoists: the cup hops with a pop at the apex while its handles flash in.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icon-upload",
+  "name": "icon-upload",
+  "title": "Upload",
+  "desc": "Animated Lucide upload icon — the tray draws on, the arrow fades in, then launches upward with a spring for an upload, publish, or submission beat.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icon-user",
+  "name": "icon-user",
+  "title": "User",
+  "desc": "Animated Lucide user icon — draws on, then gives a small presence nod: head dips as shoulders rise to meet it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icon-user-plus",
+  "name": "icon-user-plus",
+  "title": "User Plus",
+  "desc": "Animated Lucide user-plus icon — the figure draws on, then the plus strokes draw in and pop: a new member added.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icon-users",
+  "name": "icon-users",
+  "title": "Users",
+  "desc": "Animated Lucide users icon — the front figure draws on and pops, then the second figure slides in from behind: the team assembles.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icon-video",
+  "name": "icon-video",
+  "title": "Video",
+  "desc": "Animated Lucide video icon — draws on, then the lens wedge pans out and snaps back to its shot.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icon-volume-2",
+  "name": "icon-volume-2",
+  "title": "Volume 2",
+  "desc": "Animated Lucide volume-2 icon — the speaker draws on, then the two sound waves ripple outward one after the other.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icon-volume-x",
+  "name": "icon-volume-x",
+  "title": "Volume X",
+  "desc": "Animated Lucide volume-x icon — the speaker draws on, then the X slashes in and the glyph shakes off the sound.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icon-wallet",
+  "name": "icon-wallet",
+  "title": "Wallet",
+  "desc": "Animated Lucide wallet icon — draws on, then the wallet thickens with a quiet x-scale: money in.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icon-x",
+  "name": "icon-x",
+  "title": "X",
+  "desc": "Animated Lucide x icon — the two diagonals draw in crosswise, then the mark shakes to punctuate an error, removal, or dismissal.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icon-x-circle",
+  "name": "icon-x-circle",
+  "title": "X Circle",
+  "desc": "Animated Lucide x-circle icon — the ring draws on, the X slashes in, and the badge shakes once: firmly rejected.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icon-zap",
+  "name": "icon-zap",
+  "title": "Zap",
+  "desc": "Animated Lucide zap icon — the bolt draws in fast, then flashes with a double blink for speed, performance, or instant-result claims.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:icons-core",
+  "name": "icons-core",
+  "title": "Icons Core",
+  "desc": "Shared animation contract, pure frame-to-phase timeline, and SVG path-draw helpers for remocn icons.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:idea-set",
+  "name": "idea-set",
+  "title": "Idea Set",
+  "desc": "Two ruled lines set like a ledger, the second in an accent color: 'Napkin sketch. Keynote opener.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:imessage-chat-flow",
+  "name": "imessage-chat-flow",
+  "title": "UI iMessage Chat Flow",
+  "desc": "An iMessage-styled messaging composition: gray incoming and blue outgoing bubbles with tails, an in-thread typing bubble with dots, a Delivered label, and tapback-style reaction badges. The composer types the outgoing message before sending. Chrome icons come from lucide-react; self-contained otherwise, composing the caret and typing-indicator primitives.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:impact-shake",
+  "name": "impact-shake",
+  "title": "Impact Shake",
+  "desc": "Heavy content slams in from above with squash, a damped camera jolt, a two-frame RGB split and dust puffs kicking out sideways.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:in-proportion",
+  "name": "in-proportion",
+  "title": "in Proportion",
+  "desc": "Small objections (\"It'll look homemade\") are answered by a big yellow \"You'll write a component.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:indent-steps",
+  "name": "indent-steps",
+  "title": "Indent Steps",
+  "desc": "Three lines step in with growing indents and line numbers like code: 'Write it in React...'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:index-list",
+  "name": "index-list",
+  "title": "Index List",
+  "desc": "A numbered feature index where hairline rows highlight one by one with an arrow.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:infinite-bento-pan",
+  "name": "infinite-bento-pan",
+  "title": "Infinite Bento Pan",
+  "desc": "A camera diagonally drifts across an oversized bento grid behind a soft vignette.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:infinite-marquee",
+  "name": "infinite-marquee",
+  "title": "Infinite Marquee",
+  "desc": "Seamlessly looping horizontal text strip with optional stroke style.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:inflate",
+  "name": "inflate",
+  "title": "Inflate",
+  "desc": "A deflated red sliver puffs up like a balloon toy, overshoots, squashes wide and settles into a glossy rounded mark.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ink-arrow",
+  "name": "ink-arrow",
+  "title": "Ink Arrow",
+  "desc": "A hand-drawn brush arrow that sweeps itself from one point to another, thickening into the head that pops on the final poses.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ink-bloom",
+  "name": "ink-bloom",
+  "title": "Ink Bloom",
+  "desc": "Ink blooms across the page and settles into the Remocn logo.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ink-underline",
+  "name": "ink-underline",
+  "title": "Ink Underline",
+  "desc": "A hand-dragged brush underline that sweeps itself across in a few stop-motion poses, thinning to a dry tail.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:inline-highlight",
+  "name": "inline-highlight",
+  "title": "Inline Highlight",
+  "desc": "Animates one word inside a sentence from a base color to a brand color.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:inline-pill-takeover",
+  "name": "inline-pill-takeover",
+  "title": "Inline Pill Takeover",
+  "desc": "A clipped pill expands inside a sentence, physically pushes the surrounding words apart, removes them through blur and takes over the frame with a fast camera punch-in.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:inline-word-roll",
+  "name": "inline-word-roll",
+  "title": "Inline Word Roll",
+  "desc": "Roll through words beside a fixed prefix with accelerating timing and smoothly centered width.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:input",
+  "name": "input",
+  "title": "UI Input",
+  "desc": "A text input whose idle/hover/active/typing/invalid state is a pure function of the timeline; the focus ring, border, caret, and value reveal are keyframed presets.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:intelligence-glow",
+  "name": "intelligence-glow",
+  "title": "Intelligence Glow",
+  "desc": "An AI-style answer types under a question while a soft glow breathes along an underline.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:introducing",
+  "name": "introducing",
+  "title": "Introducing",
+  "desc": "'Introducing' settles then lifts into an eyebrow as the remocn wordmark lands with a tagline.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:invite-team",
+  "name": "invite-team",
+  "title": "Invite Team",
+  "desc": "An invite field types emails, sends invites and a toast confirms in a project list.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:invoice-paid",
+  "name": "invoice-paid",
+  "title": "Invoice Paid",
+  "desc": "An invoice gets stamped PAID while a payout notification arrives.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ipo-open",
+  "name": "ipo-open",
+  "title": "Ipo Open",
+  "desc": "A huge ticker symbol RMCN opens over an IPO price printing $42.60 with a percent-up pill.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:iris-wipe",
+  "name": "iris-wipe",
+  "title": "Iris Wipe",
+  "desc": "An old-cartoon iris closes on the subject, holds a beat as a dot, then opens on the next scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:isometric-build",
+  "name": "isometric-build",
+  "title": "Isometric Build",
+  "desc": "An isometric tile grid springs up row by row into a stepped block sculpture with one accent tower, then holds.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:italic-speed",
+  "name": "italic-speed",
+  "title": "Italic Speed",
+  "desc": "A slanted caps word rides in on speed strips with a serif italic subtitle under an underline.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:keep-words",
+  "name": "keep-words",
+  "title": "Keep Words",
+  "desc": "Three serif lines, \"Written. Yours. On time.\", each ending with a red full stop.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:kerning-snap",
+  "name": "kerning-snap",
+  "title": "Kerning Snap",
+  "desc": "Loose letters snap to correct kerning one by one in a gradient serif word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:keycap-press",
+  "name": "keycap-press",
+  "title": "Keycap Press",
+  "desc": "Two 3D keycaps press Cmd and K under the line Everything, one shortcut away.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:keystroke",
+  "name": "keystroke",
+  "title": "Keystroke",
+  "desc": "Physical keycaps rise in for each shortcut, press in real order with the modifiers held while the letter taps, spring back with a small capped overshoot, and leave after an idle hold, firing on the same frames as the remocn-ui steps they trigger.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:kill-feed",
+  "name": "kill-feed",
+  "title": "Kill Feed",
+  "desc": "A kill-feed of eliminations builds to a big gradient 'PENTA SHIP' banner.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:kinetic-center-build",
+  "name": "kinetic-center-build",
+  "title": "Kinetic Center Build",
+  "desc": "A word appears in the center; each new word enters from the right and pushes the line until the full phrase locks centered.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:kinetic-morph-text",
+  "name": "kinetic-morph-text",
+  "title": "Kinetic Morph Text",
+  "desc": "Letters lift, rotate, and softly reshape into editable phrases with sampled outline trails.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:kinetic-warp",
+  "name": "kinetic-warp",
+  "title": "Kinetic Warp",
+  "desc": "A coarse mesh warp bends a whole word in staccato beats, one axis per keyframe.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:known-terms",
+  "name": "known-terms",
+  "title": "Known Terms",
+  "desc": "Definitions, \"A scene is a component ...\", build to a green \"Your launch is a deploy.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ko-count",
+  "name": "ko-count",
+  "title": "Ko Count",
+  "desc": "A knockout count ends in a full-frame gradient slam, 'KNOCKOUT', with a serif subline.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:landing-confirmed",
+  "name": "landing-confirmed",
+  "title": "Landing Confirmed",
+  "desc": "A descent counts down then a big gradient 'SHIPPED.' lands over a serif 'Nailed the landing.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:launch-anything",
+  "name": "launch-anything",
+  "title": "Product Showcase",
+  "desc": "An independent 26.7-second editorial product film with forest-green accents, original photography, seven editable demos, and geometric marks.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:launch-date",
+  "name": "launch-date",
+  "title": "Launch Date",
+  "desc": "A calendar month draws itself, days sweep on and the launch date glows in a ring.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:launch-days",
+  "name": "launch-days",
+  "title": "Launch Days",
+  "desc": "Vertical day tabs expand one into a big card, '03 Templates', under a Launch Week header.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:layered-cutout",
+  "name": "layered-cutout",
+  "title": "Layered Cutout",
+  "desc": "The camera dollies through layered cut sheets to land on a framed Remocn logo.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:layout-guides",
+  "name": "layout-guides",
+  "title": "Layout Guides",
+  "desc": "Dashed column guides drop over a grid, one column fills and gets a label, a gutter is measured and a now line slides across.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:layout-swap",
+  "name": "layout-swap",
+  "title": "Layout Swap",
+  "desc": "Headlines swap by shifting layout, ending 'Animations, transitions and backgrounds, ready to install.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:layover",
+  "name": "layover",
+  "title": "Layover",
+  "desc": "A headline's key word cycles through a short list of stops before settling on the final word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:leaderboard-climb",
+  "name": "leaderboard-climb",
+  "title": "Leaderboard Climb",
+  "desc": "A launch leaderboard ranks ten products and the highlighted row climbs the table.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:lean-count",
+  "name": "lean-count",
+  "title": "Lean Count",
+  "desc": "A heavy italic figure leans into place as it counts up to 3.2 followed by a red cross.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:led-ticker",
+  "name": "led-ticker",
+  "title": "Led Ticker",
+  "desc": "REMOCN IS LIVE scrolls on a retro LED dot-matrix with a gradient on the last word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:lens-zoom",
+  "name": "lens-zoom",
+  "title": "Lens Zoom",
+  "desc": "A hard cut disguised as a lens punch-in: barrel distortion, zoom blur, chromatic split and camera shake around the splice.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:less-more",
+  "name": "less-more",
+  "title": "Less More",
+  "desc": "'Less explaining.' dims while 'More showing.' lands in bright blue below it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:letter-gate",
+  "name": "letter-gate",
+  "title": "Letter Gate",
+  "desc": "The camera pushes into a giant letter pair, the gap opens like a gate onto the next scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:letter-relay",
+  "name": "letter-relay",
+  "title": "Letter Relay",
+  "desc": "Letters hop in sequence, each taking off as the previous one lands, to spell the wordmark.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:level-up",
+  "name": "level-up",
+  "title": "Level Up",
+  "desc": "'LEVEL UP' ticks from one level to the next, 42, with an XP bar and a stat chip.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:life-grid",
+  "name": "life-grid",
+  "title": "Life Grid",
+  "desc": "Conway's Game of Life plays out on a seeded grid, with newborn cells flashing in the accent.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:light-burn-to-line",
+  "name": "light-burn-to-line",
+  "title": "Light Burn to Line",
+  "desc": "Light burns the scene down to a line that opens onto \"Now ship your first film.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:light-leak",
+  "name": "light-leak",
+  "title": "Light Leak",
+  "desc": "A warm analog light leak drifts in from an edge and blows the frame out to near-white at the cut, then cools off to reveal the next scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:light-signature",
+  "name": "light-signature",
+  "title": "Light Signature",
+  "desc": "A red horizontal light streak flares as the remocn wordmark appears under 'The all-new'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:light-trail-write",
+  "name": "light-trail-write",
+  "title": "Light Trail Write",
+  "desc": "A point of light writes the Remocn wordmark path with a cooling trail.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:lights-out",
+  "name": "lights-out",
+  "title": "Lights Out",
+  "desc": "Five lights go out and a heavy italic headline slams in, with a blue period.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:line-boil",
+  "name": "line-boil",
+  "title": "Line Boil",
+  "desc": "A hand-drawn outline boils like a cel animation, redrawn every few frames with a varying pen weight, then fills with color while it keeps boiling.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:line-by-line-slide",
+  "name": "line-by-line-slide",
+  "title": "Line-by-Line Slide",
+  "desc": "Each line enters from the left with a staggered slide and exits to the right for a flowing paragraph reveal.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:line-cascade",
+  "name": "line-cascade",
+  "title": "Line Cascade",
+  "desc": "A huge 240 is drawn from cascading gradient lines with a caption below.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:line-relief",
+  "name": "line-relief",
+  "title": "Line Relief",
+  "desc": "Huge LAUNCH lettering is relief-ruled by stacked horizontal lines over a dusk gradient.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:liquid-fill",
+  "name": "liquid-fill",
+  "title": "Liquid Fill",
+  "desc": "A drop falls into an outlined mark and liquid rises with a sloshing, damping surface and bubbles until the mark is solid.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:liquid-word",
+  "name": "liquid-word",
+  "title": "Liquid Word",
+  "desc": "A word melts into a gradient pool, then a new word rises out of it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:live-activity",
+  "name": "live-activity",
+  "title": "Live Activity",
+  "desc": "A lock-screen live activity shows a render progress bar and remaining time.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:live-code-compilation",
+  "name": "live-code-compilation",
+  "title": "Live Code Compilation",
+  "desc": "Split-screen where typed code on the left snaps a live UI preview on the right, HMR-style.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:live-dashboard",
+  "name": "live-dashboard",
+  "title": "Live Dashboard",
+  "desc": "A payments dashboard animates its stats, chart and recent activity feed.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:live-ticker",
+  "name": "live-ticker",
+  "title": "Live Ticker",
+  "desc": "A big comma-separated counter rolls its digits up like a live ticker with a feed above.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:log-rescale",
+  "name": "log-rescale",
+  "title": "Log Rescale",
+  "desc": "A bar chart rescales to a log axis so the final 2.4M bar stands out.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:logo-construct",
+  "name": "logo-construct",
+  "title": "Logo Construct",
+  "desc": "A blueprint grid draws the logo construction lines and the wordmark inks in.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:logo-enter",
+  "name": "logo-enter",
+  "title": "Logo Enter",
+  "desc": "A stacked group of round brand chips that spring in one-by-one, then hold. Swap the logos to feature any set of marks. Horizontal or vertical stacking.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:long-shadow",
+  "name": "long-shadow",
+  "title": "Long Shadow",
+  "desc": "A flat icon casts a long shadow to the frame edge, then the light swings and the shadow sweeps around on a spring.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:long-vowel",
+  "name": "long-vowel",
+  "title": "Long Vowel",
+  "desc": "A serif word stretches one vowel, 'Waaaaaay', in a warm gradient with an italic caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:looks-like-this",
+  "name": "looks-like-this",
+  "title": "Looks Like This",
+  "desc": "\"Your next launch looks like this.\" above a Remocn Studio screenshot tile.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:loop-break",
+  "name": "loop-break",
+  "title": "Loop Break",
+  "desc": "A loop of \"Render the cut. Spot a typo.\" breaks into \"Change one word. Done.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:lumen-count",
+  "name": "lumen-count",
+  "title": "Lumen Count",
+  "desc": "A glowing 200 counts up with a soft floor reflection and a caption beneath.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:macro-click",
+  "name": "macro-click",
+  "title": "Macro Click",
+  "desc": "A site-builder UI in macro: a cursor clicks and the page headline and hero fill in.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:macro-letter-pan",
+  "name": "macro-letter-pan",
+  "title": "Macro Letter Pan",
+  "desc": "The camera pans in macro across letters to land the phrase \"Ready to launch.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:macro-pan",
+  "name": "macro-pan",
+  "title": "Macro Pan",
+  "desc": "A serif headline is revealed by a close-up pan across its glyphs, ending on a gradient.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:macro-tab-name",
+  "name": "macro-tab-name",
+  "title": "Macro Tab Name",
+  "desc": "A macro-zoomed tab chip reads \"Launch Assets\" as a cursor moves in and clicks.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:magnet-letters",
+  "name": "magnet-letters",
+  "title": "Magnet Letters",
+  "desc": "A wrong word is repelled by magnet and the right word drops in: 'Launch videos, in code.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:magnitude-push",
+  "name": "magnitude-push",
+  "title": "Magnitude Push",
+  "desc": "A huge 1000x pushes in with a blue gradient and a caption, '...fewer keyframes to set by hand'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:marker-highlight",
+  "name": "marker-highlight",
+  "title": "Marker Highlight",
+  "desc": "Colored marker block draws behind a phrase as the text color shifts.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:mask-reveal-up",
+  "name": "mask-reveal-up",
+  "title": "Mask Reveal Up",
+  "desc": "Lines reveal upward with a soft masked feel and compact stagger.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:matrix-decode",
+  "name": "matrix-decode",
+  "title": "Matrix Decode",
+  "desc": "Random scramble resolves left-to-right into the target text.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:max-q",
+  "name": "max-q",
+  "title": "Max Q",
+  "desc": "Speed and altitude figures climb together beside a rising trajectory curve.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:measure-dim",
+  "name": "measure-dim",
+  "title": "Measure Dim",
+  "desc": "A gradient bar is measured by dimension lines as 184 fps overtakes 60 fps.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:menu-pick",
+  "name": "menu-pick",
+  "title": "Menu Pick",
+  "desc": "A choose-your-launch menu dims two options and highlights the third on a red bar.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:message-bubble",
+  "name": "message-bubble",
+  "title": "UI Message Bubble",
+  "desc": "A chat message bubble whose hidden/visible state is a pure function of the timeline. The renderer is a pure function of a MessageBubbleStyle (opacity, translateY, scale); useMessageBubbleTransition eases the rise-in enter. The incoming/outgoing variant resolves bubble color and alignment from the theme, and an optional reaction badge pops in on its own channel.",
+  "lib": "remocn"
+ }
+]

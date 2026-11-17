@@ -1,0 +1,7 @@
+{
+  "name": "FlashIntro",
+  "description": "项目 OG 卡快速闪入，适合榜单或开场钩子。",
+  "props": ["items", "framesPerCard"],
+  "usage": "榜单开场、项目速览、节奏强化。",
+  "relations": ["开场", "榜单", "闪入"]
+}

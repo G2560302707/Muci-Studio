@@ -1,0 +1,21 @@
+node_modules/
+dist/
+muci-engine/components/out/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+lint-rules.local.json
+**/lint-rules.local.json
+motion-workbench/data/media/
+motion-workbench/data/review-logs/
+motion-workbench/.preview-tmp/
+motion-workbench/dist/
+*.local.md
+.vscode/
+.idea/
+
+# nested placeholder dirs
+muci-engine/repo/apps/library/node_modules
+talkcraft-main/workbench/node_modules

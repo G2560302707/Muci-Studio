@@ -1,0 +1,29 @@
+{
+  "name": "motion-workbench",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "catalog": "node scripts/build-catalog.mjs",
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run catalog && vite build",
+    "start": "node server.mjs",
+    "sync:orchestrator-cards": "node scripts/build-orchestrator-cards.mjs",
+    "check:orchestrator-cards": "node scripts/build-orchestrator-cards.mjs --check",
+    "sync:core-check": "node scripts/sync-core-check.mjs",
+    "map:to-config": "node scripts/motion-map-to-config.mjs",
+    "lint:episode": "node scripts/lint-episode.mjs",
+    "episode:preview": "node scripts/episode-renderer.mjs demo preview",
+    "episode:export": "node scripts/episode-renderer.mjs demo export"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.5.1",
+    "antd": "^5.21.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  }
+}

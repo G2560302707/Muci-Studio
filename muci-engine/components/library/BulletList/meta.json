@@ -1,0 +1,21 @@
+{
+  "name": "BulletList",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-BulletList",
+  "sourcePath": "src/components/BulletList.tsx",
+  "previewPath": "out/previews/BulletList.mp4",
+  "description": "逐字打字的要点列表卡，支持当前行紫色强调。",
+  "props": {
+    "title": "string?",
+    "items": "string[]",
+    "startAt": "number?",
+    "highlightIndex": "number?"
+  },
+  "usageRules": {
+    "background": "#FFFFFF",
+    "typography": "MiSans Semibold 600",
+    "highlight": "#7C3AED",
+    "rule": "cursor visible only while typing"
+  }
+}

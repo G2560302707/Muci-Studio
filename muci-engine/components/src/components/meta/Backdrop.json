@@ -1,0 +1,7 @@
+{
+  "name": "Backdrop",
+  "description": "低干扰点阵背景层。",
+  "props": [],
+  "usage": "黑底字幕、文字动画、强调卡。",
+  "relations": ["背景", "黑底", "层级"]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "BulletList",
+  "description": "逐条出现的要点列表，支持自定义起始帧和间隔。",
+  "props": ["items", "startAt", "interval", "duration"],
+  "usage": "讲解步骤、产品亮点、结论总结。",
+  "relations": ["要点", "列表", "讲解"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "RankingIntro",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-RankingIntro",
+  "sourcePath": "src/components/RankingIntro.tsx",
+  "previewPath": "out/previews/RankingIntro.mp4",
+  "description": "榜单总览卡，逐行建立标题和条目。",
+  "props": {
+    "title": "string",
+    "items": "Array<{ title: string; org: string; weeklyStars: number }>"
+  },
+  "usageRules": {
+    "background": "#FFFFFF",
+    "typography": "MiSans Semibold 600",
+    "highlight": "#7C3AED",
+    "rule": "main and secondary type hierarchy only inside one row"
+  }
+}

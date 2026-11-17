@@ -1,0 +1,10 @@
+{
+  "minCueDurationFrames": 12,
+  "minSceneDurationFrames": 15,
+  "maxSameIntent": 2,
+  "placeholderPatterns": ["占位", "TODO", "TBD", "测试文案", "lorem", "asdf"],
+  "maxVoiceGain": 2,
+  "maxSfxGain": 2,
+  "maxBgmGain": 1,
+  "requireWhitelistCards": true
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ChapterCard",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-ChapterCard",
+  "sourcePath": "src/components/ChapterCard.tsx",
+  "previewPath": "out/previews/ChapterCard.mp4",
+  "description": "章节分隔卡，用编号、总章数和标题完成段落交接。",
+  "props": {
+    "index": "number",
+    "total": "number",
+    "title": "string"
+  },
+  "usageRules": {
+    "background": "#FFFFFF",
+    "typography": "MiSans Semibold 600",
+    "highlight": "#7C3AED",
+    "carrier": "white rounded window"
+  }
+}

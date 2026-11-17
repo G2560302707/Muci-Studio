@@ -1,0 +1,7 @@
+{
+  "name": "LightStage",
+  "description": "浅色舞台层，用白色底衬托深色窗口卡片。",
+  "props": ["children", "padding"],
+  "usage": "暗色窗口卡片、对比版式、需要清晰边界的内容场景。",
+  "relations": ["背景", "白色底", "卡片", "舞台"]
+}

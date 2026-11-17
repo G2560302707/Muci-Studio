@@ -1,0 +1,7 @@
+{
+  "name": "ChapterCard",
+  "description": "章节分隔卡，用编号和标题建立视频分段。",
+  "props": ["index", "total", "title"],
+  "usage": "教程分段、系列清单、进度提示。",
+  "relations": ["章节", "转场", "教程"]
+}

@@ -1,0 +1,27 @@
+{
+  "defaults": {
+    "core": "可商用套件",
+    "video-talkcraft": "外部参考",
+    "video-shotcraft": "外部参考",
+    "remocn": "外部参考",
+    "snapcn": "外部参考"
+  },
+  "records": {
+    "core:Backdrop": "可组合基元",
+    "core:LightStage": "可组合基元",
+    "core:ScreenCard": "可组合基元",
+    "core:Subtitle": "可组合基元",
+    "core:BulletList": "完整参数组件",
+    "core:ChapterCard": "完整参数组件",
+    "core:FlashIntro": "完整参数组件",
+    "core:MaskText": "完整参数组件",
+    "core:NumberRoll": "完整参数组件",
+    "core:OutroCard": "完整参数组件",
+    "core:PillTags": "完整参数组件",
+    "core:ProjectCard": "完整参数组件",
+    "core:RankingIntro": "完整参数组件",
+    "core:FocusHost": "完整参数组件",
+    "core:ChapterRail": "完整参数组件",
+    "core:EvidenceStat": "完整参数组件"
+  }
+}

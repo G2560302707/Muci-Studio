@@ -1,0 +1,27 @@
+{
+  "name": "ProjectCard",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-ProjectCard",
+  "sourcePath": "src/components/ProjectCard.tsx",
+  "previewPath": "out/previews/ProjectCard.mp4",
+  "description": "榜单项目详情卡，承载排名、媒体、要点、数据与标签。",
+  "props": {
+    "rank": "number",
+    "title": "string",
+    "org": "string",
+    "image": "string",
+    "githubUrl": "string",
+    "points": "string[]",
+    "stars": "number",
+    "weeklyStars": "number",
+    "overlayTags": "string[]",
+    "caption": "string"
+  },
+  "usageRules": {
+    "background": "#FFFFFF",
+    "typography": "MiSans Semibold 600",
+    "highlight": "#7C3AED",
+    "media": "use real screenshots or OG cards"
+  }
+}

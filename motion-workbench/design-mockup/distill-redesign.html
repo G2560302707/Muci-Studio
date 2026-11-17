@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>对标视频仿制 · UI 重构设计稿</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif; }
+  html,body { height:100%; }
+  body { background:#f0f2f5; color:#303133; font-size:14px; display:flex; }
+
+  /* ── 侧边栏(若依式深色)── */
+  .sidebar { width:208px; background:#304156; color:#bfcbd9; flex-shrink:0; display:flex; flex-direction:column; }
+  .logo { height:56px; display:flex; align-items:center; gap:10px; padding:0 18px; color:#fff; font-weight:600; font-size:15px; background:#2b3648; }
+  .logo .dot { width:26px; height:26px; border-radius:6px; background:#409eff; display:flex; align-items:center; justify-content:center; font-size:14px; }
+  .menu { flex:1; padding-top:8px; }
+  .menu-item { display:flex; align-items:center; gap:10px; padding:13px 20px; cursor:pointer; font-size:14px; transition:.15s; }
+  .menu-item:hover { background:#263445; }
+  .menu-item.active { background:#131c26 !important; color:#409eff; border-right:3px solid #409eff; }
+  .menu-item .badge { margin-left:auto; background:#f56c6c; color:#fff; border-radius:9px; font-size:11px; padding:1px 7px; }
+  .menu-item .icon { width:16px; text-align:center; }
+  .sidebar-foot { padding:14px 20px; font-size:12px; color:#8a97a8; border-top:1px solid #263445; }
+
+  /* ── 主区 ── */
+  .main { flex:1; display:flex; flex-direction:column; min-width:0; }
+  .topbar { height:56px; background:#fff; display:flex; align-items:center; padding:0 20px; box-shadow:0 1px 4px rgba(0,21,41,.08); z-index:5; }
+  .crumb { color:#909399; font-size:13px; }
+  .crumb b { color:#303133; font-weight:600; }
+  .topbar .right { margin-left:auto; display:flex; gap:14px; align-items:center; }
+  .topbar a { color:#409eff; text-decoration:none; font-size:13px; }
+  .content { flex:1; padding:16px; overflow:auto; }
+
+  /* ── 页头卡 ── */
+  .page-head { background:#fff; border-radius:6px; padding:18px 20px; margin-bottom:14px; display:flex; gap:16px; align-items:flex-start; }
+  .page-head .cover { width:168px; aspect-ratio:16/9; border-radius:4px; object-fit:cover; background:#000; }
+  .page-head h1 { font-size:17px; margin-bottom:6px; }
+  .page-head .meta { color:#909399; font-size:12.5px; line-height:1.9; }
+  .page-head .actions { margin-left:auto; display:flex; flex-direction:column; gap:8px; }
+  .stat { display:inline-flex; gap:6px; margin-right:10px; align-items:center; }
+  .stat b { font-size:20px; }
+  .stat.warn b { color:#e6a23c; } .stat.ok b { color:#67c23a; } .stat.blue b { color:#409eff; }
+
+  /* ── Tabs ── */
+  .tabs { background:#fff; border-radius:6px 6px 0 0; padding:0 20px; display:flex; gap:28px; border-bottom:1px solid #e4e7ed; }
+  .tab { padding:13px 2px; cursor:pointer; color:#606266; font-size:14px; border-bottom:2px solid transparent; }
+  .tab.active { color:#409eff; border-bottom-color:#409eff; font-weight:600; }
+  .panel { background:#fff; border-radius:0 0 6px 6px; padding:16px 20px; margin-bottom:14px; display:none; }
+  .panel.show { display:block; }
+
+  /* ── 工具条 ── */
+  .toolbar { display:flex; gap:10px; margin-bottom:12px; align-items:center; flex-wrap:wrap; }
+  .input { height:32px; border:1px solid #dcdfe6; border-radius:4px; padding:0 10px; font-size:13px; width:220px; }
+  select.input { width:150px; }
+  .toolbar .count { margin-left:auto; color:#909399; font-size:13px; }
+
+  /* ── 表格 ── */
+  table { width:100%; border-collapse:collapse; }
+  th { text-align:left; color:#909399; font-weight:600; font-size:12.5px; padding:10px 12px; background:#fafafa; border-bottom:1px solid #ebeef5; white-space:nowrap; }
+  td { padding:11px 12px; border-bottom:1px solid #ebeef5; font-size:13px; vertical-align:top; }
+  tr:hover td { background:#f5f7fa; }
+  .name { font-weight:600; }
+  .sub { color:#909399; font-size:12px; margin-top:2px; }
+  .shot-chip { display:inline-block; background:#f4f4f5; border-radius:3px; padding:1px 7px; font-size:12px; margin:1px 2px 1px 0; cursor:pointer; color:#606266; }
+  .shot-chip:hover { background:#409eff; color:#fff; }
+
+  /* ── 标签 ── */
+  .tag { display:inline-block; border-radius:3px; padding:1px 8px; font-size:12px; border:1px solid; line-height:20px; white-space:nowrap; }
+  .t-green { color:#67c23a; background:#f0f9eb; border-color:#c2e7b0; }
+  .t-orange { color:#e6a23c; background:#fdf6ec; border-color:#f5dab1; }
+  .t-red { color:#f56c6c; background:#fef0f0; border-color:#fbc4c4; }
+  .t-gray { color:#909399; background:#f4f4f5; border-color:#e9e9eb; }
+  .t-blue { color:#409eff; background:#ecf5ff; border-color:#d9ecff; }
+  .t-gold { color:#b88230; background:#fdf6ec; border-color:#f0d8a8; }
+  .t-purple { color:#7c5cff; background:#f4f0ff; border-color:#dcc8ff; }
+  .mono { font-family:Consolas,monospace; font-size:12px; }
+
+  /* ── 按钮 ── */
+  .btn { display:inline-block; border-radius:4px; padding:5px 12px; font-size:12.5px; cursor:pointer; border:1px solid #dcdfe6; background:#fff; color:#606266; }
+  .btn:hover { color:#409eff; border-color:#c6e2ff; background:#ecf5ff; }
+  .btn.primary { background:#409eff; border-color:#409eff; color:#fff; }
+  .btn.primary:hover { background:#66b1ff; }
+  .btn.danger { color:#f56c6c; border-color:#fbc4c4; }
+  .btn.danger:hover { background:#fef0f0; }
+  .btn.link { border:none; background:none; color:#409eff; padding:4px 6px; }
+  .btn.sm { padding:3px 9px; font-size:12px; }
+
+  /* ── 抽屉 ── */
+  .mask { position:fixed; inset:0; background:rgba(0,0,0,.4); display:none; z-index:20; }
+  .drawer { position:fixed; top:0; right:-560px; width:560px; height:100%; background:#fff; z-index:21; box-shadow:-4px 0 16px rgba(0,0,0,.15); transition:right .25s; display:flex; flex-direction:column; }
+  .drawer.open { right:0; }
+  .drawer .d-head { padding:14px 18px; border-bottom:1px solid #ebeef5; display:flex; align-items:center; }
+  .drawer .d-head b { font-size:15px; }
+  .drawer .d-head .x { margin-left:auto; cursor:pointer; color:#909399; font-size:18px; }
+  .drawer .d-body { flex:1; overflow:auto; padding:16px 18px; }
+  .drawer video, .drawer iframe { width:100%; aspect-ratio:16/9; border-radius:6px; background:#000; border:1px solid #e4e7ed; }
+  .d-kv { margin:10px 0; font-size:13px; line-height:1.7; }
+  .d-kv .k { color:#909399; margin-right:6px; }
+
+  /* ── 分镜对照 pane ── */
+  .storyboard { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:8px; }
+  .sb-cell { position:relative; border-radius:4px; overflow:hidden; cursor:pointer; border:2px solid transparent; }
+  .sb-cell:hover { border-color:#409eff; }
+  .sb-cell img { width:100%; display:block; }
+  .sb-cell .n { position:absolute; top:3px; left:3px; background:rgba(0,0,0,.6); color:#fff; font-size:11px; padding:0 5px; border-radius:3px; }
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="logo"><span class="dot">▶</span> 对标仿制</div>
+  <div class="menu">
+    <div class="menu-item active"><span class="icon">▦</span> 对标项目</div>
+    <div class="menu-item"><span class="icon">✎</span> 待审核 <span class="badge">10</span></div>
+    <div class="menu-item"><span class="icon">▤</span> 落库台账</div>
+    <div class="menu-item"><span class="icon">?</span> 流程与规则</div>
+  </div>
+  <div class="sidebar-foot">数据与主库隔离<br>审核通过=资格 · 二次复用才落库</div>
+</div>
+
+<div class="main">
+  <div class="topbar">
+    <div class="crumb">对标项目 / <b>GitHub 周榜工具盘点(Fred/FredTalk)</b> / 组件审核</div>
+    <div class="right"><a href="#">主库工作台 ↗</a></div>
+  </div>
+
+  <div class="content">
+
+    <!-- 页头 -->
+    <div class="page-head">
+      <img class="cover" src="/motion-workbench/data/distill/github周榜/cover.jpg" alt="">
+      <div style="flex:1">
+        <h1>GitHub 周榜工具盘点(Fred / FredTalk)</h1>
+        <div class="meta">
+          抖音 · Fred(FredTalk) · 1280×720 · 2:14 · 拆解 2026-11-15 · rea-video 0.1.0(43 镜 + agent 看图复核)<br>
+          结论:代码渲染 70% + 屏幕录制 20% + 3D 渲染 9% + AI 视频 2%,零实拍;三舞台配色轮换(白/暗/紫)
+        </div>
+        <div style="margin-top:8px">
+          <span class="stat blue"><b>10</b>组件</span>
+          <span class="stat warn"><b>10</b>待审核</span>
+          <span class="stat ok"><b>7</b>库内有类似</span>
+          <span class="stat"><b>1</b>部分相似</span>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn">拆解报告 PDF</button>
+        <button class="btn">VIDEO.md 拆片包</button>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <div class="tab active" data-p="p1">组件审核</div>
+      <div class="tab" data-p="p2">分镜对照</div>
+      <div class="tab" data-p="p3">拆解报告</div>
+    </div>
+
+    <!-- Pane 1:组件审核(表格) -->
+    <div class="panel show" id="p1">
+      <div class="toolbar">
+        <input class="input" placeholder="搜索组件名 / 映射组件 ID">
+        <select class="input"><option>库内映射:全部</option><option>库内有类似</option><option>部分相似</option><option>库内无</option></select>
+        <select class="input"><option>审核状态:全部</option><option>待审核</option><option>已通过</option><option>已拒绝</option></select>
+        <span class="count">共 10 条 · 待审 10</span>
+      </div>
+      <table>
+        <thead><tr>
+          <th style="width:22%">组件</th><th style="width:16%">出现镜头</th><th style="width:20%">库内映射</th>
+          <th style="width:9%">审核</th><th style="width:12%">落库</th><th>操作</th>
+        </tr></thead>
+        <tbody>
+          <tr>
+            <td><div class="name">数字滚动卡</div><div class="sub">白底超大黑数滚动 + 徽章,全片 8+ 次当转场枢纽</div></td>
+            <td><span class="shot-chip">#7·0:04</span><span class="shot-chip">#18·0:39</span><span class="shot-chip">#25·0:59</span><span class="shot-chip">+2</span></td>
+            <td><span class="tag t-green">库内有类似</span><div class="sub mono">core:NumberRoll</div></td>
+            <td><span class="tag t-orange">待审核</span></td>
+            <td><span class="tag t-gray">—</span></td>
+            <td><button class="btn sm primary" onclick="openDrawer(0)">预览</button> <button class="btn sm">通过</button> <button class="btn sm danger">拒绝</button></td>
+          </tr>
+          <tr>
+            <td><div class="name">评分条形卡</div><div class="sub">73/100 + 4 条紫条充能,技能标签黑胶囊</div></td>
+            <td><span class="shot-chip">#26·1:01</span></td>
+            <td><span class="tag t-green">库内有类似</span><div class="sub mono">remocn:progress 等 2 个</div></td>
+            <td><span class="tag t-orange">待审核</span></td>
+            <td><span class="tag t-gray">—</span></td>
+            <td><button class="btn sm primary" onclick="openDrawer(1)">预览</button> <button class="btn sm">通过</button> <button class="btn sm danger">拒绝</button></td>
+          </tr>
+          <tr>
+            <td><div class="name">技能标签轮播</div><div class="sub">黑圆角标签按 cue 逐条激活替换</div></td>
+            <td><span class="shot-chip">#27·1:05</span></td>
+            <td><span class="tag t-green">库内有类似</span><div class="sub mono">core:PillTags</div></td>
+            <td><span class="tag t-orange">待审核</span></td>
+            <td><span class="tag t-gray">—</span></td>
+            <td><button class="btn sm primary" onclick="openDrawer(2)">预览</button> <button class="btn sm">通过</button> <button class="btn sm danger">拒绝</button></td>
+          </tr>
+          <tr>
+            <td><div class="name">华夫点阵图</div><div class="sub">250 项检查→点阵逐点亮起→10 项不合格</div></td>
+            <td><span class="shot-chip">#31·1:24</span></td>
+            <td><span class="tag t-green">库内有类似</span><div class="sub mono">remocn:unit-grid</div></td>
+            <td><span class="tag t-orange">待审核</span></td>
+            <td><span class="tag t-gray">—</span></td>
+            <td><button class="btn sm primary" onclick="openDrawer(3)">预览</button> <button class="btn sm">通过</button> <button class="btn sm danger">拒绝</button></td>
+          </tr>
+          <tr>
+            <td><div class="name">对话气泡卡</div><div class="sub">灰底对话气泡逐条排列,会谈/检测记录</div></td>
+            <td><span class="shot-chip">#31·1:24</span><span class="shot-chip">#32·1:32</span></td>
+            <td><span class="tag t-green">库内有类似</span><div class="sub mono">remocn:chat-flow / chat-gpt</div></td>
+            <td><span class="tag t-orange">待审核</span></td>
+            <td><span class="tag t-gray">—</span></td>
+            <td><button class="btn sm primary" onclick="openDrawer(4)">预览</button> <button class="btn sm">通过</button> <button class="btn sm danger">拒绝</button></td>
+          </tr>
+          <tr>
+            <td><div class="name">暗底数据牌</div><div class="sub">SEARCH·DISCOVER 黑黄大字牌 + 统计条</div></td>
+            <td><span class="shot-chip">#33·1:36</span></td>
+            <td><span class="tag t-green">库内有类似</span><div class="sub mono">remocn:stat-sequence</div></td>
+            <td><span class="tag t-orange">待审核</span></td>
+            <td><span class="tag t-gray">—</span></td>
+            <td><button class="btn sm primary" onclick="openDrawer(5)">预览</button> <button class="btn sm">通过</button> <button class="btn sm danger">拒绝</button></td>
+          </tr>
+          <tr>
+            <td><div class="name">图标网格</div><div class="sub">白卡圆角图标依次弹入(音乐平台接入)</div></td>
+            <td><span class="shot-chip">#39·1:57</span></td>
+            <td><span class="tag t-green">库内有类似</span><div class="sub mono">remocn:bento-build</div></td>
+            <td><span class="tag t-orange">待审核</span></td>
+            <td><span class="tag t-gray">—</span></td>
+            <td><button class="btn sm primary" onclick="openDrawer(6)">预览</button> <button class="btn sm">通过</button> <button class="btn sm danger">拒绝</button></td>
+          </tr>
+          <tr>
+            <td><div class="name">项目卡网格</div><div class="sub">2×3 项目缩略图卡阵列亮相 + 紫色 CTA</div></td>
+            <td><span class="shot-chip">#40·2:02</span></td>
+            <td><span class="tag t-green">库内有类似</span><div class="sub mono">core:ProjectCard + grid-montage</div></td>
+            <td><span class="tag t-orange">待审核</span></td>
+            <td><span class="tag t-gray">—</span></td>
+            <td><button class="btn sm primary" onclick="openDrawer(7)">预览</button> <button class="btn sm">通过</button> <button class="btn sm danger">拒绝</button></td>
+          </tr>
+          <tr>
+            <td><div class="name">漂浮发光字</div><div class="sub">暗紫底霓虹日文字漂浮,rotate+twinkle</div></td>
+            <td><span class="shot-chip">#35-38·1:46</span></td>
+            <td><span class="tag t-gold">部分相似·需组合</span><div class="sub mono">drift-assembly + bloom-lockup</div></td>
+            <td><span class="tag t-orange">待审核</span></td>
+            <td><span class="tag t-gray">—</span></td>
+            <td><button class="btn sm primary" onclick="openDrawer(8)">预览</button> <button class="btn sm">通过</button> <button class="btn sm danger">拒绝</button></td>
+          </tr>
+          <tr>
+            <td><div class="name">底部字幕条</div><div class="sub">黑底白字逐句字幕条,177 句全程常驻</div></td>
+            <td><span class="shot-chip">#9·0:15(代表)</span></td>
+            <td><span class="tag t-green">库内有类似</span><div class="sub mono">core:Subtitle</div></td>
+            <td><span class="tag t-orange">待审核</span></td>
+            <td><span class="tag t-gray">—</span></td>
+            <td><button class="btn sm primary" onclick="openDrawer(9)">预览</button> <button class="btn sm">通过</button> <button class="btn sm danger">拒绝</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pane 2:分镜对照 -->
+    <div class="panel" id="p2">
+      <div style="display:flex; gap:16px">
+        <div style="flex:1.2">
+          <video src="/对标素材/github精选榜单/github周榜.mp4" controls style="width:100%; border-radius:6px; background:#000; aspect-ratio:16/9"></video>
+          <div style="margin-top:10px; color:#909399; font-size:13px" id="sb-info">点击右侧任意分镜:视频跳到该镜头,并显示该镜用到的组件</div>
+          <div id="sb-current" style="margin-top:6px"></div>
+        </div>
+        <div style="flex:1">
+          <div style="color:#909399; font-size:13px; margin-bottom:8px">43 镜 · 每镜标注归属组件(示意)</div>
+          <div class="storyboard" id="sb"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pane 3:拆解报告 -->
+    <div class="panel" id="p3">
+      <div style="display:flex; gap:12px; flex-wrap:wrap">
+        <button class="btn">📄 拆解报告 report.pdf(人看)</button>
+        <button class="btn">📄 VIDEO.md 拆片包(agent 看)</button>
+        <button class="btn">📄 breakdown.json(原始数据)</button>
+        <button class="btn">🎬 对照视频(原片 vs 自动重绘)</button>
+      </div>
+      <div style="margin-top:14px; color:#909399; font-size:13px">rea-video 产物归档于 <span class="mono">rea-video-tests/github周榜_拆解/</span>,此处只做入口。</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- 抽屉:组件详情 -->
+<div class="mask" id="mask" onclick="closeDrawer()"></div>
+<div class="drawer" id="drawer">
+  <div class="d-head"><b id="d-title">组件详情</b><span class="x" onclick="closeDrawer()">✕</span></div>
+  <div class="d-body" id="d-body"></div>
+</div>
+
+<script>
+const DATA = [
+ {name:"数字滚动卡", desc:"白底 #FFFFFF 超大黑体数字滚动(138,136→201,065 等),配徽章与右上紫色 FixAI 水印;全片复用 8+ 次当转场枢纽。", pv:"/my-components/out/previews/NumberRoll-landscape.mp4", type:"video", shots:"#7/#18/#25/#30/#33", map:"has", ids:["core:NumberRoll","video-talkcraft:number-counter"], note:"机制+形态同构,换参即用", measured:"强调紫 #472399;辉光 radius 0.10-0.15、strength≈0.75", code:"talkcraft-main/core/components/NumberRoll.tsx"},
+ {name:"评分条形卡", desc:"白底卡:73/100 大数字 + 4 条紫色技能条逐条充能(78/75/70/68),标签行黑色圆角胶囊。", pv:"/reference-distill/components/video-talkcraft-main/demos/chapter-progress-list/index.html", type:"iframe", shots:"#26", map:"has", ids:["remocn:progress","video-talkcraft:chapter-progress-list"], note:"横条充能机制对位;套白卡+紫#472399改造", measured:"品牌紫 #472399(实测 9735px);条形充能节奏≈0.8s/条", code:"talkcraft-main/external/remocn/progress.tsx"},
+ {name:"技能标签轮播", desc:"同一评分卡内技能标签轮换,关键词紫色高亮,一条淡出下一条弹入。", pv:"/my-components/out/previews/PillTags-landscape.mp4", type:"video", shots:"#27", map:"has", ids:["core:PillTags"], note:"cue 逐个激活同构;形态大黑条vs小pill,落盘时改尺寸", measured:"cue 驱动;标签黑底白字圆角;高亮紫 #472399", code:"talkcraft-main/core/components/PillTags.tsx"},
+ {name:"华夫点阵图", desc:"白底数据叙事:大数字 250 → 黑点阵华夫图逐点亮起 → 高亮 10 个红点 → 数字卡收束。", pv:"/motion-workbench/data/media/remocn/unit-grid.mp4", type:"video", shots:"#31", map:"has", ids:["remocn:unit-grid"], note:"点阵充能+统计行同构;底色相反,配色改造", measured:"点阵 10×10;逐点亮起≈0.5s/批", code:"talkcraft-main/external/remocn/unit-grid.tsx"},
+ {name:"对话气泡卡", desc:"灰底对话气泡卡列表(MO2 会谈复盘、B27 检测样例),逐条入场,含英文原文片段。", pv:"/motion-workbench/data/media/remocn/chat-gpt.mp4", type:"video", shots:"#31/#32", map:"has", ids:["remocn:chat-flow","remocn:chat-gpt"], note:"气泡机制同构;渲染修复后浅色主题观感接近", measured:"气泡灰底圆角;入场逐条≈0.4s 间隔", code:"talkcraft-main/external/remocn/chat-flow.tsx"},
+ {name:"暗底数据牌", desc:"暗底 #0B0B0B 大写标题 + 黄色点缀 + 底部统计条(8.38M/121k/59),段落切换枢纽。", pv:"/motion-workbench/data/media/remocn/stat-sequence.mp4", type:"video", shots:"#33", map:"has", ids:["remocn:stat-sequence"], note:"暗底统计数字同构;黑黄大写风格需配色改造", measured:"暗台 #0B0B0B(近黑系 8 变体);黄点缀", code:"talkcraft-main/external/remocn/stat-sequence.tsx"},
+ {name:"图标网格", desc:"浅底白卡圆角图标(网易云/QQ/酷狗→Spotify/YouTube Music)逐个弹入,章节牌『这周新接入』紫字。", pv:"/motion-workbench/data/media/remocn/bento-build.mp4", type:"video", shots:"#39", map:"has", ids:["remocn:bento-build"], note:"卡片逐块拼装机制同;配色改造,复用时验证", measured:"白卡圆角;逐卡弹入≈0.3s 间隔;品牌 logo 需自备", code:"talkcraft-main/external/remocn/bento-build.tsx"},
+ {name:"项目卡网格", desc:"收尾索引:REA logo 放大 → 六个项目卡(带缩略图)网格弹入 → 紫色 CTA『评论里蹦我』。", pv:"/motion-workbench/data/media/remocn/grid-montage.mp4", type:"video", shots:"#40", map:"has", ids:["core:ProjectCard","remocn:grid-montage"], note:"单卡内容+阵列亮相组合拳", measured:"2×3 网格;卡片白底圆角带缩略图;CTA 紫 #472399", code:"talkcraft-main/core/components/ProjectCard.tsx"},
+ {name:"漂浮发光字", desc:"暗紫底上日语大字霓虹发光,3D 空间漂浮缩放、字符跳变,带光斑拖尾与 twinkle。", pv:"/motion-workbench/data/media/snapcn/bloom-lockup.mp4", type:"video", shots:"#35-38", map:"partial", ids:["video-shotcraft:type-assembly-moves/drift-assembly","snapcn:bloom-lockup"], note:"两代理各承一半(漂浮/辉光),完整效果需新写", measured:"rotate 4.13rad(全片唯一大旋转);twinkle≤0.15", code:"talkcraft-main/external/remocn/drift-assembly.tsx"},
+ {name:"底部字幕条", desc:"全片常驻:黑底白字逐句字幕 + 关键词变色/弹跳 + 与音效卡点绑定。", pv:"/my-components/out/previews/Subtitle-landscape.mp4", type:"video", shots:"#9(代表)", map:"has", ids:["core:Subtitle","remocn:caption-active-pop"], note:"cue 时间轴同构;原片字幕更重,样式调整", measured:"字高 4.2-4.6%;入场直接出现×107/缩放弹出×11", code:"talkcraft-main/core/components/Subtitle.tsx"},
+];
+function openDrawer(i){
+  const r = DATA[i];
+  document.getElementById('d-title').textContent = r.name;
+  const pv = r.type==='iframe'
+    ? `<iframe src="${r.pv}" allow="autoplay"></iframe><div style="color:#909399;font-size:12px;margin-top:6px">HTML 演示 · 在播放器内点播放键</div>`
+    : `<video src="${r.pv}" controls autoplay muted loop></video>`;
+  document.getElementById('d-body').innerHTML = `
+    ${pv}
+    <div class="d-kv"><span class="k">效果</span>${r.desc}</div>
+    <div class="d-kv"><span class="k">库内映射</span><span class="tag ${r.map==='has'?'t-green':'t-gold'}">${r.map==='has'?'库内有类似':'部分相似·需组合'}</span> ${r.ids.map(x=>`<span class="tag t-purple mono">${x}</span>`).join(' ')}</div>
+    <div class="d-kv"><span class="k">匹配说明</span>${r.note}</div>
+    <div class="d-kv"><span class="k">实测参数</span>${r.measured}</div>
+    <div class="d-kv"><span class="k">出现镜头</span>${r.shots.split('/').map(s=>`<span class="shot-chip">${s}</span>`).join('')}</div>
+    <div class="d-kv"><span class="k">源码</span><span class="mono">${r.code}</span></div>
+    <div style="margin-top:14px; display:flex; gap:8px">
+      <button class="btn primary">✓ 通过</button>
+      <button class="btn danger">✕ 拒绝</button>
+      <button class="btn">查看源码</button>
+    </div>`;
+  document.getElementById('mask').style.display='block';
+  document.getElementById('drawer').classList.add('open');
+}
+function closeDrawer(){
+  document.getElementById('mask').style.display='none';
+  document.getElementById('drawer').classList.remove('open');
+  document.getElementById('drawer').querySelectorAll('video,iframe').forEach(e=>e.remove());
+}
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('show'));
+  t.classList.add('active');
+  document.getElementById(t.dataset.p).classList.add('show');
+}));
+// 分镜对照示意:43 镜占位(用封面帧平铺示意)
+const SB_TIMES=[[1,0],[5,1.2],[7,4.03],[9,14.5],[15,24.17],[18,39.13],[21,47.47],[25,58.97],[27,65.1],[31,83.73],[33,95.77],[35,106.33],[39,116.7],[40,121.63],[43,131.37]];
+const sb=document.getElementById('sb');
+SB_TIMES.forEach(([n,t])=>{
+  const c=document.createElement('div'); c.className='sb-cell';
+  c.innerHTML=`<img src="/motion-workbench/data/distill/github周榜/cover.jpg"><span class="n">#${n} · ${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}</span>`;
+  c.onclick=()=>{ document.getElementById('sb-info').textContent=`镜头 #${n}:点击镜头 chip 可跳转;该镜组件在左侧列表高亮`; };
+  sb.appendChild(c);
+});
+</script>
+</body>
+</html>

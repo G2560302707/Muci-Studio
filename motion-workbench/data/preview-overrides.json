@@ -1,0 +1,82 @@
+{
+  "remocn:accordion": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/accordion.mp4"
+  },
+  "snapcn:announce-title": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/snapcn/announce-title.mp4"
+  },
+  "remocn:abacus-count": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/abacus-count.mp4"
+  },
+  "remocn:caret": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/caret.mp4"
+  },
+  "remocn:a-to-z": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/a-to-z.mp4"
+  },
+  "remocn:camera-lens": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/camera-lens.mp4"
+  },
+  "remocn:stat-sequence": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/stat-sequence.mp4"
+  },
+  "remocn:unit-grid": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/unit-grid.mp4"
+  },
+  "remocn:bento-build": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/bento-build.mp4"
+  },
+  "remocn:grid-montage": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/grid-montage.mp4"
+  },
+  "snapcn:bloom-lockup": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/snapcn/bloom-lockup.mp4"
+  },
+  "remocn:progress": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/progress.mp4"
+  },
+  "remocn:chat-gpt": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/chat-gpt.mp4"
+  },
+  "remocn:shader-spiral-pass": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/shader-spiral-pass.mp4"
+  },
+  "remocn:absorb-stack": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/absorb-stack.mp4"
+  },
+  "remocn:accordion-unfold": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/accordion-unfold.mp4"
+  },
+  "remocn:achievement-pop": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/achievement-pop.mp4"
+  },
+  "remocn:caption-stamp": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/caption-stamp.mp4"
+  },
+  "snapcn:button-press": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/snapcn/button-press.mp4"
+  },
+  "remocn:baton-word": {
+    "previewType": "video",
+    "previewUrl": "/motion-workbench/data/media/remocn/baton-word.mp4"
+  }
+}

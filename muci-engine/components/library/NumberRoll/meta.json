@@ -1,0 +1,23 @@
+{
+  "name": "NumberRoll",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-NumberRoll",
+  "sourcePath": "src/components/NumberRoll.tsx",
+  "previewPath": "out/previews/NumberRoll.mp4",
+  "description": "数字收束卡，用主数字与辅助说明形成层级。",
+  "props": {
+    "value": "number",
+    "from": "number?",
+    "duration": "number?",
+    "format": "(value: number) => string",
+    "label": "string",
+    "caption": "string"
+  },
+  "usageRules": {
+    "background": "#FFFFFF",
+    "typography": "MiSans Semibold 600",
+    "highlight": "#7C3AED",
+    "rule": "settle the number instead of looping"
+  }
+}

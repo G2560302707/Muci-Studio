@@ -1,0 +1,290 @@
+{
+ "generatedAt": "2026-11-15",
+ "purpose": "选料先查这张表:对标视频里同类画面用什么动效、库里哪个最像(START-HERE 第 2 步)",
+ "groups": [
+  "github周榜"
+ ],
+ "stats": {
+  "groups": 1,
+  "rows": 10,
+  "missingMapping": 0
+ },
+ "rows": [
+  {
+   "group": "github周榜",
+   "id": "distill-fred:数字滚动卡",
+   "name": "数字滚动卡",
+   "title": "Fred 周榜签名组件:白底超大黑数滚动",
+   "desc": "白底 #FFFFFF 上超大黑体数字滚动(138,136→201,065 / +17,291 / +9,073 / +7,106 / +5,573),配徽章与右上紫色 FixAI 水印;全片复用 8+ 次,当转场枢纽用。",
+   "mapping": {
+    "status": "has-similar",
+    "similarTo": [
+     "core:NumberRoll",
+     "video-talkcraft:number-counter"
+    ],
+    "matchNote": "机制+形态同构,换参即用"
+   },
+   "sourceShots": [
+    {
+     "shot": 7,
+     "start": 4.03,
+     "end": 8.63
+    },
+    {
+     "shot": 18,
+     "start": 39.13,
+     "end": 41.37
+    },
+    {
+     "shot": 25,
+     "start": 58.97,
+     "end": 61.2
+    },
+    {
+     "shot": 30,
+     "start": 79.77,
+     "end": 83.73
+    },
+    {
+     "shot": 33,
+     "start": 95.77,
+     "end": 97.9
+    }
+   ],
+   "review": "pending",
+   "deposit": "none"
+  },
+  {
+   "group": "github周榜",
+   "id": "distill-fred:评分条形卡",
+   "name": "评分条形卡",
+   "title": "简历评分卡:总分+紫条充能",
+   "desc": "白底卡:73/100 大数字 + 4 条紫色技能条逐条充能(78/75/70/68),标签行黑色圆角胶囊。对比结论:bar-chart-growth 竖向柱不符;渲染器已修(remocn 加白色居中舞台)后 remocn:progress ",
+   "mapping": {
+    "status": "has-similar",
+    "similarTo": [
+     "remocn:progress",
+     "video-talkcraft:chapter-progress-list"
+    ],
+    "matchNote": "横条外观对位,套白卡+紫#472399改造;注意:progress 为纯展示元件、预览是静帧无动效,充能动效参考切 chapter-progress-list"
+   },
+   "sourceShots": [
+    {
+     "shot": 26,
+     "start": 61.2,
+     "end": 65.1
+    }
+   ],
+   "review": "pending",
+   "deposit": "none"
+  },
+  {
+   "group": "github周榜",
+   "id": "distill-fred:技能标签轮播",
+   "name": "技能标签轮播",
+   "title": "黑圆角标签按 cue 整组硬切替换",
+   "desc": "同一评分卡内技能标签轮换(计算机视觉 U-Net/OpenCV 等),关键词紫色高亮,整组硬切替换(无逐条过渡)。",
+   "mapping": {
+    "status": "has-similar",
+    "similarTo": [
+     "core:PillTags"
+    ],
+    "matchNote": "cue 驱动同构;原片换组是整组硬切(无逐条过渡,见 motion.md),套用 PillTags 时按整组切换用;形态大黑条vs小pill,落盘时改尺寸"
+   },
+   "sourceShots": [
+    {
+     "shot": 27,
+     "start": 65.1,
+     "end": 69.57
+    }
+   ],
+   "review": "pending",
+   "deposit": "none"
+  },
+  {
+   "group": "github周榜",
+   "id": "distill-fred:华夫点阵图",
+   "name": "华夫点阵图",
+   "title": "250 项检查→点阵逐点亮起→10 项不合格",
+   "desc": "白底数据叙事:大数字 250 → 黑点阵华夫图光栅充能(≈1.05s) → 尾段 10 点依次变紫 → 数字卡收束。",
+   "mapping": {
+    "status": "has-similar",
+    "similarTo": [
+     "remocn:unit-grid"
+    ],
+    "matchNote": "点阵充能+统计行同构;底色相反,配色改造"
+   },
+   "sourceShots": [
+    {
+     "shot": 31,
+     "start": 83.73,
+     "end": 92.23
+    }
+   ],
+   "review": "pending",
+   "deposit": "none"
+  },
+  {
+   "group": "github周榜",
+   "id": "distill-fred:对话气泡卡",
+   "name": "对话气泡卡",
+   "title": "会谈/检测记录灰色气泡逐条排列",
+   "desc": "灰底对话气泡卡列表(MO2 会谈复盘、B27 检测样例),逐条入场,含英文原文片段。对比结论:chat-gpt 渲染修复后为白底浅色主题(输入框+建议 chips+打字动画),与原片浅底观感接近,可作机制代理;代码映射 chat-flow。",
+   "mapping": {
+    "status": "has-similar",
+    "similarTo": [
+     "remocn:chat-flow",
+     "remocn:chat-gpt"
+    ],
+    "matchNote": "气泡机制同构;渲染修复后浅色主题观感接近"
+   },
+   "sourceShots": [
+    {
+     "shot": 31,
+     "start": 83.73,
+     "end": 92.23
+    },
+    {
+     "shot": 32,
+     "start": 92.23,
+     "end": 95.77
+    }
+   ],
+   "review": "pending",
+   "deposit": "none"
+  },
+  {
+   "group": "github周榜",
+   "id": "distill-fred:暗底数据牌",
+   "name": "暗底数据牌",
+   "title": "SEARCH·DISCOVER 黑黄大字数据牌",
+   "desc": "暗底 #0B0B0B 大写标题 + 黄色点缀 + 底部统计条(8.38M/121k/59),段落切换枢纽。",
+   "mapping": {
+    "status": "has-similar",
+    "similarTo": [
+     "remocn:stat-sequence"
+    ],
+    "matchNote": "暗底统计数字同构;黑黄大写风格需配色改造"
+   },
+   "sourceShots": [
+    {
+     "shot": 33,
+     "start": 95.77,
+     "end": 97.9
+    }
+   ],
+   "review": "pending",
+   "deposit": "none"
+  },
+  {
+   "group": "github周榜",
+   "id": "distill-fred:图标网格",
+   "name": "图标网格",
+   "title": "音乐平台白卡图标依次弹入",
+   "desc": "浅底白卡圆角图标(网易云/QQ/酷狗→Spotify/YouTube Music)逐个弹入,章节牌『这周新接入』紫字。对比结论:icon-field-colorize(满屏小图标着色场)完全不符,换 bento-build(功能卡逐块拼装聚",
+   "mapping": {
+    "status": "has-similar",
+    "similarTo": [
+     "remocn:bento-build"
+    ],
+    "matchNote": "卡片逐块拼装机制同;配色改造,复用时验证"
+   },
+   "sourceShots": [
+    {
+     "shot": 39,
+     "start": 116.7,
+     "end": 121.63
+    }
+   ],
+   "review": "pending",
+   "deposit": "none"
+  },
+  {
+   "group": "github周榜",
+   "id": "distill-fred:项目卡网格",
+   "name": "项目卡网格",
+   "title": "2×3 项目缩略图卡一次亮相",
+   "desc": "收尾索引:REA logo 放大 → 六个项目卡(带缩略图)网格弹入 → 紫色 CTA『评论里蹦我』。对比结论:ProjectCard 是单张详情卡,阵列亮相借 grid-montage(2x2→3x3 蒙太奇)作机制代理。",
+   "mapping": {
+    "status": "has-similar",
+    "similarTo": [
+     "core:ProjectCard",
+     "remocn:grid-montage"
+    ],
+    "matchNote": "单卡内容+阵列亮相组合拳"
+   },
+   "sourceShots": [
+    {
+     "shot": 40,
+     "start": 121.63,
+     "end": 125.73
+    }
+   ],
+   "review": "pending",
+   "deposit": "none"
+  },
+  {
+   "group": "github周榜",
+   "id": "distill-fred:漂浮发光字",
+   "name": "漂浮发光字",
+   "title": "暗紫底霓虹漂浮文字(Folio 段)",
+   "desc": "暗紫底上日语大字霓虹发光,3D 空间漂浮缩放、字符跳变,带光斑拖尾与 twinkle;无单一现成组件。对比结论:drift-assembly(白底打字机)完全不贴,预览换 bloom-lockup(辉光字标)承『发光』半边,漂浮+twink",
+   "mapping": {
+    "status": "partial",
+    "similarTo": [
+     "video-shotcraft:type-assembly-moves/drift-assembly",
+     "snapcn:bloom-lockup"
+    ],
+    "matchNote": "两代理各承一半(漂浮/辉光),完整效果需新写"
+   },
+   "sourceShots": [
+    {
+     "shot": 35,
+     "start": 106.33,
+     "end": 110.47
+    },
+    {
+     "shot": 36,
+     "start": 110.47,
+     "end": 112.93
+    },
+    {
+     "shot": 37,
+     "start": 112.93,
+     "end": 114.7
+    },
+    {
+     "shot": 38,
+     "start": 114.7,
+     "end": 116.7
+    }
+   ],
+   "review": "pending",
+   "deposit": "none"
+  },
+  {
+   "group": "github周榜",
+   "id": "distill-fred:底部字幕条",
+   "name": "底部字幕条",
+   "title": "黑底白字逐句字幕条(177 句)",
+   "desc": "全片常驻:黑底白字逐句字幕 + 关键词变色/弹跳 + 与音效卡点绑定;另右上角品牌水印常驻。",
+   "mapping": {
+    "status": "has-similar",
+    "similarTo": [
+     "core:Subtitle",
+     "remocn:caption-active-pop"
+    ],
+    "matchNote": "cue 时间轴同构;原片字幕更重,样式调整"
+   },
+   "sourceShots": [
+    {
+     "shot": 9,
+     "start": 14.5,
+     "end": 19.17
+    }
+   ],
+   "review": "pending",
+   "deposit": "none"
+  }
+ ]
+}

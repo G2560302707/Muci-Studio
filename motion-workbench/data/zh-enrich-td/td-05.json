@@ -1,0 +1,884 @@
+[
+ {
+  "id": "video-shotcraft:assemble-then-type-flyin/assemble-then-type-flyin",
+  "name": "assemble-then-type-flyin",
+  "title": "assemble-then-type-flyin",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:aurora-bloom-bg-flip/aurora-bloom-bg-flip",
+  "name": "aurora-bloom-bg-flip",
+  "title": "aurora-bloom-bg-flip",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:autolayout-gap-dial/autolayout-gap-dial",
+  "name": "autolayout-gap-dial",
+  "title": "autolayout-gap-dial",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:avatar-bracket-carousel/avatar-bracket-carousel",
+  "name": "avatar-bracket-carousel",
+  "title": "avatar-bracket-carousel",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:basic-3d-scene/basic-3d-scene",
+  "name": "basic-3d-scene",
+  "title": "basic-3d-scene",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:beat-step-list-theme-cycle/beat-step-list-theme-cycle",
+  "name": "beat-step-list-theme-cycle",
+  "title": "beat-step-list-theme-cycle",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:before-after-slider-scrub/before-after-slider-scrub",
+  "name": "before-after-slider-scrub",
+  "title": "before-after-slider-scrub",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:bezier-source-converge-merge/bezier-source-converge-merge",
+  "name": "bezier-source-converge-merge",
+  "title": "bezier-source-converge-merge",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:blur-slide/blur-slide",
+  "name": "blur-slide",
+  "title": "blur-slide",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:bottom-push-stack-wipe/bottom-push-stack-wipe",
+  "name": "bottom-push-stack-wipe",
+  "title": "bottom-push-stack-wipe",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:brace-expand/brace-expand",
+  "name": "brace-expand",
+  "title": "brace-expand",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:brand-frame-snap/brand-frame-snap",
+  "name": "brand-frame-snap",
+  "title": "brand-frame-snap",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:brand-ink-open/brand-ink-open",
+  "name": "brand-ink-open",
+  "title": "brand-ink-open",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:card-flip-reveal/card-flip-reveal",
+  "name": "card-flip-reveal",
+  "title": "card-flip-reveal",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:card-flock-tumble/card-flock-tumble",
+  "name": "card-flock-tumble",
+  "title": "card-flock-tumble",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:card-stack/card-stack",
+  "name": "card-stack",
+  "title": "card-stack",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:carousel-3d/carousel-3d",
+  "name": "carousel-3d",
+  "title": "carousel-3d",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:chart-live-moves/axis-rescale-shock",
+  "name": "axis-rescale-shock",
+  "title": "axis-rescale-shock",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:chart-live-moves/oscilloscope-stream",
+  "name": "oscilloscope-stream",
+  "title": "oscilloscope-stream",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:chart-live-moves/unit-dot-swarm-regroup",
+  "name": "unit-dot-swarm-regroup",
+  "title": "unit-dot-swarm-regroup",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:chip-grid-single-select-blackout/chip-grid-single-select-blackout",
+  "name": "chip-grid-single-select-blackout",
+  "title": "chip-grid-single-select-blackout",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:circle-match-iris/circle-match-iris",
+  "name": "circle-match-iris",
+  "title": "circle-match-iris",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:cloner-depth-echo/cloner-depth-echo",
+  "name": "cloner-depth-echo",
+  "title": "cloner-depth-echo",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:collab-cursor-moves/cast-ensemble",
+  "name": "cast-ensemble",
+  "title": "cast-ensemble",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:countdown-arc-scatter/countdown-arc-scatter",
+  "name": "countdown-arc-scatter",
+  "title": "countdown-arc-scatter",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:crane-rise-reveal/crane-rise-reveal",
+  "name": "crane-rise-reveal",
+  "title": "crane-rise-reveal",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:crash-zoom-punch/crash-zoom-punch",
+  "name": "crash-zoom-punch",
+  "title": "crash-zoom-punch",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:cursor-flyover/cursor-flyover",
+  "name": "cursor-flyover",
+  "title": "cursor-flyover",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:dataviz-landscape-open/dataviz-landscape-open",
+  "name": "dataviz-landscape-open",
+  "title": "dataviz-landscape-open",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:deck-deal-flyin/deck-deal-flyin",
+  "name": "deck-deal-flyin",
+  "title": "deck-deal-flyin",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:depth-layer-moves/multiplane",
+  "name": "multiplane",
+  "title": "multiplane",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:doc-park-left-pill-deal/doc-park-left-pill-deal",
+  "name": "doc-park-left-pill-deal",
+  "title": "doc-park-left-pill-deal",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:document-typewriter-reveal/document-typewriter-reveal",
+  "name": "document-typewriter-reveal",
+  "title": "document-typewriter-reveal",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:draw-svg-trace/draw-svg-trace",
+  "name": "draw-svg-trace",
+  "title": "draw-svg-trace",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:element-body-moves/contact-shadow-lift",
+  "name": "contact-shadow-lift",
+  "title": "contact-shadow-lift",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:flying-words/flying-words",
+  "name": "flying-words",
+  "title": "flying-words",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:fracture/fracture",
+  "name": "fracture",
+  "title": "fracture",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:fui-hud-moves/reticle-lock-on",
+  "name": "reticle-lock-on",
+  "title": "reticle-lock-on",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:gauge-readout-moves/needle-sweep-selftest",
+  "name": "needle-sweep-selftest",
+  "title": "needle-sweep-selftest",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:gauge-readout-moves/tape-scroll-fixed-pointer",
+  "name": "tape-scroll-fixed-pointer",
+  "title": "tape-scroll-fixed-pointer",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:glass-pill-dictation-typing/glass-pill-dictation-typing",
+  "name": "glass-pill-dictation-typing",
+  "title": "glass-pill-dictation-typing",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:glitch-cycle/glitch-cycle",
+  "name": "glitch-cycle",
+  "title": "glitch-cycle",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:glow-flyline-moves/flyline-arc",
+  "name": "flyline-arc",
+  "title": "flyline-arc",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:glow-flyline-moves/glow-orb-ambient",
+  "name": "glow-orb-ambient",
+  "title": "glow-orb-ambient",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:glow-flyline-moves/orb-flyline-relay",
+  "name": "orb-flyline-relay",
+  "title": "orb-flyline-relay",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:gradient-transition/gradient-transition",
+  "name": "gradient-transition",
+  "title": "gradient-transition",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:gradient-word-sweep/gradient-word-sweep",
+  "name": "gradient-word-sweep",
+  "title": "gradient-word-sweep",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:grain-dissolve/grain-dissolve",
+  "name": "grain-dissolve",
+  "title": "grain-dissolve",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:graze-face-tour/graze-face-tour",
+  "name": "graze-face-tour",
+  "title": "graze-face-tour",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:hashtag-to-pill-materialize/hashtag-to-pill-materialize",
+  "name": "hashtag-to-pill-materialize",
+  "title": "hashtag-to-pill-materialize",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:icon-field-colorize/icon-field-colorize",
+  "name": "icon-field-colorize",
+  "title": "icon-field-colorize",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:icon-performance-moves/attention-bounce",
+  "name": "attention-bounce",
+  "title": "attention-bounce",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:integration-hub-map/integration-hub-map",
+  "name": "integration-hub-map",
+  "title": "integration-hub-map",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:lead-word-zoom-assemble/lead-word-zoom-assemble",
+  "name": "lead-word-zoom-assemble",
+  "title": "lead-word-zoom-assemble",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:letterspace-materialize/letterspace-materialize",
+  "name": "letterspace-materialize",
+  "title": "letterspace-materialize",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:light-play-moves/sheen-sweep",
+  "name": "sheen-sweep",
+  "title": "sheen-sweep",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:light-play-moves/spotlight-sweep",
+  "name": "spotlight-sweep",
+  "title": "spotlight-sweep",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:line-carry-transition/line-carry-transition",
+  "name": "line-carry-transition",
+  "title": "line-carry-transition",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:list-reveal/list-reveal",
+  "name": "list-reveal",
+  "title": "list-reveal",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:list-stack-press/list-stack-press",
+  "name": "list-stack-press",
+  "title": "list-stack-press",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:logo-shrink-wordmark-lockup/logo-shrink-wordmark-lockup",
+  "name": "logo-shrink-wordmark-lockup",
+  "title": "logo-shrink-wordmark-lockup",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:magician-card-flourish/magician-card-flourish",
+  "name": "magician-card-flourish",
+  "title": "magician-card-flourish",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:marker-underline-title/marker-underline-title",
+  "name": "marker-underline-title",
+  "title": "marker-underline-title",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:mosaic-reframe/mosaic-reframe",
+  "name": "mosaic-reframe",
+  "title": "mosaic-reframe",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:neon-frame-forerun/neon-frame-forerun",
+  "name": "neon-frame-forerun",
+  "title": "neon-frame-forerun",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:neon-frame-orbit-drop/neon-frame-orbit-drop",
+  "name": "neon-frame-orbit-drop",
+  "title": "neon-frame-orbit-drop",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:neon-triple-marquee/neon-triple-marquee",
+  "name": "neon-triple-marquee",
+  "title": "neon-triple-marquee",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:orbit-ring-title-open/orbit-ring-title-open",
+  "name": "orbit-ring-title-open",
+  "title": "orbit-ring-title-open",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:outline-word-fill/outline-word-fill",
+  "name": "outline-word-fill",
+  "title": "outline-word-fill",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:outro-group-photo-launch/outro-group-photo-launch",
+  "name": "outro-group-photo-launch",
+  "title": "outro-group-photo-launch",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:overhead-camera-moves/overhead-tabletop-drop",
+  "name": "overhead-tabletop-drop",
+  "title": "overhead-tabletop-drop",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:overhead-camera-moves/tilt-reveal",
+  "name": "tilt-reveal",
+  "title": "tilt-reveal",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:page-turn-transitions/barn-door-split",
+  "name": "barn-door-split",
+  "title": "barn-door-split",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:page-waterfall-wall/page-waterfall-wall",
+  "name": "page-waterfall-wall",
+  "title": "page-waterfall-wall",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:panel-grid-moves/comic-panel-split",
+  "name": "comic-panel-split",
+  "title": "comic-panel-split",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:paper-title-card/paper-title-card",
+  "name": "paper-title-card",
+  "title": "paper-title-card",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:picker-carousel-feature-cycle/picker-carousel-feature-cycle",
+  "name": "picker-carousel-feature-cycle",
+  "title": "picker-carousel-feature-cycle",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:pill-chip-slot-cycle-handled/pill-chip-slot-cycle-handled",
+  "name": "pill-chip-slot-cycle-handled",
+  "title": "pill-chip-slot-cycle-handled",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:pill-slot-cycle/pill-slot-cycle",
+  "name": "pill-slot-cycle",
+  "title": "pill-slot-cycle",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:product-card-progressive-assemble/product-card-progressive-assemble",
+  "name": "product-card-progressive-assemble",
+  "title": "product-card-progressive-assemble",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:quad-split-parallel-scenes/quad-split-parallel-scenes",
+  "name": "quad-split-parallel-scenes",
+  "title": "quad-split-parallel-scenes",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:radial-ripple-phone-chips/radial-ripple-phone-chips",
+  "name": "radial-ripple-phone-chips",
+  "title": "radial-ripple-phone-chips",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:radial-wave/radial-wave",
+  "name": "radial-wave",
+  "title": "radial-wave",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:research-card-stack-scroll/research-card-stack-scroll",
+  "name": "research-card-stack-scroll",
+  "title": "research-card-stack-scroll",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:rhythm-interrupt-moves/jump-cut-punch-in",
+  "name": "jump-cut-punch-in",
+  "title": "jump-cut-punch-in",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:row-embed/row-embed",
+  "name": "row-embed",
+  "title": "row-embed",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:sakuga-timing-shift/sakuga-timing-shift",
+  "name": "sakuga-timing-shift",
+  "title": "sakuga-timing-shift",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:scan-bracket-sweep/scan-bracket-sweep",
+  "name": "scan-bracket-sweep",
+  "title": "scan-bracket-sweep",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:scanline-annotate-focus/scanline-annotate-focus",
+  "name": "scanline-annotate-focus",
+  "title": "scanline-annotate-focus",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:scanline-assemble-flyin/scanline-assemble-flyin",
+  "name": "scanline-assemble-flyin",
+  "title": "scanline-assemble-flyin",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:scroll-brake-moves/brake-reticle-lock",
+  "name": "brake-reticle-lock",
+  "title": "brake-reticle-lock",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:scroll-brake-moves/changelog-scroll-brake",
+  "name": "changelog-scroll-brake",
+  "title": "changelog-scroll-brake",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:segmented-thumb-hero/segmented-thumb-hero",
+  "name": "segmented-thumb-hero",
+  "title": "segmented-thumb-hero",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:slam-entrance-moves/impact-burst-kit",
+  "name": "impact-burst-kit",
+  "title": "impact-burst-kit",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:slam-entrance-moves/kanada-perspective-snap",
+  "name": "kanada-perspective-snap",
+  "title": "kanada-perspective-snap",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:slam-entrance-moves/score-slam",
+  "name": "score-slam",
+  "title": "score-slam",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:space-camera-moves/drone-dive-landing",
+  "name": "drone-dive-landing",
+  "title": "drone-dive-landing",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:space-camera-moves/exploded-view",
+  "name": "exploded-view",
+  "title": "exploded-view",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:speed-ramp-freeze/freeze-annotate",
+  "name": "freeze-annotate",
+  "title": "freeze-annotate",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:spotlight-hero-card/spotlight-hero-card",
+  "name": "spotlight-hero-card",
+  "title": "spotlight-hero-card",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:spotlight-sweep-moves/corner-spotlight-reveal",
+  "name": "corner-spotlight-reveal",
+  "title": "corner-spotlight-reveal",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:spotlight-sweep-moves/glow-wake-sleep-panel",
+  "name": "glow-wake-sleep-panel",
+  "title": "glow-wake-sleep-panel",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:spotlight-sweep-moves/slide-spotlight-pan",
+  "name": "slide-spotlight-pan",
+  "title": "slide-spotlight-pan",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:steep-tilt-glide/steep-tilt-glide",
+  "name": "steep-tilt-glide",
+  "title": "steep-tilt-glide",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:stroke-segment-build/stroke-segment-build",
+  "name": "stroke-segment-build",
+  "title": "stroke-segment-build",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:tear-streak-transitions/glitch-displace",
+  "name": "glitch-displace",
+  "title": "glitch-displace",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:terminal-3d/terminal-3d",
+  "name": "terminal-3d",
+  "title": "terminal-3d",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:text-as-mask/text-as-mask",
+  "name": "text-as-mask",
+  "title": "text-as-mask",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:text-column-converge/text-column-converge",
+  "name": "text-column-converge",
+  "title": "text-column-converge",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:theme-switch-moves/palette-theme-ripple",
+  "name": "palette-theme-ripple",
+  "title": "palette-theme-ripple",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:theme-switch-moves/theme-sweep-toggle",
+  "name": "theme-sweep-toggle",
+  "title": "theme-sweep-toggle",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:timeline-travel/timeline-travel",
+  "name": "timeline-travel",
+  "title": "timeline-travel",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:title-demote-to-label/title-demote-to-label",
+  "name": "title-demote-to-label",
+  "title": "title-demote-to-label",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:trailer-grammar-moves/trailer-bumper",
+  "name": "trailer-bumper",
+  "title": "trailer-bumper",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:type-and-filter/type-and-filter",
+  "name": "type-and-filter",
+  "title": "type-and-filter",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:typewriter-moves/error-retype",
+  "name": "error-retype",
+  "title": "error-retype",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:ui-strip-away-outro/ui-strip-away-outro",
+  "name": "ui-strip-away-outro",
+  "title": "ui-strip-away-outro",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:ui-to-brand-morph/icon-flip-bloom",
+  "name": "icon-flip-bloom",
+  "title": "icon-flip-bloom",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:ui-to-brand-morph/input-morph-assemble",
+  "name": "input-morph-assemble",
+  "title": "input-morph-assemble",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:value-stagger-gradient/value-stagger-gradient",
+  "name": "value-stagger-gradient",
+  "title": "value-stagger-gradient",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:vertical-word-roll-blur-cycle/vertical-word-roll-blur-cycle",
+  "name": "vertical-word-roll-blur-cycle",
+  "title": "vertical-word-roll-blur-cycle",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:voice-waveform-live/voice-waveform-live",
+  "name": "voice-waveform-live",
+  "title": "voice-waveform-live",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:white-flash-logo-simplify-cut/white-flash-logo-simplify-cut",
+  "name": "white-flash-logo-simplify-cut",
+  "title": "white-flash-logo-simplify-cut",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:wipe-transitions/blinds-slice",
+  "name": "blinds-slice",
+  "title": "blinds-slice",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:word-relay-filmstrip/word-relay-filmstrip",
+  "name": "word-relay-filmstrip",
+  "title": "word-relay-filmstrip",
+  "desc": "",
+  "lib": "video-shotcraft"
+ },
+ {
+  "id": "video-shotcraft:word-relay-geometry/word-relay-geometry",
+  "name": "word-relay-geometry",
+  "title": "word-relay-geometry",
+  "desc": "",
+  "lib": "video-shotcraft"
+ }
+]

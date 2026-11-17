@@ -1,0 +1,702 @@
+[
+ {
+  "id": "remocn:drawer",
+  "name": "drawer",
+  "title": "UI Drawer",
+  "desc": "A bottom panel whose opened/closed state is a pure function of the timeline; the backdrop dim and bottom-edge slide-up are keyframed presets, with a drag handle and a primary action. Self-contained — pair it with the Button as a trigger (see the example).",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:drift",
+  "name": "drift",
+  "title": "Drift",
+  "desc": "A slow linear camera push-in wrapper that scales its scene from 1 to 1+grow across the sequence so no frame is ever static.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:drop-timer",
+  "name": "drop-timer",
+  "title": "Drop Timer",
+  "desc": "A countdown to a drop ends in a huge gradient 'LIVE NOW' with a URL and logo.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:drop-upload",
+  "name": "drop-upload",
+  "title": "Drop Upload",
+  "desc": "A file card drops in and fills an upload bar until a check confirms it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dropdown-menu",
+  "name": "dropdown-menu",
+  "title": "UI Dropdown Menu",
+  "desc": "A dropdown menu whose opened/closed state is a pure function of the timeline; the trigger reuses the Button primitive and the reveal panel composes DropdownMenuItem rows. The panel fade, scale, lift, and chevron are keyframed presets.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dropdown-menu-item",
+  "name": "dropdown-menu-item",
+  "title": "UI Dropdown Menu Item",
+  "desc": "A dropdown menu action row whose idle/hover/press state is a pure function of the timeline; the row background and label color are keyframed presets. Composed inside the DropdownMenu panel.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:duet-split",
+  "name": "duet-split",
+  "title": "Duet Split",
+  "desc": "A split screen contrasts a slow grey side with a crisp gradient side: '1 day' versus '$0'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dumbbell-shift",
+  "name": "dumbbell-shift",
+  "title": "Dumbbell Shift",
+  "desc": "Dumbbell rows slide their before and after dots apart, with a +16 summary.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:duotone-beat",
+  "name": "duotone-beat",
+  "title": "Duotone Beat",
+  "desc": "A two-ink halftone portrait swaps its ink pair on every beat, with a punch-in on the downbeat and a bar indicator.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dynamic-letter",
+  "name": "dynamic-letter",
+  "title": "Dynamic Letter",
+  "desc": "The wordmark appears while one letter morphs through shapes before settling as the final O.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:echo-stack",
+  "name": "echo-stack",
+  "title": "Echo Stack",
+  "desc": "A word focuses in at the center while outline copies of it unfold above and below and keep drifting, like the one clear line on a spinning drum.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ecosystem-constellation",
+  "name": "ecosystem-constellation",
+  "title": "Ecosystem Constellation",
+  "desc": "A central logo orbited by integration satellites with pulsing data lines.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:edge-fit",
+  "name": "edge-fit",
+  "title": "Edge Fit",
+  "desc": "A single huge cream word, 'recaps', fills the frame edge to edge with a caption and logo.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:edit-ripple",
+  "name": "edit-ripple",
+  "title": "Edit Ripple",
+  "desc": "\"Change your mind, render it again.\" with the second line indented and ripple-coloured.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ellipsis-resolve",
+  "name": "ellipsis-resolve",
+  "title": "Ellipsis Resolve",
+  "desc": "Three dots pulse and resolve into a gradient word and a closing period.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:embargo-lift",
+  "name": "embargo-lift",
+  "title": "Embargo Lift",
+  "desc": "\"remocn is free, open source and out today\" in condensed type with a green accent.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ember-burn",
+  "name": "ember-burn",
+  "title": "Ember Burn",
+  "desc": "The outgoing frame catches fire where it is brightest, boils in the heat, chars at the rim, and blows away as sparks carrying its own colour.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:embossed-mark",
+  "name": "embossed-mark",
+  "title": "Embossed Mark",
+  "desc": "The R mark and wordmark are debossed into a brushed grey surface as it lights up.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:enhance-count",
+  "name": "enhance-count",
+  "title": "Enhance Count",
+  "desc": "A blurred line sharpens in place, 'Draft it fast. Finish it sharp.', the last word accented.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:escalate-cards",
+  "name": "escalate-cards",
+  "title": "Escalate Cards",
+  "desc": "Cards flash one word each, accelerating until the last word fills the frame over a date.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:exactly",
+  "name": "exactly",
+  "title": "Exactly",
+  "desc": "A yellow \"Exactly.\" lands first, then \"It's just code.\" completes the answer.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:exploded-view",
+  "name": "exploded-view",
+  "title": "Exploded View",
+  "desc": "An isometric stack of slabs springs apart with leader lines and labels, holds, then clicks back together.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:extrude-pop",
+  "name": "extrude-pop",
+  "title": "Extrude Pop",
+  "desc": "A flat word pops up out of the plane on a solid colored 3D body, no camera involved.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:factor-out",
+  "name": "factor-out",
+  "title": "Factor Out",
+  "desc": "Three short imperatives stack above a big blue \"in your editor.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:fade-through",
+  "name": "fade-through",
+  "title": "Fade Through",
+  "desc": "A Material-style content transition: old fades out, new fades in with a soft delay.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:feather-settle",
+  "name": "feather-settle",
+  "title": "Feather Settle",
+  "desc": "\"Your launch, landing softly.\" settles in as if falling like a feather on a taupe ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:feature-chips-flow",
+  "name": "feature-chips-flow",
+  "title": "Feature Chips Flow",
+  "desc": "Rows of feature pills stream by, then snap into a cluster around the logo.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:feature-flag-rollout",
+  "name": "feature-flag-rollout",
+  "title": "Feature Flag Rollout",
+  "desc": "A feature flag rolls out to 100% while error rate guardrails stay green.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:feature-headline",
+  "name": "feature-headline",
+  "title": "Feature Headline",
+  "desc": "A tag pill opens from the left, then a headline rises: 'Captions that move with every word.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:feature-trio",
+  "name": "feature-trio",
+  "title": "Feature Trio",
+  "desc": "Three feature words, 'Fast. Composable. Open source.', rise from masks with progress ticks and notes.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:field",
+  "name": "field",
+  "title": "UI Field",
+  "desc": "A static layout family for composing labeled form controls, modeled on shadcn's Field: FieldGroup ▸ Field ▸ FieldLabel / FieldControl / FieldDescription. Reads no frame and holds no state — colors come from the resolved theme. FieldControl is a relative fixed-height slot for the absolute remocn-ui controls (Input, Button).",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:figure-reels",
+  "name": "figure-reels",
+  "title": "Figure Reels",
+  "desc": "A $400M figure announces itself between two scrolling image reels.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:figure-to-label",
+  "name": "figure-to-label",
+  "title": "Figure to Label",
+  "desc": "A $6.4B figure resolves into its label \"valuation\" under the Remocn mark.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:file-dropzone",
+  "name": "file-dropzone",
+  "title": "File Dropzone",
+  "desc": "Files drop into a knowledge base list and an upload toast confirms.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:filler-cut",
+  "name": "filler-cut",
+  "title": "Filler Cut",
+  "desc": "A transcript has its filler words cut, leaving a clean line, 'Ship your launch video today.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:fine-print-up",
+  "name": "fine-print-up",
+  "title": "Fine Print Up",
+  "desc": "\"No account and no watermark. Ever.\" in a big serif with tiny fine print at the bottom.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:first-light",
+  "name": "first-light",
+  "title": "First Light",
+  "desc": "The remocn wordmark is swept by a band of light along a baseline, with a tagline below.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:flank-roll-swap",
+  "name": "flank-roll-swap",
+  "title": "Flank Roll Swap",
+  "desc": "\"Out now ... on remocn.dev\" rolls its flanking words around a sunset image in the middle.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:flash-count",
+  "name": "flash-count",
+  "title": "Flash Count",
+  "desc": "A counter lands on 3,600 with a camera-flash pop, an exposure eyebrow in the corner.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:flash-sweep",
+  "name": "flash-sweep",
+  "title": "Flash Sweep",
+  "desc": "A tilted band of light sweeps across the frame and swaps one shot for the next.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:flick-swap",
+  "name": "flick-swap",
+  "title": "Flick Swap",
+  "desc": "A headline flicks into place with a gradient second line, 'Grounds that never sit still.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:flip-sting",
+  "name": "flip-sting",
+  "title": "Flip Sting",
+  "desc": "The logo flips into place with a small tracked line settling under it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:flock-form",
+  "name": "flock-form",
+  "title": "Flock Form",
+  "desc": "A flock of birds flies in, forms an arrow, then settles into the R mark.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:flood-sting",
+  "name": "flood-sting",
+  "title": "Flood Sting",
+  "desc": "A flood of blue fills the frame and the Remocn wordmark lands between two dots.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:flow-arrow",
+  "name": "flow-arrow",
+  "title": "Flow Arrow",
+  "desc": "A dotted gradient arrow zigzags upward beside a 3x growth stat.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:flow-builder",
+  "name": "flow-builder",
+  "title": "Flow Builder",
+  "desc": "A workflow canvas connects nodes, branches by plan and publishes with a toast.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:flow-field",
+  "name": "flow-field",
+  "title": "Flow Field",
+  "desc": "Hundreds of particles ride a seeded noise field, leaving silky fading trails in a seamless loop.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:fluted-glass",
+  "name": "fluted-glass",
+  "title": "Fluted Glass",
+  "desc": "Fluted glass refracts a gradient orb and its headline, clearing as it comes into focus.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:focus-blur-resolve",
+  "name": "focus-blur-resolve",
+  "title": "Focus Blur Resolve",
+  "desc": "A premium focus pull from heavy blur to crisp text, then a soft blur-out exit.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:focus-front-swap",
+  "name": "focus-front-swap",
+  "title": "Focus Front Swap",
+  "desc": "A headline pulls focus front-to-back to swap its last word to \"tonight\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:focus-pan-text",
+  "name": "focus-pan-text",
+  "title": "Focus Pan Text",
+  "desc": "Blurred earlier lines stack above while focus pans down to \"You're ready to launch.\" and a toolbar.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:focus-pull",
+  "name": "focus-pull",
+  "title": "Focus Pull",
+  "desc": "A rack-focus transition that defocuses the outgoing scene into a bright blur and resolves the next one into focus.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:fog-rise",
+  "name": "fog-rise",
+  "title": "Fog Rise",
+  "desc": "Display text resolves out of fog: characters sharpen from heavy blur center-out with vertical streaks dissolving above them, as if rising along the z-axis.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:fomo-limit-orders",
+  "name": "fomo-limit-orders",
+  "title": "Order Flow",
+  "desc": "An independent 18-second trading-interface demo with fictional market data, graphite and amber styling, an original stepped mark, and editable camera choreography.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:font-cycle",
+  "name": "font-cycle",
+  "title": "Font Cycle",
+  "desc": "One word cycles through several typefaces and settles in its final face.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:fourier-sum",
+  "name": "fourier-sum",
+  "title": "Fourier Sum",
+  "desc": "Sine harmonics add up one by one into a square wave under a serif caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:fraction-split",
+  "name": "fraction-split",
+  "title": "Fraction Split",
+  "desc": "A row of eight boxes shows one filled, matching the headline \"1/8 the time\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:free-as-in",
+  "name": "free-as-in",
+  "title": "Free As in",
+  "desc": "A big \"Free\" is glossed line by line: as in beer, speech, no seats, yours.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:frosted-clear",
+  "name": "frosted-clear",
+  "title": "Frosted Clear",
+  "desc": "A frosted glass card clears to show a large 10x stat with a kicker.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:fuchidori-count",
+  "name": "fuchidori-count",
+  "title": "Fuchidori Count",
+  "desc": "A sticker-style counter whose digits gain stacked red outline borders, landing on 4,096.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:full-bleed-type",
+  "name": "full-bleed-type",
+  "title": "Full Bleed Type",
+  "desc": "Huge condensed caps words slam in one at a time, the last lit by a sunrise gradient.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:galton-stack",
+  "name": "galton-stack",
+  "title": "Galton Stack",
+  "desc": "Dots fall through a Galton board into a bell curve, marked at 95%.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:gear-shift",
+  "name": "gear-shift",
+  "title": "Gear Shift",
+  "desc": "A big 42 shifts up through numbered gear steps on a teal panel with a caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ghost-complete",
+  "name": "ghost-complete",
+  "title": "Ghost Complete",
+  "desc": "Grey ghost suggestions autocomplete a sentence, each accepted with a Tab keypress.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:giant-mark-backdrop",
+  "name": "giant-mark-backdrop",
+  "title": "Giant Mark Backdrop",
+  "desc": "A huge wordmark scrolls behind a floating prompt card on a warm paper ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:github-sponsors",
+  "name": "github-sponsors",
+  "title": "GitHub Sponsors",
+  "desc": "Self-drawing Sponsors heart that docks to a header, every sponsor avatar blur-staggering into a grid, then a thank-you headline and a CTA. Single seek-safe timeline, 270 frames at 30fps.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:github-stars",
+  "name": "github-stars",
+  "title": "GitHub Stars",
+  "desc": "Inertial fly-through of a repo's stargazers with a synced count-up odometer that locks on the total. Horizontal 16:9 or vertical 9:16.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:glass-capsule",
+  "name": "glass-capsule",
+  "title": "Glass Capsule",
+  "desc": "A glass capsule slides over the focus word of a two-line headline, magnifying it in italic.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:glass-code-block",
+  "name": "glass-code-block",
+  "title": "Glass Code Block",
+  "desc": "A premium frosted-glass code editor window with a regex tokenizer and line-by-line stagger reveal.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:glass-code-walk",
+  "name": "glass-code-walk",
+  "title": "Glass Code Walk",
+  "desc": "A camera that scans a glass code block top to bottom as it types, then pulls back to a centered hold.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:glass-lens",
+  "name": "glass-lens",
+  "title": "Glass Lens",
+  "desc": "A glass lens drop magnifies a headline word, glides to a clip and flattens into a CTA pill.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:glitch-cut",
+  "name": "glitch-cut",
+  "title": "Glitch Cut",
+  "desc": "A broadcast-glitch hard cut: the frame tears into displaced slices with channel split and corrupted blocks, and the incoming scene takes over slice by slice at the peak.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:glow-born-card",
+  "name": "glow-born-card",
+  "title": "Glow Born Card",
+  "desc": "A glow condenses into an \"Import from repository\" dialog beside split headline text.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:glyph-anatomy",
+  "name": "glyph-anatomy",
+  "title": "Glyph Anatomy",
+  "desc": "A word builds as in a font editor, with metric guides, anchors along each contour and Bézier handles that pull straight segments into curves before the glyphs fill.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:glyph-block-decode",
+  "name": "glyph-block-decode",
+  "title": "Glyph Block Decode",
+  "desc": "Blocky glyphs decode into \"Remocn Studio\" with its URL underlined beneath.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:glyph-matrix",
+  "name": "glyph-matrix",
+  "title": "Glyph Matrix",
+  "desc": "A round LED dot matrix counts 3-2-1, then its dots hop into the R mark and the logo.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:glyph-relay",
+  "name": "glyph-relay",
+  "title": "Glyph Relay",
+  "desc": "\"Building a product\" hands off between lines until a giant question mark resolves into \"Launching it?\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:gooey-morph",
+  "name": "gooey-morph",
+  "title": "Gooey Morph",
+  "desc": "Bars fly in Tetris-style, land as a row, and melt into a word through a gooey blur-and-threshold morph.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:got-em",
+  "name": "got-em",
+  "title": "Got Em",
+  "desc": "A suspense line resolves into an exploded 'GOT 'EM' over a gradient sunburst.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:gradient-scale-cut-text",
+  "name": "gradient-scale-cut-text",
+  "title": "Gradient Scale Cut Text",
+  "desc": "An oversized gradient reveal snaps to a separate compact blurred line that settles left while the reveal continues.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:grain-dissolve",
+  "name": "grain-dissolve",
+  "title": "Grain Dissolve",
+  "desc": "A grain-gradient shader transition that disintegrates the outgoing scene into soft grainy shapes and condenses the next scene out of the noise.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:graph-relayout",
+  "name": "graph-relayout",
+  "title": "Graph Relayout",
+  "desc": "A node graph re-lays itself out to fan one prompt into voice, music and every aspect ratio.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:gravity-grid",
+  "name": "gravity-grid",
+  "title": "Gravity Grid",
+  "desc": "A grid bends into a gravity well and the logo lands at its bottom.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:gravity-pile",
+  "name": "gravity-pile",
+  "title": "Gravity Pile",
+  "desc": "Seeded circles, squares and triangles rain down, bounce off the floor and each other, and settle into a heap.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:grid-cell",
+  "name": "grid-cell",
+  "title": "Grid Cell",
+  "desc": "A grid cell lights up and 'Introducing remocn 2.0' is typed into it with a mono label.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:grid-montage",
+  "name": "grid-montage",
+  "title": "Grid Montage",
+  "desc": "One shot splits into a 2x2 then a 3x3 montage, cutting on the beat.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:grid-snap-poster",
+  "name": "grid-snap-poster",
+  "title": "Grid Snap Poster",
+  "desc": "A giant gradient 3.0 snaps onto a grid poster with a headline and caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:grid-to-app",
+  "name": "grid-to-app",
+  "title": "Grid to App",
+  "desc": "A product grid expands into a store admin app with sidebar and product catalogue.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:grid-wave",
+  "name": "grid-wave",
+  "title": "Grid Wave",
+  "desc": "A wave travels across the frame raising the picture into a grid of solid blocks with lit tops and shaded sides, which set back down carrying the next scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:growth-line",
+  "name": "growth-line",
+  "title": "Growth Line",
+  "desc": "An exponential growth curve draws through milestones to a 100k endpoint.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:gsh",
+  "name": "gsh",
+  "title": "Gradient Ground",
+  "desc": "Animated gradient grounds for Remotion: the free gradients.sh engine (WebGL2) with 39 presets, driven by the current frame.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:hairline-open",
+  "name": "hairline-open",
+  "title": "Hairline Open",
+  "desc": "A hairline of light opens like a slit onto the next serif statement.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:half-built",
+  "name": "half-built",
+  "title": "Half Built",
+  "desc": "A sentence where unfinished verbs are outlined and fill in, tagged Summer and Later.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:halftone-cut",
+  "name": "halftone-cut",
+  "title": "Halftone Cut",
+  "desc": "A halftone dot pattern cuts one headline into the next on a warm gradient.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:halftone-print",
+  "name": "halftone-print",
+  "title": "Halftone Print",
+  "desc": "Print a scene onto paper: each colour separates onto its own rotated screen of dots sized by the ink under them, slightly out of register the way a real press runs.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:hand-count",
+  "name": "hand-count",
+  "title": "Hand Count",
+  "desc": "A number that counts up in stop-motion poses, rewritten by hand at every pose and freezing still once it lands.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:handwrite",
+  "name": "handwrite",
+  "title": "Handwrite",
+  "desc": "Handwritten text laid down letter by letter on a quantized stop-motion clock, each glyph keeping its own slant and baseline wobble.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:hatch-shade",
+  "name": "hatch-shade",
+  "title": "Hatch Shade",
+  "desc": "A serif number is shaded in with engraving-style hatch lines on a copper plate.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:headline-to-line",
+  "name": "headline-to-line",
+  "title": "Headline to Line",
+  "desc": "A headline settles and its phrase collapses toward a single line over a glowing horizon.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:heat-drain-reveal",
+  "name": "heat-drain-reveal",
+  "title": "Heat Drain Reveal",
+  "desc": "A dark launch calendar cools from heat into a dithered glow and highlights the launch day.",
+  "lib": "remocn"
+ }
+]

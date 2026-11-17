@@ -1,0 +1,7 @@
+{
+  "name": "PillTags",
+  "description": "按时间点弹出的标签胶囊组，可高亮当前标签。",
+  "props": ["items", "cues", "popInterval"],
+  "usage": "功能点、关键词、工具标签。",
+  "relations": ["标签", "功能点", "关键词"]
+}

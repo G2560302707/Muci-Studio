@@ -1,0 +1,16 @@
+{
+  "name": "muci-studio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "幕次 Studio — 本地 AI 成片系统",
+  "scripts": {
+    "bootstrap": "node scripts/bootstrap.mjs",
+    "demo": "node scripts/demo.mjs",
+    "new-episode": "node scripts/new-episode.mjs",
+    "workbench": "npm --prefix motion-workbench run dev",
+    "lint:demo": "npm --prefix motion-workbench run lint:episode -- ../muci-engine/components/src/demo/demo.config.json"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

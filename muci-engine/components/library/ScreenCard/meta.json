@@ -1,0 +1,21 @@
+{
+  "name": "ScreenCard",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-ScreenCard",
+  "sourcePath": "src/components/ScreenCard.tsx",
+  "previewPath": "out/previews/ScreenCard.mp4",
+  "description": "截图或录屏的真实内容载体，支持标题和倍速徽章。",
+  "props": {
+    "src": "string",
+    "aspect": "number?",
+    "title": "string",
+    "speedBadge": "string?"
+  },
+  "usageRules": {
+    "background": "#FFFFFF",
+    "typography": "MiSans Semibold 600",
+    "highlight": "#7C3AED",
+    "media": "preserve real source pixels"
+  }
+}

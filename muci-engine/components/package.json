@@ -1,0 +1,19 @@
+{
+  "name": "muci-engine",
+  "private": true,
+  "version": "0.1.0",
+  "description": "幕次 Studio Remotion 渲染引擎",
+  "scripts": {
+    "studio": "remotion studio"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.515",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.515"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}

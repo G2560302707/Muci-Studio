@@ -1,0 +1,14 @@
+{
+  "name": "Backdrop",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-Backdrop",
+  "sourcePath": "src/components/Backdrop.tsx",
+  "previewPath": "out/previews/Backdrop.mp4",
+  "description": "白色轻纹理背景层。",
+  "props": {},
+  "usageRules": {
+    "background": "#FFFFFF",
+    "rule": "use as a quiet stage; do not compete with content"
+  }
+}

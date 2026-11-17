@@ -1,0 +1,7 @@
+{
+  "name": "OutroCard",
+  "description": "结尾互动卡，回顾内容并引导评论。",
+  "props": ["title", "items", "question", "button"],
+  "usage": "视频结尾、互动引导、订阅收束。",
+  "relations": ["结尾", "互动", "引导"]
+}

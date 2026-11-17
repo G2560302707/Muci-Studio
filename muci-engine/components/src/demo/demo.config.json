@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "episode": "demo",
+    "slug": "muci-studio-demo",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "theme": "whiteWindow",
+    "compositionId": "Episode-Demo"
+  },
+  "scenes": [
+    { "id": "S0", "durationInFrames": 120, "label": "开场" },
+    { "id": "S1", "durationInFrames": 180, "label": "列表" },
+    { "id": "S2", "durationInFrames": 180, "label": "强调" },
+    { "id": "S3", "durationInFrames": 180, "label": "收尾" }
+  ],
+  "cues": [
+    {
+      "id": "c1",
+      "sceneId": "S0",
+      "text": "先选卡，再对时间",
+      "from": 0,
+      "duration": 120
+    },
+    {
+      "id": "c2",
+      "sceneId": "S1",
+      "text": "编排、改参、导出",
+      "from": 120,
+      "duration": 180
+    },
+    {
+      "id": "c3",
+      "sceneId": "S2",
+      "text": "改字改色，不必重生成",
+      "from": 300,
+      "duration": 180
+    },
+    {
+      "id": "c4",
+      "sceneId": "S3",
+      "text": "lint 通过后再导出",
+      "from": 480,
+      "duration": 180
+    }
+  ],
+  "copy": {
+    "title": "幕次 Studio 样例",
+    "subtitle": "SRT → 选卡 → 面板改参"
+  },
+  "cards": [
+    {
+      "id": "card-0",
+      "sceneId": "S0",
+      "cardId": "core:MaskText",
+      "intent": "开场",
+      "from": 0,
+      "duration": 120,
+      "params": { "title": "幕次 Studio", "caption": "先选卡，再对时间" }
+    },
+    {
+      "id": "card-1",
+      "sceneId": "S1",
+      "cardId": "core:BulletList",
+      "intent": "列表",
+      "from": 120,
+      "duration": 180,
+      "params": {
+        "title": "三步闭环",
+        "items": ["SRT 进编排", "面板改字改时", "导出 MP4"]
+      }
+    },
+    {
+      "id": "card-2",
+      "sceneId": "S2",
+      "cardId": "core:NumberRoll",
+      "intent": "强调",
+      "from": 300,
+      "duration": 180,
+      "params": { "value": 3, "label": "步走完", "caption": "改字改色，不必重生成" }
+    },
+    {
+      "id": "card-3",
+      "sceneId": "S3",
+      "cardId": "core:OutroCard",
+      "intent": "收尾",
+      "from": 480,
+      "duration": 180,
+      "params": { "title": "导出前", "caption": "lint 通过后再导出", "button": "开始" }
+    }
+  ],
+  "audio": {
+    "voiceGain": 1,
+    "sfxGain": 0.35,
+    "bgmGain": 0.2,
+    "sfxEnabled": true
+  }
+}

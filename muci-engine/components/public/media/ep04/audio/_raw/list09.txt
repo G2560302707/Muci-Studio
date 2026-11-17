@@ -1,0 +1,2 @@
+file 'D:\Tabletop\自媒体\my-components\public\media\ep04\audio\_wav\u09a.wav'
+file 'D:\Tabletop\自媒体\my-components\public\media\ep04\audio\_raw\sil350.wav'

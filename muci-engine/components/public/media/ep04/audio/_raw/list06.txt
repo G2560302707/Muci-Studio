@@ -1,0 +1,6 @@
+file 'D:\Tabletop\自媒体\my-components\public\media\ep04\audio\_wav\u06a.wav'
+file 'D:\Tabletop\自媒体\my-components\public\media\ep04\audio\_raw\sil150.wav'
+file 'D:\Tabletop\自媒体\my-components\public\media\ep04\audio\_wav\u06b.wav'
+file 'D:\Tabletop\自媒体\my-components\public\media\ep04\audio\_raw\sil150.wav'
+file 'D:\Tabletop\自媒体\my-components\public\media\ep04\audio\_wav\u06c.wav'
+file 'D:\Tabletop\自媒体\my-components\public\media\ep04\audio\_raw\sil350.wav'

@@ -1,0 +1,7 @@
+{
+  "name": "MaskText",
+  "description": "文本打字机揭示动画，带结束光标。",
+  "props": ["text", "from", "duration", "style"],
+  "usage": "金句、标题强调、数据评论。",
+  "relations": ["文本", "揭示", "金句"]
+}

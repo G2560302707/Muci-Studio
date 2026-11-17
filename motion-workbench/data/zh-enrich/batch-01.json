@@ -1,0 +1,702 @@
+[
+ {
+  "id": "remocn:a-to-z",
+  "name": "a-to-z",
+  "title": "a to Z",
+  "desc": "An alphabet gag where a big \"Z\" and \"is for zero lock-in.\" land on orange.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:abacus-count",
+  "name": "abacus-count",
+  "title": "Abacus Count",
+  "desc": "Abacus beads slide along their rods to count up to 48,216.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:absorb-stack",
+  "name": "absorb-stack",
+  "title": "Absorb Stack",
+  "desc": "A centred stack of small lines, ending in a red \"on top.\", on a dark brown ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:accordion",
+  "name": "accordion",
+  "title": "UI Accordion",
+  "desc": "A disclosure whose opened/closed state is a pure function of the timeline; the panel reveal, chevron, and background are keyframed presets.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:accordion-unfold",
+  "name": "accordion-unfold",
+  "title": "Accordion Unfold",
+  "desc": "A tight paper zigzag unfolds sideways into a flat card with the logo printed across it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:achievement-pop",
+  "name": "achievement-pop",
+  "title": "Achievement Pop",
+  "desc": "Stacked achievement toasts unlock one by one, the last a rare gradient-filled card.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:acronym-expand",
+  "name": "acronym-expand",
+  "title": "Acronym Expand",
+  "desc": "An acronym expands letter by letter into 'Model Context Protocol' with an eyebrow and subhead.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:activity-rings",
+  "name": "activity-rings",
+  "title": "Activity Rings",
+  "desc": "Concentric activity rings lap their goal while three metrics count up beside them.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:agent-run",
+  "name": "agent-run",
+  "title": "Agent Run",
+  "desc": "Animated brand-neutral AI agent run — a Thinking status and short plan, tool calls whose spinners close into checks while a timer counts real seconds, then a markdown answer with citations and a code block that streams in irregular token bursts. Light/dark themes.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ai-answer-sources",
+  "name": "ai-answer-sources",
+  "title": "AI Answer Sources",
+  "desc": "An AI answer streams in with inline citations and source chips below.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ai-image-grid",
+  "name": "ai-image-grid",
+  "title": "AI Image Grid",
+  "desc": "An AI image generator fills a result with a generated render and Download button.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ai-prompt-flow",
+  "name": "ai-prompt-flow",
+  "title": "UI AI Prompt Flow",
+  "desc": "An AI prompt composition: a prompt types into the field, the Generate button runs hover → press → loading, a skeleton shimmer reveals, then crossfades into the generated answer, and a ready toast slides in. A pure orchestrator — the shimmer is owned by the skeleton-block motion atom; every other channel comes from a composed primitive's hook.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:alert-dialog",
+  "name": "alert-dialog",
+  "title": "UI Alert Dialog",
+  "desc": "A modal alert dialog whose opened/closed state is a pure function of the timeline; the backdrop dim and popup zoom are keyframed presets. Self-contained — pair it with the Button as a trigger (see the example).",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:anagram-shuffle",
+  "name": "anagram-shuffle",
+  "title": "Anagram Shuffle",
+  "desc": "Letters of one word slide into new positions to spell its anagram.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:analytics-funnel",
+  "name": "analytics-funnel",
+  "title": "Analytics Funnel",
+  "desc": "An activation funnel chart steps down while a tooltip shows breakdowns.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:anamorphic-flare",
+  "name": "anamorphic-flare",
+  "title": "Anamorphic Flare",
+  "desc": "A point of light grows into a cinematic anamorphic streak that sweeps the frame and reveals the logo in its wake.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:and-you",
+  "name": "and-you",
+  "title": "and You",
+  "desc": "A list of audiences (\"For the founder who...\") ends on a big \"and you.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:animated-bar-chart",
+  "name": "animated-bar-chart",
+  "title": "Animated Bar Chart",
+  "desc": "Bars spring up from the baseline in a staggered cascade.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:animated-line-chart",
+  "name": "animated-line-chart",
+  "title": "Animated Line Chart",
+  "desc": "Line chart whose SVG path draws on from left to right with a leading dot.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:answer-first",
+  "name": "answer-first",
+  "title": "Answer First",
+  "desc": "The question \"Who made this video?\" is answered by a big \"A pull request.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:app-store-listing",
+  "name": "app-store-listing",
+  "title": "App Store Listing",
+  "desc": "A phone app store listing with ratings and screenshot carousel gets an Open button.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:area-compare",
+  "name": "area-compare",
+  "title": "Area Compare",
+  "desc": "Two discs compare bundle sizes while 14x smaller settles in big type.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ascii-dissolve",
+  "name": "ascii-dissolve",
+  "title": "ASCII Dissolve",
+  "desc": "Dissolve one scene into the next through a drifting field of ASCII glyphs.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ascii-render",
+  "name": "ascii-render",
+  "title": "ASCII Render",
+  "desc": "Redraw a live scene as ASCII: the frame divides into glyph cells and each one becomes the character matching the brightness of the picture inside it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:aspect-slit",
+  "name": "aspect-slit",
+  "title": "Aspect Slit",
+  "desc": "A film-title card opens through a slit, with a serif hero line and a small caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:audit-boxes",
+  "name": "audit-boxes",
+  "title": "Audit Boxes",
+  "desc": "Off-spec elements of a UI get traced with red boxes, each with the fix it needs, while an issue counter ticks up.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:audit-core",
+  "name": "audit-core",
+  "title": "Audit Core",
+  "desc": "Shared kit behind the design-review components: redline rulers, issue boxes, radius arcs, token tags, layout guides, the scan band and a demo dashboard to measure.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:axis-flex",
+  "name": "axis-flex",
+  "title": "Axis Flex",
+  "desc": "A gradient word flexes its width and weight like an elastic variable font.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:backdrop",
+  "name": "backdrop",
+  "title": "Backdrop",
+  "desc": "Configurable full-frame background (color / gradient / image / live component) with Screen Studio-style padding and a rounded, shadowed content frame.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:balance-beam",
+  "name": "balance-beam",
+  "title": "Balance Beam",
+  "desc": "A seesaw tips as one remocn block outweighs a pile of hours, tools and revisions.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:band-open",
+  "name": "band-open",
+  "title": "Band Open",
+  "desc": "A horizontal band opens across the frame to reveal a landscape title card.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:band-shift",
+  "name": "band-shift",
+  "title": "Band Shift",
+  "desc": "Bright colour bands shift across the frame in a stagger to swap one scene for the next.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:baseline-drop",
+  "name": "baseline-drop",
+  "title": "Baseline Drop",
+  "desc": "Words drop onto the baseline in a stagger, with a gradient streak beneath.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bass-drop",
+  "name": "bass-drop",
+  "title": "Bass Drop",
+  "desc": "A trailer build-up breathes in, then drops into the big gradient logo with a tracked tagline.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:baton-word",
+  "name": "baton-word",
+  "title": "Baton Word",
+  "desc": "A word is handed like a baton between scenes: \"Film it in code.\" in pink and white.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bauhaus-build",
+  "name": "bauhaus-build",
+  "title": "Bauhaus Build",
+  "desc": "Flat Bauhaus circles, arcs, squares and bars tumble corner over corner on a hidden grid into an asymmetric frieze, then rebuild into two friezes around an open band for the title.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:beam-split",
+  "name": "beam-split",
+  "title": "Beam Split",
+  "desc": "A light beam splits a bold headline and a serif italic phrase appears in the gap.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:beam-sweep",
+  "name": "beam-sweep",
+  "title": "Beam Sweep",
+  "desc": "A beam of light sweeps across and reveals the next headline over a glowing horizon.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:beat-count",
+  "name": "beat-count",
+  "title": "Beat Count",
+  "desc": "A big thin numeral counts to 64 in steps locked to a BPM, with a small caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:beeswarm",
+  "name": "beeswarm",
+  "title": "Beeswarm",
+  "desc": "Two dot swarms, before and after, settle on an axis showing 3.4 versus 10.6.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:before-after",
+  "name": "before-after",
+  "title": "Before After",
+  "desc": "A divider sweeps across a photo to reveal the graded version of an ungraded still.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:benchmark-race",
+  "name": "benchmark-race",
+  "title": "Benchmark Race",
+  "desc": "Lanes race on a shared clock and Remocn finishes first, shown as 12x faster.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bento-build",
+  "name": "bento-build",
+  "title": "Bento Build",
+  "desc": "A bento grid of mini feature cards builds up and spotlights tiles in turn.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:beta-thanks",
+  "name": "beta-thanks",
+  "title": "Beta Thanks",
+  "desc": "\"Remocn is out\" with a green \"out\", thanking the beta testers below.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:blink-cut",
+  "name": "blink-cut",
+  "title": "Blink Cut",
+  "desc": "Words blink in a fixed rhythm before cutting to the logo and a one-line tagline.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:block-city",
+  "name": "block-city",
+  "title": "Block City",
+  "desc": "A 3D grid of blocks rises like a city skyline while +340% renders counts up.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:block-swap",
+  "name": "block-swap",
+  "title": "Block Swap",
+  "desc": "A block overwrites each line with the next, ending 'Render the launch.' on a gradient pill.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bloom-ring",
+  "name": "bloom-ring",
+  "title": "Bloom Ring",
+  "desc": "A ring of light blooms outward from the Remocn mark and replaces the scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:blueprint",
+  "name": "blueprint",
+  "title": "Blueprint",
+  "desc": "The product wipes left to right into a technical drawing: blueprint grid, white linework, dimension lines with ticks, labels and a red callout.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:blur-in",
+  "name": "blur-in",
+  "title": "UI Blur In",
+  "desc": "A wrapper that reveals a single child with blur + opacity + a directional offset; a pure state atom, theme-independent — its context is a motion config (blur/distance/axis), not a theme.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:blur-out-up",
+  "name": "blur-out-up",
+  "title": "Blur Out Up",
+  "desc": "Words arrive clean and depart upward with increasing blur for airy exits.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bokeh-title",
+  "name": "bokeh-title",
+  "title": "Bokeh Title",
+  "desc": "A serif headline sharpens out of drifting bokeh lights.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:border-beam",
+  "name": "border-beam",
+  "title": "Border Beam",
+  "desc": "A beam laps the border of a dark card, then reveals 'remocn 2.0' with a logo and description.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:boss-bar",
+  "name": "boss-bar",
+  "title": "Boss Bar",
+  "desc": "A boss HP bar is drained by hits, then 'DEFEATED' slams in beneath 'The old workflow'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bottom-up-letters",
+  "name": "bottom-up-letters",
+  "title": "Bottom-Up Letters",
+  "desc": "Letters rise from below in a pronounced staircase, one symbol at a time, with zero blur.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bounce-logo",
+  "name": "bounce-logo",
+  "title": "Bounce Logo",
+  "desc": "The wordmark bounces around the frame like an old DVD logo until it hits the corner.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bracket-focus",
+  "name": "bracket-focus",
+  "title": "Bracket Focus",
+  "desc": "Camera-viewfinder brackets focus in on a 1.8s render-time value over a dotted grid.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bracket-index",
+  "name": "bracket-index",
+  "title": "Bracket Index",
+  "desc": "Indexed bracket labels step through words before the brackets close around the product name.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bracket-win",
+  "name": "bracket-win",
+  "title": "Bracket Win",
+  "desc": "A tournament bracket resolves match by match until remocn is crowned 'CHAMPION'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:branch-tree",
+  "name": "branch-tree",
+  "title": "Branch Tree",
+  "desc": "A tree branches from one component into many leaves, ending on 48 variants.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:brand-guidelines",
+  "name": "brand-guidelines",
+  "title": "Brand Guidelines",
+  "desc": "An independent 17.9-second identity film with a geometric mark, sliding palette, kinetic type specimens, and original object photography.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:brick-mosaic",
+  "name": "brick-mosaic",
+  "title": "Brick Mosaic",
+  "desc": "Toy bricks drop in row by row from the bottom with a tiny bounce, rebuilding a pixel-art logo on a baseplate.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:browser-extension",
+  "name": "browser-extension",
+  "title": "Browser Extension",
+  "desc": "A browser extension highlights article text and saves a summary to a list.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:brush",
+  "name": "brush",
+  "title": "Brush",
+  "desc": "Variable-width brush ribbons for Remotion. Pressure taper, grain displacement, and spine samplers shared by the ink marks.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bubble-pack",
+  "name": "bubble-pack",
+  "title": "Bubble Pack",
+  "desc": "Packed bubbles for categories grow around one big gradient bubble reading 420.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:bug-dock",
+  "name": "bug-dock",
+  "title": "Bug Dock",
+  "desc": "\"Playing on every screen you ship.\" with a small broadcast logo bug docking at the bottom.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:button",
+  "name": "button",
+  "title": "UI Button",
+  "desc": "A button whose idle/hover/press/loading/success state is a pure function of the timeline; the loading state composes the Spinner motion atom.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:button-to-card",
+  "name": "button-to-card",
+  "title": "Button to Card",
+  "desc": "A button expands into a store card row with product images, prices and status.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:calendar-booking",
+  "name": "calendar-booking",
+  "title": "Calendar Booking",
+  "desc": "A cursor picks a time slot and a meeting-scheduled confirmation appears.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:calendar-pick",
+  "name": "calendar-pick",
+  "title": "Calendar Pick",
+  "desc": "A month calendar picks a launch day, tagging dates with small event labels.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:camera-lens",
+  "name": "camera-lens",
+  "title": "Camera Lens",
+  "desc": "Put a scene behind real glass: resolution falls off toward the corners, highlights bloom through the optics, colour fringes at the edges — a screencast that reads as filmed rather than rendered.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:candle-rally",
+  "name": "candle-rally",
+  "title": "Candle Rally",
+  "desc": "Candlesticks rally past a prior high as 'ALL-TIME HIGH' lands beside a price tag.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:canvas-presentation",
+  "name": "canvas-presentation",
+  "title": "Canvas Presentation",
+  "desc": "The html-in-canvas scaffolding the canvas transitions and scene filters share: support detection, a full-screen WebGL2 shader fed either both sides of a cut or the single scene a filter wraps, and routing to a CSS fallback where the browser lacks the API.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-active-pop",
+  "name": "caption-active-pop",
+  "title": "Caption Active Pop",
+  "desc": "The word being spoken turns to the accent colour and springs up in scale, then settles back as the voice moves on.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-blur-in",
+  "name": "caption-blur-in",
+  "title": "Caption Blur In",
+  "desc": "Each word resolves out of a soft blur the moment it is spoken, for captions that arrive quietly.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-bounce-in",
+  "name": "caption-bounce-in",
+  "title": "Caption Bounce In",
+  "desc": "Each word springs up into place with a little overshoot the moment it is spoken, and the phrase builds word by word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-core",
+  "name": "caption-core",
+  "title": "Caption Core",
+  "desc": "The timing engine every caption style shares: pages a timed transcript, finds the word being spoken and how far into it the voice is, and decides when a page leaves the screen.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-cube",
+  "name": "caption-cube",
+  "title": "Caption Cube",
+  "desc": "Each new phrase turns into view as the next face of a 3D cube, the previous phrase rotating up and away on a horizontal hinge.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-dim-progress",
+  "name": "caption-dim-progress",
+  "title": "Caption Dim Progress",
+  "desc": "The whole phrase sits on screen dimmed and each word brightens the moment it is spoken, with no motion at all.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-drop",
+  "name": "caption-drop",
+  "title": "Caption Drop",
+  "desc": "Each word falls into place from above and bounces as it lands the moment it is spoken, and the whole phrase drops out of frame when the speaker pauses.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-emoji",
+  "name": "caption-emoji",
+  "title": "Caption Emoji",
+  "desc": "An emoji pops up above a chosen word the moment it is spoken and stays until the phrase leaves.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-handwrite",
+  "name": "caption-handwrite",
+  "title": "Caption Handwrite",
+  "desc": "Each word is inked in by hand from left to right at the pace it is spoken, every word sitting at its own slight angle.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-highlight-box",
+  "name": "caption-highlight-box",
+  "title": "Caption Highlight Box",
+  "desc": "A solid box travels behind the word being spoken, sliding from word to word as the voice moves on.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-karaoke",
+  "name": "caption-karaoke",
+  "title": "Caption Karaoke",
+  "desc": "Transcript captions where each word fills with colour left to right exactly as it is spoken, the whole phrase readable before the voice reaches it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-knockout",
+  "name": "caption-knockout",
+  "title": "Caption Knockout",
+  "desc": "A solid plate with the words cut clean through it, each word punching out the moment it is spoken so the footage shows through the letters.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-label-maker",
+  "name": "caption-label-maker",
+  "title": "Caption Label Maker",
+  "desc": "Each phrase is punched letter by letter into a strip of embossing tape at the pace it is spoken, the tape feeding out as the words arrive.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-marker",
+  "name": "caption-marker",
+  "title": "Caption Marker",
+  "desc": "Plain captions where the words that matter get a highlighter swipe the moment they are spoken.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-outline",
+  "name": "caption-outline",
+  "title": "Caption Outline",
+  "desc": "Heavy-stroked captions that stay readable over any footage, with the spoken word switching to a contrast colour and nothing else moving.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-prosody",
+  "name": "caption-prosody",
+  "title": "Caption Prosody",
+  "desc": "Word size follows the delivery, so drawn-out words land large and rushed words stay small, and the rhythm of the voice is visible with the sound off.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-redact",
+  "name": "caption-redact",
+  "title": "Caption Redact",
+  "desc": "The whole phrase starts blacked out like a declassified file, and each bar pulls away the moment its word is spoken.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-rise",
+  "name": "caption-rise",
+  "title": "Caption Rise",
+  "desc": "Each word slides up out of a mask at its baseline the moment it is spoken, with no bounce and no scale.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-scramble",
+  "name": "caption-scramble",
+  "title": "Caption Scramble",
+  "desc": "Each word arrives as random glyphs at the moment it is spoken and decodes left to right into the real letters.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-slice",
+  "name": "caption-slice",
+  "title": "Caption Slice",
+  "desc": "Each word arrives cut in two, the top half sliding in from the left and the bottom from the right, locking together the moment it is spoken.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-slot",
+  "name": "caption-slot",
+  "title": "Caption Slot",
+  "desc": "One short line at a time, each new phrase rolling up into place as the previous one rolls out the top.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-speaker",
+  "name": "caption-speaker",
+  "title": "Caption Speaker",
+  "desc": "Dialogue captions where every phrase takes its speaker's colour, so a conversation reads like a script.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-split-flap",
+  "name": "caption-split-flap",
+  "title": "Caption Split Flap",
+  "desc": "Every letter sits on its own flap tile and clatters through a few characters before landing the moment the word is spoken, like a station departure board.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-stack",
+  "name": "caption-stack",
+  "title": "Caption Stack",
+  "desc": "Kinetic captions stacked a couple of words per line, with the keyword of each page set large on its own line.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-stamp",
+  "name": "caption-stamp",
+  "title": "Caption Stamp",
+  "desc": "Plain captions where the words that matter slam down as a rubber stamp the moment they are spoken.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-subtitle",
+  "name": "caption-subtitle",
+  "title": "Caption Subtitle",
+  "desc": "Classic broadcast subtitles, a whole phrase on a translucent plate, with no word-level animation at all.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-teleprompter",
+  "name": "caption-teleprompter",
+  "title": "Caption Teleprompter",
+  "desc": "The whole transcript scrolls smoothly through a short window with the current line centred, past lines fading above and the next line waiting below.",
+  "lib": "remocn"
+ }
+]

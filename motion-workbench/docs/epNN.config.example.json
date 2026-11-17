@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "episode": "epNN",
+    "slug": "example",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "theme": "whiteWindow",
+    "compositionId": "epNN"
+  },
+  "scenes": [
+    { "id": "S0", "durationInFrames": 150, "label": "opening" },
+    { "id": "S1", "durationInFrames": 175, "label": "hook" },
+    { "id": "S2", "durationInFrames": 275, "label": "reveal" }
+  ],
+  "cues": [
+    {
+      "id": "c1",
+      "sceneId": "S1",
+      "text": "示例字幕：可被工作台改文字",
+      "from": 150,
+      "duration": 175
+    },
+    {
+      "id": "c2",
+      "sceneId": "S2",
+      "text": "第二句字幕",
+      "from": 325,
+      "duration": 275
+    }
+  ],
+  "copy": {
+    "outro": {
+      "title": "关注我",
+      "question": "你怎么看？"
+    }
+  },
+  "media": [
+    {
+      "id": "m1",
+      "file": "media/epNN/panel.png",
+      "kind": "img",
+      "sceneId": "S2"
+    }
+  ],
+  "audio": {
+    "voiceGain": 1,
+    "sfxGain": 1,
+    "bgmGain": 0.55
+  }
+}

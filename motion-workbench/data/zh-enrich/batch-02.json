@@ -1,0 +1,702 @@
+[
+ {
+  "id": "remocn:caption-timeline",
+  "name": "caption-timeline",
+  "title": "Caption Timeline",
+  "desc": "The whole transcript laid out on a scrolling time strip that slides under a fixed playhead, so every pause shows up as space between words.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-typewriter",
+  "name": "caption-typewriter",
+  "title": "Caption Typewriter",
+  "desc": "Each word types out character by character at the pace it is spoken, with a caret that blinks while the speaker pauses.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-underline",
+  "name": "caption-underline",
+  "title": "Caption Underline",
+  "desc": "A bar slides under the word being spoken, travelling from word to word while the text itself stays untouched.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-weight",
+  "name": "caption-weight",
+  "title": "Caption Weight",
+  "desc": "The word being spoken swells from a light weight to a heavy one and relaxes as the voice moves on, with no layout shift.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caption-word-pop",
+  "name": "caption-word-pop",
+  "title": "Caption Word Pop",
+  "desc": "One large word at a time, each popping in on a spring the moment it is spoken.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:card-create",
+  "name": "card-create",
+  "title": "Card Create",
+  "desc": "A phone app issues a yellow debit card and flips through color options.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:card-fan",
+  "name": "card-fan",
+  "title": "Card Fan",
+  "desc": "Colourful format cards fan out of a stack with a \"Your top formats\" caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:card-push-line",
+  "name": "card-push-line",
+  "title": "Card Push Line",
+  "desc": "A prompt card with a slash command pushes forward as its text line types.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:card-swipe-cover",
+  "name": "card-swipe-cover",
+  "title": "Card Swipe Cover",
+  "desc": "A card swipes across and covers the frame to reveal a grid of launch-kit cards.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caret",
+  "name": "caret",
+  "title": "UI Caret",
+  "desc": "A blinking text caret — a controlled vertical bar, or a pure motion atom that blinks deterministically from useCurrentFrame.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caret-collapse",
+  "name": "caret-collapse",
+  "title": "Caret Collapse",
+  "desc": "The typing caret in a prompt box collapses into the next scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caret-dolly",
+  "name": "caret-dolly",
+  "title": "Caret Dolly",
+  "desc": "A prompt box types a request while the camera dollies along the caret.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caret-letter",
+  "name": "caret-letter",
+  "title": "Caret Letter",
+  "desc": "A blinking caret types a word and turns into its letter l: 'launch'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caret-swap",
+  "name": "caret-swap",
+  "title": "Caret Swap",
+  "desc": "A gradient caret swells into a block that consumes the first phrase right-to-left, collapses back and types the second phrase out with a blinking caret.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:caret-wipe",
+  "name": "caret-wipe",
+  "title": "Caret Wipe",
+  "desc": "Sweep a typing caret across the frame, wiping the outgoing scene into the next.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:carry-count",
+  "name": "carry-count",
+  "title": "Carry Count",
+  "desc": "A big counter reaches 13,580 with a small caption, \"scenes students built in week one\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cart-add",
+  "name": "cart-add",
+  "title": "Cart Add",
+  "desc": "A shop page picks a color and size, then a cart drawer slides in with Checkout.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:case-flip",
+  "name": "case-flip",
+  "title": "Case Flip",
+  "desc": "A headline flips letter by letter from lower to upper and back to its final casing.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cell-divide",
+  "name": "cell-divide",
+  "title": "Cell Divide",
+  "desc": "A grid of dots doubles by cell division up to a count of 64.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:centered-word-build",
+  "name": "centered-word-build",
+  "title": "Centered Word Build",
+  "desc": "Words appear sharply from below while the centered phrase pushes cumulatively closer on every beat, then clears through a soft left-to-right opacity wipe.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:changed-mind",
+  "name": "changed-mind",
+  "title": "Changed Mind",
+  "desc": "A big serif pull quote, \"The only tool I use now.\", with a solo-founder attribution.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:changelog-scroll",
+  "name": "changelog-scroll",
+  "title": "Changelog Scroll",
+  "desc": "A changelog list scrolls and one row enlarges into a highlighted headline entry.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:channel-reactions",
+  "name": "channel-reactions",
+  "title": "Channel Reactions",
+  "desc": "A team chat channel where a launch message collects emoji reactions and replies.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:chaos-to-order",
+  "name": "chaos-to-order",
+  "title": "Chaos to Order",
+  "desc": "Scattered windows, notes and toasts drop in, then snap into an organized issue tracker.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:chart-morph",
+  "name": "chart-morph",
+  "title": "Chart Morph",
+  "desc": "A line chart with an area fill morphs between points up to a 46k value.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:chat-flow",
+  "name": "chat-flow",
+  "title": "UI Chat Flow",
+  "desc": "A messaging composition: an outgoing message types into the composer, the send button presses, and the bubble rises in; the other side shows a typing indicator that swaps into the reply, and reactions pop in. A pure orchestrator — every channel comes from a composed primitive's hook (Input, MessageBubble, TypingIndicator).",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:chat-gpt",
+  "name": "chat-gpt",
+  "title": "ChatGPT",
+  "desc": "Animated ChatGPT composer — types a prompt into the pill input, the blue voice button morphs into a send button, and the suggestion chips fade out. Light/dark themes.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:chat-to-preview-layout",
+  "name": "chat-to-preview-layout",
+  "title": "Chat to Preview Layout",
+  "desc": "Two-column layout where chat shrinks and preview expands.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:check-list",
+  "name": "check-list",
+  "title": "Check List",
+  "desc": "A handwritten checklist that writes itself out in full, then ticks and strikes through every done item, one at a time.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:checkbox",
+  "name": "checkbox",
+  "title": "UI Checkbox",
+  "desc": "A checkbox whose checked/unchecked state is a pure function of the timeline; the box fill, border, and checkmark draw are keyframed presets.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:checkout-flow",
+  "name": "checkout-flow",
+  "title": "UI Checkout Flow",
+  "desc": "A cursor-driven checkout card: the card and its fields blur-in, then the pointer flips a billing-cycle toggle, types a card number, ticks the terms checkbox, and presses Pay through to success, ending in a toast. A pure orchestrator — every channel comes from a composed primitive's transition hook.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:chevron-run",
+  "name": "chevron-run",
+  "title": "Chevron Run",
+  "desc": "A giant gradient chevron frames a big +312% with a serif caption underneath.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:chord-ring",
+  "name": "chord-ring",
+  "title": "Chord Ring",
+  "desc": "Chords link a ring of integration names around a glowing center that reads \"Connects to everything\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:chore-fold",
+  "name": "chore-fold",
+  "title": "Chore Fold",
+  "desc": "A teal \"Captions does all of that.\" folds the chore away, \"You just talk.\" beneath.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:chromatic-wave",
+  "name": "chromatic-wave",
+  "title": "Chromatic Wave",
+  "desc": "A soft wave travels down through the type; where it crosses, the letters ripple and split into RGB fringes.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:chunk-stack",
+  "name": "chunk-stack",
+  "title": "Chunk Stack",
+  "desc": "\"learn motion by making it\" stacks one word per line with a yellow highlighter on \"making\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:churn-count",
+  "name": "churn-count",
+  "title": "Churn Count",
+  "desc": "A huge frame counter reaches 72,960 under a small blue caption on black.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:claude-chat",
+  "name": "claude-chat",
+  "title": "Claude Chat",
+  "desc": "Animated Claude chat input — types a prompt character-by-character and the waveform button morphs into a terracotta send button the moment text appears. Warm light/dark themes.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:claude-code",
+  "name": "claude-code",
+  "title": "Claude Code",
+  "desc": "Animated Claude Code CLI welcome screen — terminal window with a dashed welcome box, recent activity and what's new panels, and a prompt line that types a command with a block cursor. Dark/light themes.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:clock-sweep",
+  "name": "clock-sweep",
+  "title": "Clock Sweep",
+  "desc": "A clock hand sweeps a glowing wedge as the line From idea to video in 4 minutes appears.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cloth-reveal",
+  "name": "cloth-reveal",
+  "title": "Cloth Reveal",
+  "desc": "A satin sheet draped over the content is yanked from one corner, folding and fluttering as a simulated cloth before it clears the frame.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:code-morph",
+  "name": "code-morph",
+  "title": "Code Morph",
+  "desc": "A flat code editor that morphs between versions of a file, gliding each surviving token to its new line and column while removed code dissolves and new code fades in.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:collab-lockup",
+  "name": "collab-lockup",
+  "title": "Collab Lockup",
+  "desc": "The Remocn logo and a partner logo join with an x under a glowing arc and caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:color-bars",
+  "name": "color-bars",
+  "title": "Color Bars",
+  "desc": "Slanted fluted color bars whip across the frame and swap the outgoing shot for the incoming one.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:column-reflow",
+  "name": "column-reflow",
+  "title": "Column Reflow",
+  "desc": "A justified paragraph reflows its column width, redistributing lines with even word spacing.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:column-slide",
+  "name": "column-slide",
+  "title": "Column Slide",
+  "desc": "Vertical columns slide in a stagger to swap one headline for another.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:combo-counter",
+  "name": "combo-counter",
+  "title": "Combo Counter",
+  "desc": "A gradient hit counter climbs to '12 HIT COMBO' with rating words like 'PERFECT'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:combobox",
+  "name": "combobox",
+  "title": "UI Combobox",
+  "desc": "A combobox whose opened/closed state is a pure function of the timeline; the panel fade/scale/lift are keyframed presets like select. The trigger reuses the Input presets (typed query + caret reveal via an injected inputStyle), the list is filtered by a pure case-insensitive substring on the visible query prefix, and rows reuse the SelectItem row.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:comet-headline",
+  "name": "comet-headline",
+  "title": "Comet Headline",
+  "desc": "A headline and subhead arrive while a comet streaks arcs behind it, 'Every launch beat, already in orbit.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:comic-panels",
+  "name": "comic-panels",
+  "title": "Comic Panels",
+  "desc": "The frame cracks into a three-panel comic page with speed lines, red halftone and a starburst, then the action panel bursts into a full-frame POW.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:command-menu",
+  "name": "command-menu",
+  "title": "UI Command Menu",
+  "desc": "A ⌘K command palette whose opened/closed state is a pure function of the timeline; the panel zoom + backdrop dim are dialog-like keyframed presets. The search row reveals the typed query, the list is filtered by a pure case-insensitive substring on the visible query prefix, and rows reuse the CommandMenuItem row.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:command-menu-item",
+  "name": "command-menu-item",
+  "title": "UI Command Menu Item",
+  "desc": "A command-palette row whose idle/hover/press/selected state is a pure function of the timeline. Leading icon + label + trailing shortcut kbd. Exports an inline CommandMenuItemRow (reused by CommandMenu) and a standalone CommandMenuItem atom; the row background, label color, and icon color are keyframed presets.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:compact-stat",
+  "name": "compact-stat",
+  "title": "Compact Stat",
+  "desc": "A big 1.2M with a blue-gradient suffix sits above a small caption on a dark ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:concentric-scale",
+  "name": "concentric-scale",
+  "title": "Concentric Scale",
+  "desc": "Concentric dotted discs scale from 1 to 1,000 while 100,000 creators lands beside the glowing last disc.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:confetti",
+  "name": "confetti",
+  "title": "Confetti",
+  "desc": "Deterministic confetti burst for Remotion — seeded particles with gravity, spin, and flutter so every render is identical. Fire it on any frame as a celebratory overlay.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:context-menu",
+  "name": "context-menu",
+  "title": "UI Context Menu",
+  "desc": "A right-click context menu whose opened/closed state is a pure function of the timeline; the panel scales from its top-left corner (the click point) with a fade + lift. No trigger — the caller positions it. Rows reuse the DropdownMenuItem row; items are plain string labels.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:contribution-heatmap",
+  "name": "contribution-heatmap",
+  "title": "Contribution Heatmap",
+  "desc": "A pixel heatmap fills in under a counter rolling up to 12,480 renders.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cool-down",
+  "name": "cool-down",
+  "title": "Cool Down",
+  "desc": "A short statement, 'Runs cool.', settles in large over a faint grid with a mono caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cooling-type",
+  "name": "cooling-type",
+  "title": "Cooling Type",
+  "desc": "\"What if your launch video could write itself?\" cools in, ending on an italic word and a caret.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:core-sum",
+  "name": "core-sum",
+  "title": "Core Sum",
+  "desc": "A monospace figure sums up to 2,097,152 beside a divider and a small caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:countdown",
+  "name": "countdown",
+  "title": "Countdown",
+  "desc": "A monumental countdown numeral inside a ring resolves into a Live lockup.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:counter-reveal",
+  "name": "counter-reveal",
+  "title": "Counter Reveal",
+  "desc": "A huge front word reveals through the counters of its letters on a blue gradient.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:coupon-apply",
+  "name": "coupon-apply",
+  "title": "Coupon Apply",
+  "desc": "A checkout order summary rejects a coupon, accepts another and the total drops.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cover-ring",
+  "name": "cover-ring",
+  "title": "Cover Ring",
+  "desc": "An audio-style bar meter sits above the line \"They're composed\" over green light.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:coy-denial",
+  "name": "coy-denial",
+  "title": "Coy Denial",
+  "desc": "A huge \"Don't check the site at nine.\" with a sheepish \"(Do.)\" tucked into the corner.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:crash-zoom",
+  "name": "crash-zoom",
+  "title": "Crash Zoom",
+  "desc": "A calm serif tease crash-zooms into a huge gradient '1 DAY.' with speed lines.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:crew-of-one",
+  "name": "crew-of-one",
+  "title": "Crew of One",
+  "desc": "A credits roll, Written by / Directed by / Shipped by, all pointing at a big \"you\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:crosshair-lock",
+  "name": "crosshair-lock",
+  "title": "Crosshair Lock",
+  "desc": "A crosshair locks onto the peak of a dot plot and calls out 2.4k per minute.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:crt-screen",
+  "name": "crt-screen",
+  "title": "CRT Screen",
+  "desc": "Put a scene behind curved glass: the picture bulges out to the corners, an RGB phosphor mask and scanlines ride the curve, bright areas flood the mask, and the tube falls away into darkness at the rim.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:crumple-toss",
+  "name": "crumple-toss",
+  "title": "Crumple Toss",
+  "desc": "Crushes an element into a ball of paper and throws it out of frame on an arc, leaving the scene around it running.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:crunch",
+  "name": "crunch",
+  "title": "Crunch",
+  "desc": "A timestamped story line, \"It shipped, with time to ...\", fades in over a dark brown ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cta-collapse-mark",
+  "name": "cta-collapse-mark",
+  "title": "CTA Collapse Mark",
+  "desc": "Call-to-action content collapses into the Remocn wordmark over a glowing planet horizon.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cue-word",
+  "name": "cue-word",
+  "title": "Cue Word",
+  "desc": "A cue word triggers a slide, drop or lift cut to the next line on a pink ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cursor",
+  "name": "cursor",
+  "title": "UI Cursor",
+  "desc": "An animated cursor that moves between waypoints, clicks (ripple), and drags. The Cursor renderer is a pure function of a numeric CursorStyle channel; useCursorPath reads the frame and eases the path, ripple, and press phases.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cursor-frame",
+  "name": "cursor-frame",
+  "title": "Cursor Frame",
+  "desc": "A selection frame with handles and a size badge is dragged around a two-line headline.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cursor-gravity",
+  "name": "cursor-gravity",
+  "title": "Cursor Gravity",
+  "desc": "A rounded triangular cursor tugs a button out of the screen edge with pulsed elastic resistance.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cut-off",
+  "name": "cut-off",
+  "title": "Cut Off",
+  "desc": "A line is cut off by a white reply card: \"Or let the code cut it.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:cut-stat",
+  "name": "cut-stat",
+  "title": "Cut Stat",
+  "desc": "A blue bar graph wipes upward beside a big minus 44% caption, 'less time to a finished cut'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:deadpan-box",
+  "name": "deadpan-box",
+  "title": "Deadpan Box",
+  "desc": "A flat, deadpan quote in a blue box with a small attribution line.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:deploy-pipeline",
+  "name": "deploy-pipeline",
+  "title": "Deploy Pipeline",
+  "desc": "A deployment page runs a build, streams logs and flips to Ready.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:depth-headline",
+  "name": "depth-headline",
+  "title": "Depth Headline",
+  "desc": "A huge serif headline sits behind a gradient sphere that slides through it for depth.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:design-audit",
+  "name": "design-audit",
+  "title": "Design Audit",
+  "desc": "A full design review in one scene: redlines and issue boxes, a scan that ships the fix, a camera push into one card with specs and tokens, then layout guides.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:device-grows-around",
+  "name": "device-grows-around",
+  "title": "Device Grows Around",
+  "desc": "A live plays counter card grows a device frame around it, with range tabs and delta stats.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:device-morph",
+  "name": "device-morph",
+  "title": "Device Morph",
+  "desc": "A design canvas switches a frame between desktop, tablet and phone layouts.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:diagonal-split",
+  "name": "diagonal-split",
+  "title": "Diagonal Split",
+  "desc": "A diagonal seam slides one scene away to reveal the next with a warm band.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dialog",
+  "name": "dialog",
+  "title": "UI Dialog",
+  "desc": "A modal dialog whose opened/closed state is a pure function of the timeline; the backdrop dim and popup zoom are keyframed presets, with a close button and a primary action. Self-contained — pair it with the Button as a trigger (see the example).",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:diff-swap",
+  "name": "diff-swap",
+  "title": "Diff Swap",
+  "desc": "A before line is diffed into the after line, ending 'Install the scene. Edit the props.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:diminuendo",
+  "name": "diminuendo",
+  "title": "Diminuendo",
+  "desc": "Huge counter climbs to 860,000 while each trailing digit group fades quieter than the last.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:disc-pop",
+  "name": "disc-pop",
+  "title": "Disc Pop",
+  "desc": "A disc pops open from a play button into a full video player scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:displacement",
+  "name": "displacement",
+  "title": "Displacement",
+  "desc": "The frame breaks into a grid of cells that shear apart into offset, colour-fringed tiles under film grain, then settle back carrying the next scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:distribution-shift",
+  "name": "distribution-shift",
+  "title": "Distribution Shift",
+  "desc": "A latency distribution curve collapses left while 120ms and -86% appear.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dither-dissolve",
+  "name": "dither-dissolve",
+  "title": "Dither Dissolve",
+  "desc": "A dithering shader transition that dissolves one scene into the next.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dolly-zoom",
+  "name": "dolly-zoom",
+  "title": "Dolly Zoom",
+  "desc": "The vertigo shot: a perspective corridor with a red door stretches deeper while the subject in the center holds its exact size.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:domino-run",
+  "name": "domino-run",
+  "title": "Domino Run",
+  "desc": "Dominoes fall in a chain, growing larger until a 10x stat is set off.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dot-field-morph",
+  "name": "dot-field-morph",
+  "title": "Dot Field Morph",
+  "desc": "A drifting field of dots swirls into icon shapes, then gathers into the logo.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dot-globe",
+  "name": "dot-globe",
+  "title": "Dot Globe",
+  "desc": "A dotted globe spins up while Live in 142 countries counts in beside it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dot-map",
+  "name": "dot-map",
+  "title": "Dot Map",
+  "desc": "A dotted world map lights up city by city, ending on 142 countries.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dot-sort",
+  "name": "dot-sort",
+  "title": "Dot Sort",
+  "desc": "Dots sort into rows by group, the logo row largest at 41%.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:dot-type",
+  "name": "dot-type",
+  "title": "Dot Type",
+  "desc": "Words are drawn from a field of round dots in a gradient, the last one in accent.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:double-take",
+  "name": "double-take",
+  "title": "Double Take",
+  "desc": "\"Read that again.\" above an oversized pink \"One person\" on blue.",
+  "lib": "remocn"
+ }
+]

@@ -1,0 +1,7 @@
+{
+  "name": "NumberRoll",
+  "description": "数字滚动收束，适合增长量和评分。",
+  "props": ["value", "from", "duration", "format", "style"],
+  "usage": "涨星数据、指标展示、统计强调。",
+  "relations": ["数字", "数据", "增长"]
+}

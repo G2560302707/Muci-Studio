@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "typeRoots": ["../../muci-engine/components/node_modules/@types"],
+    "paths": {
+      "react": ["../../muci-engine/components/node_modules/@types/react"],
+      "remotion": ["../../muci-engine/components/node_modules/remotion"]
+    }
+  },
+  "include": ["components", "lib", "style", "index.ts"]
+}

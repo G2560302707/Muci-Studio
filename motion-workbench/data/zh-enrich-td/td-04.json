@@ -1,0 +1,1738 @@
+[
+ {
+  "id": "remocn:signal-resolve",
+  "name": "signal-resolve",
+  "title": "Signal Resolve",
+  "desc": "Noisy scope traces resolve to a clean line and the logo with Less noise. More signal.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:signup-flow",
+  "name": "signup-flow",
+  "title": "UI Signup Flow",
+  "desc": "A signup card composition: a real shadcn-style card (header, labeled Full Name / Email / Password / Confirm fields, primary + Google-outline buttons, sign-in footer) whose cursor fills each field top-to-bottom, then clicks Create account (hover → press → loading → success) as a success toast slides in. A pure orchestrator — every channel comes from a composed primitive's transition hook.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:simulated-cursor",
+  "name": "simulated-cursor",
+  "title": "Simulated Cursor",
+  "desc": "Animated mouse cursor moving between waypoints with click ripple feedback.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:single-stroke",
+  "name": "single-stroke",
+  "title": "Single Stroke",
+  "desc": "A giant 27 drawn in single strokes sits beside a coral 'Mar' panel and a demo-day line.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:skeleton",
+  "name": "skeleton",
+  "title": "UI Skeleton",
+  "desc": "A skeleton→content crossfade whose loading/loaded state is a pure function of the timeline. The Skeleton renderer is pure (reads no frame); only the composed SkeletonBlock shimmer reads it. SkeletonStyle opacities sum to 1 so the box never dims; real children sit in normal flow and the placeholder (a lines/card layout or a custom node) is an absolute overlay.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:skeleton-block",
+  "name": "skeleton-block",
+  "title": "UI Skeleton Block",
+  "desc": "A shimmer placeholder block — a motion atom (spinner pattern). A directional highlight gradient sweeps across deterministically from useCurrentFrame() and loops seamlessly. Configurable width/height/radius/speed and base/highlight colors.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:slash-wipe",
+  "name": "slash-wipe",
+  "title": "Slash Wipe",
+  "desc": "A gradient slash wipes across and reveals a large title, '/transitions', with a one-line sub.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:slide-doors",
+  "name": "slide-doors",
+  "title": "Slide Doors",
+  "desc": "Two panels slide apart like doors to reveal 'Arriving in your repo.' with an accent word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:slide-swap",
+  "name": "slide-swap",
+  "title": "Slide Swap",
+  "desc": "A scene sequencer where the outgoing content is shoved off on an accelerating curve and the next springs in from the opposite edge, on one canvas, with no overlap.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:slider",
+  "name": "slider",
+  "title": "UI Slider",
+  "desc": "A slider whose fill is a numeric value channel plus a thumb idle/hover/press channel (dual-channel value-channel deviation). The Slider renderer is pure (clamped 0–100 value, thumb scale, grab-ring opacity); useSliderTransition reads the frame and eases both channels — value as a numeric lerp, the thumb visual from its state presets. Muted track + primary range + bordered thumb with a derived grab ring.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:slim-count",
+  "name": "slim-count",
+  "title": "Slim Count",
+  "desc": "A slim outlined zero counts down beside a condensed line, 'Keyframes left to set by hand'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:slit-reveal",
+  "name": "slit-reveal",
+  "title": "Slit Reveal",
+  "desc": "A point of light draws a hairline that opens onto a product scene, with a glow ring below.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:slit-scan",
+  "name": "slit-scan",
+  "title": "Slit Scan",
+  "desc": "A word is slit-scanned into view through fluted slices, with a speed stat in the caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:slope-chart",
+  "name": "slope-chart",
+  "title": "Slope Chart",
+  "desc": "A slope chart draws before/after lines, the hero line rising to a 6.8x stat.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:slot-machine-roll",
+  "name": "slot-machine-roll",
+  "title": "Slot Machine Roll",
+  "desc": "Vertical reel scrolls characters from one value to another.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:smash-count",
+  "name": "smash-count",
+  "title": "Smash Count",
+  "desc": "A giant red 64 smash-cuts up from zero beside a small caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:smoke-dissolve",
+  "name": "smoke-dissolve",
+  "title": "Smoke Dissolve",
+  "desc": "A smoke-ring shader transition that expands the ring outward to reveal the next scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:snap-click",
+  "name": "snap-click",
+  "title": "Snap Click",
+  "desc": "The wordmark snaps together at a seam with a click, settling over a subtle caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:social-scheduler",
+  "name": "social-scheduler",
+  "title": "Social Scheduler",
+  "desc": "A weekly post queue where a post is scheduled and a toast confirms.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:soft-blur-in",
+  "name": "soft-blur-in",
+  "title": "Soft Blur In",
+  "desc": "Per-character fade-in with a gentle blur and upward motion. Apple's signature hero-title reveal.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:sold-out",
+  "name": "sold-out",
+  "title": "Sold Out",
+  "desc": "A stock counter races to zero, then a tilted chrome-gradient 'SOLD OUT' band slams across.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:sparkline-thread",
+  "name": "sparkline-thread",
+  "title": "Sparkline Thread",
+  "desc": "A glowing sparkline climbs to a point while +212% counts up beside it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:spec-sheet",
+  "name": "spec-sheet",
+  "title": "Spec Sheet",
+  "desc": "A tech spec table with hairline rows reveals values like 4K, 60 fps and 1 command.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:speed-lines",
+  "name": "speed-lines",
+  "title": "Speed Lines",
+  "desc": "Parallel streaks trail an element as it flies in at its real speed, the element stretching with that speed and landing with a squash and a small bounce as the streaks die, or radial lines rush in from the frame edges and snap onto one point for a manga-style impact frame.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:speed-ramp-word",
+  "name": "speed-ramp-word",
+  "title": "Speed Ramp Word",
+  "desc": "Time slows on the key word as it warms to a gradient, with a timecode HUD.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:speed-trap",
+  "name": "speed-trap",
+  "title": "Speed Trap",
+  "desc": "A speed readout locks on 348 km/h over a segmented bar with last year's marker and delta.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:speedrun-timer",
+  "name": "speedrun-timer",
+  "title": "Speedrun Timer",
+  "desc": "A speedrun split table fills row by row and ends on a gold 'WORLD RECORD' time.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:spell-out",
+  "name": "spell-out",
+  "title": "Spell Out",
+  "desc": "\"remocn\" spells out in big lowercase letters with \"Say it once. Remember it.\" beneath.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:spine-turn",
+  "name": "spine-turn",
+  "title": "Spine Turn",
+  "desc": "Vertical titles turn like book spines, handing off to a large accent 'Wrap-up'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:spinner",
+  "name": "spinner",
+  "title": "UI Spinner",
+  "desc": "A deterministic spinning arc that loops on the Remotion frame — a pure motion atom with no state.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:split-flash",
+  "name": "split-flash",
+  "title": "Split Flash",
+  "desc": "A lap-time clock freezes on its final value, flashing a purple bar and a minus delta.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:split-match",
+  "name": "split-match",
+  "title": "Split Match",
+  "desc": "Split-flap reels lock onto each word in turn, the last one becoming the big logo.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:split-word",
+  "name": "split-word",
+  "title": "Split Word",
+  "desc": "A huge word splits open and a second word slides into the gap with a gradient band.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:spotlight",
+  "name": "spotlight",
+  "title": "Spotlight",
+  "desc": "A soft spotlight cone searches the dark stage, overshoots, and lands on the logo before the house lights lift.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:spotlight-text",
+  "name": "spotlight-text",
+  "title": "Spotlight Text",
+  "desc": "A spotlight travels across a dark headline, 'Launch videos, in code.', with a mono eyebrow.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:spring-bars",
+  "name": "spring-bars",
+  "title": "Spring Bars",
+  "desc": "Bars spring up with overshoot, one gradient bar highlighted under a 3.4x stat.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:spring-scale-in",
+  "name": "spring-scale-in",
+  "title": "Spring Scale In",
+  "desc": "Words pop in with a soft overshoot scale, like a physical spring settling into place.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:spring-settle",
+  "name": "spring-settle",
+  "title": "Spring Settle",
+  "desc": "A scene sequencer where the outgoing scene shrinks away as one group, the stage holds empty for a beat, and the next scene's items land staggered from above-1 scale.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:squeeze-in",
+  "name": "squeeze-in",
+  "title": "Squeeze In",
+  "desc": "Characters appear one by one on a tight stagger; when the last one lands, every letter gap compresses as one and the word squeezes together.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:squeeze-out",
+  "name": "squeeze-out",
+  "title": "Squeeze Out",
+  "desc": "Condensed text squeezes out of the frame line by line, ending 'Freshly pressed frames.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:squiggle",
+  "name": "squiggle",
+  "title": "Squiggle",
+  "desc": "A flat line draws itself along a straight course as a traveling wave whose crests swim forward and calm down as the head runs out, in wave, zigzag, loop or coil shapes, then erases toward its end point.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:squircle-wave",
+  "name": "squircle-wave",
+  "title": "Squircle Wave",
+  "desc": "A wave of squircle cells sweeps across a dot grid and leaves the R mark behind.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stack-letters",
+  "name": "stack-letters",
+  "title": "Stack Letters",
+  "desc": "Letters tumble and stack into place to spell a caps word over a warm gradient.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stacked-shift",
+  "name": "stacked-shift",
+  "title": "Stacked Shift",
+  "desc": "A stacked share bar shifts over the years until the logo series reaches 52%.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stage",
+  "name": "stage",
+  "title": "Stage",
+  "desc": "Place a screenshot, recording, or long page on a perspective studio plane and direct an integrated camera across it with timeline keyframes.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:staggered-fade-up",
+  "name": "staggered-fade-up",
+  "title": "Staggered Fade Up",
+  "desc": "Words fade in and slide up one after another with a configurable delay.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stat-inline",
+  "name": "stat-inline",
+  "title": "Stat Inline",
+  "desc": "A key number inside a sentence is highlighted: 'Builders shipped 12,480 launch videos this year.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stat-rail",
+  "name": "stat-rail",
+  "title": "Stat Rail",
+  "desc": "A mint \"4 minutes from install to first render\" stat sits beside a headline over scenery.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stat-sequence",
+  "name": "stat-sequence",
+  "title": "Stat Sequence",
+  "desc": "Three large stats count up in a row: 10,000+, 99.9% and 4.9.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:status-page",
+  "name": "status-page",
+  "title": "Status Page",
+  "desc": "A status page with uptime strips on which the cursor hovers an incident bar.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stem-stretch",
+  "name": "stem-stretch",
+  "title": "Stem Stretch",
+  "desc": "The stems of '4 hours' stretch into vertical stripes with a gradient glow, small caption below.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stepper",
+  "name": "stepper",
+  "title": "UI Stepper",
+  "desc": "A horizontal onboarding stepper whose progress is a pure function of a continuous step index (value-channel deviation). Every circle (fill, number, stroke-dash check) and connector (primary fill fraction) derives purely from the float position; useStepperTransition reads the frame and eases position between step indices.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stock-scrub",
+  "name": "stock-scrub",
+  "title": "Stock Scrub",
+  "desc": "A phone stock page scrubs its price chart then opens a buy sheet.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stop-motion",
+  "name": "stop-motion",
+  "title": "Stop Motion Clock",
+  "desc": "Quantized stop-motion clock for Remotion. Stepped frames, stepped springs, deterministic hashing, and per-pose paper jitter.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:story-dip",
+  "name": "story-dip",
+  "title": "Story Dip",
+  "desc": "Timestamped story lines, \"Leo's film was one render away.\", drift across the frame.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:story-text",
+  "name": "story-text",
+  "title": "Story Text",
+  "desc": "Story-style text types in word by word on rounded gradient highlight bubbles.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:streak-reward",
+  "name": "streak-reward",
+  "title": "Streak Reward",
+  "desc": "A learning app shows Lesson complete with stat badges and a Continue button.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:streamgraph",
+  "name": "streamgraph",
+  "title": "Streamgraph",
+  "desc": "Flowing stacked layers draw across the frame and settle into a 48% share.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stretch-in",
+  "name": "stretch-in",
+  "title": "Stretch In",
+  "desc": "Letters fly in from off-canvas and smear horizontally on the way — a vertex-lag deformation, not a scale.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:strikethrough-replace",
+  "name": "strikethrough-replace",
+  "title": "Strikethrough Replace",
+  "desc": "Draws a strike line across old text then reveals new text in its place.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:string-art",
+  "name": "string-art",
+  "title": "String Art",
+  "desc": "Threads string a ring of pins times-table style while the multiplier morphs from cardioid to nephroid and beyond.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stripe-count",
+  "name": "stripe-count",
+  "title": "Stripe Count",
+  "desc": "A huge 184 counts up on an orange band with a dark bold number and a caption above.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stripe-mask",
+  "name": "stripe-mask",
+  "title": "Stripe Mask",
+  "desc": "Slanted stripes mask a two-sentence bold headline into view.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:stripe-type",
+  "name": "stripe-type",
+  "title": "Stripe Type",
+  "desc": "A word cut into horizontal bands, as in the IBM logo, slides together from alternating sides and locks, then can pass on through.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:strobe-montage",
+  "name": "strobe-montage",
+  "title": "Strobe Montage",
+  "desc": "A fast strobe montage of frames flickers between two scenes, landing on a prompt box.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:strobe-words",
+  "name": "strobe-words",
+  "title": "Strobe Words",
+  "desc": "Big words strobe in at a set rhythm over a dark horizon glow, ending on the logo.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:studio-reflection",
+  "name": "studio-reflection",
+  "title": "Studio Reflection",
+  "desc": "A chrome-gradient 250+ appears with studio-style reflection and a small caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:sustained-glitch",
+  "name": "sustained-glitch",
+  "title": "Sustained Glitch",
+  "desc": "Broadcast corruption held over a scene in scheduled bursts: slices tear sideways, channels split, and blocks fill with picture pulled from somewhere else — then the frame rests clean until the next hit.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:swipe-deck",
+  "name": "swipe-deck",
+  "title": "Swipe Deck",
+  "desc": "A swipe card deck lands an Its a match screen with an install prompt.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:swirl-dissolve",
+  "name": "swirl-dissolve",
+  "title": "Swirl Dissolve",
+  "desc": "A swirl shader transition that unwinds open and winds shut to reveal the next scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:switch",
+  "name": "switch",
+  "title": "UI Switch",
+  "desc": "A switch whose checked/unchecked state is a pure function of the timeline; the track fill and sliding thumb are keyframed presets.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:synthwave",
+  "name": "synthwave",
+  "title": "Synthwave",
+  "desc": "A retro neon horizon: a scrolling perspective grid, a rising striped sun and mountain ranges that slide in.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:t-minus",
+  "name": "t-minus",
+  "title": "T Minus",
+  "desc": "A mission clock ticks T-minus with rolling characters, then slams 'LIFTOFF' over a sunrise glow.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:table-filter",
+  "name": "table-filter",
+  "title": "Table Filter",
+  "desc": "A CRM table filters and selects rows, then a bulk-action bar slides up.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tabs",
+  "name": "tabs",
+  "title": "UI Tabs",
+  "desc": "A tabs widget whose active-tab state is a pure function of the timeline; the sliding indicator, label colors, and panel crossfade are keyframed/derived presets.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tagline-justify",
+  "name": "tagline-justify",
+  "title": "Tagline Justify",
+  "desc": "A tagline sets itself into a justified column with an italic gradient word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tall-count",
+  "name": "tall-count",
+  "title": "Tall Count",
+  "desc": "A tall condensed orange-gradient +240% counts up beside a three-line caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tally-marks",
+  "name": "tally-marks",
+  "title": "Tally Marks",
+  "desc": "Hand-drawn tally marks fill rows until they resolve into the 1,240 count.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tategaki-turn",
+  "name": "tategaki-turn",
+  "title": "Tategaki Turn",
+  "desc": "Vertical Japanese-style text turns upright into a horizontal line, 'Read it both ways.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:telegram-chat-flow",
+  "name": "telegram-chat-flow",
+  "title": "UI Telegram Chat Flow",
+  "desc": "A Telegram-styled messaging composition: tailed bubbles (white incoming, blue outgoing) with in-bubble timestamps and delivery checks, a header that flips to 'typing…' while the other side replies, reaction chips, and a Telegram composer that types the outgoing message before sending. Self-contained — it owns its timeline and only composes the caret primitive.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:terminal-cursor-zoom",
+  "name": "terminal-cursor-zoom",
+  "title": "Terminal Cursor Zoom",
+  "desc": "Camera locked to the typing cursor, dollying across a terminal as a command types at high zoom.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:terminal-simulator",
+  "name": "terminal-simulator",
+  "title": "Terminal Simulator",
+  "desc": "Terminal window that types out commands and rolls old lines off the top.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:testimonial-stack",
+  "name": "testimonial-stack",
+  "title": "Testimonial Stack",
+  "desc": "A social post card with a highlighted line stacks in with other testimonials.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:the-tab",
+  "name": "the-tab",
+  "title": "The Tab",
+  "desc": "A receipt of dotted lines prices every item at $0, totalling \"one Sunday morning\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:theme-flip",
+  "name": "theme-flip",
+  "title": "Theme Flip",
+  "desc": "A product UI flips between dark and light themes with a cursor trigger.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:they-are-you",
+  "name": "they-are-you",
+  "title": "They Are You",
+  "desc": "Three \"You ...\" lines in orange and white describe the viewer on a purple ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:thin-slab",
+  "name": "thin-slab",
+  "title": "Thin Slab",
+  "desc": "A big '1 day' contrasted with a thin progress slab labeled 14x faster than by hand.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:thread-weave",
+  "name": "thread-weave",
+  "title": "Thread Weave",
+  "desc": "A number is woven thread by thread on a loom of cream cells in blue and orange.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:three-steps",
+  "name": "three-steps",
+  "title": "Three Steps",
+  "desc": "Three large gradient numerals light along a connecting line: Install, Compose, Render.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ticker-tape",
+  "name": "ticker-tape",
+  "title": "Ticker Tape",
+  "desc": "A stock-style ticker symbol with price and green percent change over a scrolling tape.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tile-snake-loader",
+  "name": "tile-snake-loader",
+  "title": "Tile Snake Loader",
+  "desc": "Media tiles snake across a loader and settle into a studio landing page with a hero video card.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tile-wave",
+  "name": "tile-wave",
+  "title": "Tile Wave",
+  "desc": "A wave of tiles flips across the frame, swapping headline for scene on a stage.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tilt-settle-list",
+  "name": "tilt-settle-list",
+  "title": "Tilt Settle List",
+  "desc": "A tilted player card settles beside a ranked list of top scenes.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:time-breakdown",
+  "name": "time-breakdown",
+  "title": "Time Breakdown",
+  "desc": "A segmented time bar shrinks while 56% less time per video counts up.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:timeline-editor",
+  "name": "timeline-editor",
+  "title": "Timeline Editor",
+  "desc": "A video editor with a timeline, inspector and export progress panel.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:timer-duel",
+  "name": "timer-duel",
+  "title": "Timer Duel",
+  "desc": "Two stopwatch timers run side by side, the faster one ending on 38x faster.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:times-turn",
+  "name": "times-turn",
+  "title": "Times Turn",
+  "desc": "A multiplication sign flips on an orange panel next to a large 3 with a caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:timing-tower",
+  "name": "timing-tower",
+  "title": "Timing Tower",
+  "desc": "A racing timing tower reorders until the hero car sits at a big P1 with a gap time.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tiny-planet",
+  "name": "tiny-planet",
+  "title": "Tiny Planet",
+  "desc": "A seeded flat skyline bends into a tiny planet through a polar remap, then slowly spins beside a red sun.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:title-converge",
+  "name": "title-converge",
+  "title": "Title Converge",
+  "desc": "Each letter drifts in on its own path and converges into the logo between two rules.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tittle-drop",
+  "name": "tittle-drop",
+  "title": "Tittle Drop",
+  "desc": "Dots of the i and j drop in last onto 'Ship it in minutes.' on a light ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tldr-on-top",
+  "name": "tldr-on-top",
+  "title": "Tldr on Top",
+  "desc": "A TL;DR summary sits on top of a long body paragraph that fades off.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:toast",
+  "name": "toast",
+  "title": "UI Toast",
+  "desc": "A toast notification whose hidden/visible state is a pure function of the timeline. The Toast renderer is a pure function of a ToastStyle (opacity, translateY, scale); useToastTransition eases both the slide-in enter and the auto-dismiss exit. Variants default/success/error change the leading icon and its color.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:toggle-group",
+  "name": "toggle-group",
+  "title": "UI Toggle Group",
+  "desc": "A segmented control whose active value is a pure function of the timeline; a raised thumb SLIDES between segments (position + width derived from a float indicator offset, no jumps) and the labels crossfade color via mixOklch. The tabs precedent without content panels.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:toggle-on",
+  "name": "toggle-on",
+  "title": "Toggle on",
+  "desc": "A large switch flips on and lights the stage as the Auto-captions label turns On.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:token-tags",
+  "name": "token-tags",
+  "title": "Token Tags",
+  "desc": "The rest of the UI washes out and leader lines run from elements to dark chips naming the design tokens they use.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:toolbar-unfurl",
+  "name": "toolbar-unfurl",
+  "title": "Toolbar Unfurl",
+  "desc": "A round tap button unfurls into a tool strip while captions list each tool over a glowing ribbon.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tooltip",
+  "name": "tooltip",
+  "title": "UI Tooltip",
+  "desc": "A tooltip whose hidden/visible state is a pure function of the timeline. The Tooltip renderer is a pure function of a TooltipStyle (opacity, scale, translate); useTooltipTransition eases both the show and the hide. The static `side` prop sets the enter translate axis and the arrow placement.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:top-down-letters",
+  "name": "top-down-letters",
+  "title": "Top-Down Letters",
+  "desc": "Letters descend from above in a pronounced staircase, one symbol at a time, with zero blur.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:topo-lines",
+  "name": "topo-lines",
+  "title": "Topo Lines",
+  "desc": "Topographic contour lines around a few seeded peaks breathe and shift in a seamless loop, one contour picked out in the accent color.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:torn-edge",
+  "name": "torn-edge",
+  "title": "Torn Edge",
+  "desc": "A torn paper sheet rips away to reveal a bold headline printed on the gradient stage.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tracking-in",
+  "name": "tracking-in",
+  "title": "Tracking In",
+  "desc": "Letter-spacing collapses and blur clears with a springy motion.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:transit-lines",
+  "name": "transit-lines",
+  "title": "Transit Lines",
+  "desc": "Metro-map lines converge on a hub station that resolves into the logo as the next stop.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:treemap-split",
+  "name": "treemap-split",
+  "title": "Treemap Split",
+  "desc": "A treemap splits into category tiles, the biggest tile in gradient with a 38% label.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:trim-burst",
+  "name": "trim-burst",
+  "title": "Trim Burst",
+  "desc": "A ring of short straight strokes shoots out from a point like Trim Paths: each end races ahead on a hard-braking ease-out while its start holds, then chases it on a smoother ease-in-out, so every stroke grows, travels and zips shut at its outer distance.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:truchet-flip",
+  "name": "truchet-flip",
+  "title": "Truchet Flip",
+  "desc": "Quarter-circle Truchet tiles snap a quarter turn as a wave crosses the grid, rerouting continuous lines until they settle into concentric loops, a calm field, or a circle of small rings.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:turnabout",
+  "name": "turnabout",
+  "title": "Turnabout",
+  "desc": "\"The video works for you.\" with the last word turned to an orange accent.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:turntable",
+  "name": "turntable",
+  "title": "Turntable",
+  "desc": "A product card spins on an invisible turntable through front, edge and back in real 3D, with face shading and a breathing floor shadow.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:tv-power-off",
+  "name": "tv-power-off",
+  "title": "TV Power Off",
+  "desc": "End a scene the way a tube does: the picture collapses into a glowing horizontal line, the line pinches to a phosphor dot, the dot decays, and the frame is left dead black.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:two-hit",
+  "name": "two-hit",
+  "title": "Two Hit",
+  "desc": "A two-hit headline, \"Streaming now.\", in white then blue, right-aligned on black.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:type-fossil",
+  "name": "type-fossil",
+  "title": "Type Fossil",
+  "desc": "A readable word carries layers of fine contours, revises itself, then compresses into a clean typographic imprint.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:type-repeater",
+  "name": "type-repeater",
+  "title": "Type Repeater",
+  "desc": "An After Effects style repeater on a word, where copies unfold into a tunnel, a spiral or a fan behind it, breathe, then fold back into the word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:type-wall",
+  "name": "type-wall",
+  "title": "Type Wall",
+  "desc": "Rows of one word fill the frame, run in alternating directions at different speeds in heavy, narrow and outline faces, with an accent band through the middle.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:typed-split-wipe",
+  "name": "typed-split-wipe",
+  "title": "Typed Split Wipe",
+  "desc": "A centered cursorless type build holds, then exits through opposing fixed-layout glyph wipes that leave the anchor visible longest.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:typewriter",
+  "name": "typewriter",
+  "title": "Typewriter",
+  "desc": "Character-by-character text reveal with a deterministic blinking cursor.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:typing-indicator",
+  "name": "typing-indicator",
+  "title": "UI Typing Indicator",
+  "desc": "A continuous typing animation: N dots bounce with a staggered sine wave. A motion atom — it reads the frame and takes color, size, gap, and speed props, defaulting to currentColor so it inherits the bubble it sits in.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:typo-fix",
+  "name": "typo-fix",
+  "title": "Typo Fix",
+  "desc": "A misspelled word is caught and corrected in place inside a short line.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ui-callout",
+  "name": "ui-callout",
+  "title": "UI Callout",
+  "desc": "Callout cards route to targets on a product screen with connecting leader lines.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:uncomment-line",
+  "name": "uncomment-line",
+  "title": "Uncomment Line",
+  "desc": "Three lines are uncommented one by one in code style: 'Fork the scenes. Change anything. Own the cut.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:underwater-ripple",
+  "name": "underwater-ripple",
+  "title": "Underwater Ripple",
+  "desc": "Hold a scene under moving water: every pixel is read through a layered refraction field that closes on a whole number of cycles, with colour fringing where the water bends hardest.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:unit-grid",
+  "name": "unit-grid",
+  "title": "Unit Grid",
+  "desc": "A 10x10 dot grid lights up 33 dots next to a 33 / 100 stat line.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:unmask-line",
+  "name": "unmask-line",
+  "title": "Unmask Line",
+  "desc": "A monospace line is unmasked letter by letter, 'Out of stealth.', the last word in green.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:up-close",
+  "name": "up-close",
+  "title": "Up Close",
+  "desc": "A screenshot zooms close, captioned \"Up close, it's code. From here, it's your launch.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:uptime-strip",
+  "name": "uptime-strip",
+  "title": "Uptime Strip",
+  "desc": "A strip of ticks fills in green while 99.99% uptime types out beside an italic word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:upvote-burst",
+  "name": "upvote-burst",
+  "title": "Upvote Burst",
+  "desc": "A launch leaderboard climbs and a #1 Product of the Day badge stamps in.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:url-bar-cta",
+  "name": "url-bar-cta",
+  "title": "URL Bar CTA",
+  "desc": "A browser window with a landing page where the cursor clicks the Get started button.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:v0",
+  "name": "v0",
+  "title": "v0",
+  "desc": "Animated Vercel v0 composer — types a prompt into the dark textarea and the mic button morphs into a send button. Dark/light themes.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:value-swap",
+  "name": "value-swap",
+  "title": "Value Swap",
+  "desc": "Swaps a value in place with a vertical slide — the old value exits up as the new one enters from below while an invisible sizer keeps the width stable.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:venetian-blinds",
+  "name": "venetian-blinds",
+  "title": "Venetian Blinds",
+  "desc": "The outgoing scene splits into horizontal slats that turn edge-on in a staggered ripple, revealing the next scene behind them.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:venn-merge",
+  "name": "venn-merge",
+  "title": "Venn Merge",
+  "desc": "Two circles labelled Design and Code overlap, and the lens fills with the logo.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:verbed",
+  "name": "verbed",
+  "title": "Verbed",
+  "desc": "A dictionary entry for \"remocn\" with senses, inflections and an example sentence.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:version-hero",
+  "name": "version-hero",
+  "title": "Version Hero",
+  "desc": "A chrome 2.0 version numeral rises inside a glowing ring with Now available beneath.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:versus-split",
+  "name": "versus-split",
+  "title": "Versus Split",
+  "desc": "A diagonal split frames remocn against the old way with stat rows for time, cost and rounds.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:vhs-filter",
+  "name": "vhs-filter",
+  "title": "VHS Filter",
+  "desc": "Hold a scene under analog tape: chroma bleeds sideways off every edge, rows wobble out of line, the bottom of the frame tears on the head switch, and luma noise settles over all of it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:video-call",
+  "name": "video-call",
+  "title": "Video Call",
+  "desc": "A video call shares a dashboard while participants send floating emoji reactions.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:video-watch-page",
+  "name": "video-watch-page",
+  "title": "Video Watch Page",
+  "desc": "A video watch page with a player, related list and comments.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:voice-agent",
+  "name": "voice-agent",
+  "title": "Voice Agent",
+  "desc": "A voice agent call transcript streams, handles an interruption and books a table.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:waitlist-swarm",
+  "name": "waitlist-swarm",
+  "title": "Waitlist Swarm",
+  "desc": "Cursors and avatar dots swarm to form an R while the waitlist count rolls up.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:wake-wipe",
+  "name": "wake-wipe",
+  "title": "Wake Wipe",
+  "desc": "A wake-like wipe reveals 'Ship the launch video today.' with a gradient accent word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:walkout-name",
+  "name": "walkout-name",
+  "title": "Walkout Name",
+  "desc": "A fighter-style name stack, 'The Launch Kid', with a light slash, record and a serif nickname.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:warp-dissolve",
+  "name": "warp-dissolve",
+  "title": "Warp Dissolve",
+  "desc": "A domain-warp shader transition that melts the outgoing scene into a folding color field and straightens back out into the next.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:waterfall-chart",
+  "name": "waterfall-chart",
+  "title": "Waterfall Chart",
+  "desc": "A revenue waterfall steps through gains and losses into a gradient total of $84k MRR.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:wave-wipe",
+  "name": "wave-wipe",
+  "title": "Wave Wipe",
+  "desc": "A grain-gradient wave that sweeps up across the frame, covering the outgoing scene and revealing the next one from below.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:waveform-title",
+  "name": "waveform-title",
+  "title": "Waveform Title",
+  "desc": "A headline rises over an aurora waveform line that settles into an underline beneath it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:we-call-it",
+  "name": "we-call-it",
+  "title": "We Call It",
+  "desc": "Short lines build to \"We call it a\" and then a big orange \"video registry.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:week-shipped",
+  "name": "week-shipped",
+  "title": "Week Shipped",
+  "desc": "A week-recap line, \"Sunday, we rested.\", in heavy type on orange.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:weight-cut",
+  "name": "weight-cut",
+  "title": "Weight Cut",
+  "desc": "A large light-weight figure counts up to 6.8 KB as its strokes thin, with a small caps eyebrow.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:weight-wave",
+  "name": "weight-wave",
+  "title": "Weight Wave",
+  "desc": "A wave of font weight travels across a line of text and settles on a highlighted word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:what-sticks",
+  "name": "what-sticks",
+  "title": "What Sticks",
+  "desc": "A column of claims dims one by one until \"You own every file.\" is highlighted.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:whats-new-modal",
+  "name": "whats-new-modal",
+  "title": "Whats New Modal",
+  "desc": "A product dashboard dims behind a What is new modal with a CTA.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:which-means",
+  "name": "which-means",
+  "title": "Which Means",
+  "desc": "A feature tag, \"Live preview\", leads into a \"which means\" explanation in teal and white.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:whip-pan",
+  "name": "whip-pan",
+  "title": "Whip Pan",
+  "desc": "A whip-pan transition that flies both scenes through the frame in one move with velocity-based motion blur.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:whole-page",
+  "name": "whole-page",
+  "title": "Whole Page",
+  "desc": "A manifesto of six serif belief paragraphs fills a navy page in columns.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:width-lock",
+  "name": "width-lock",
+  "title": "Width Lock",
+  "desc": "A condensed line stays width-locked while a word swaps, 'Ship the launch video by tonight.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:window-trail",
+  "name": "window-trail",
+  "title": "Window Trail",
+  "desc": "An orange window sweeps over 'Old look.' and leaves 'New look, same product.' behind it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:wireframe-to-final",
+  "name": "wireframe-to-final",
+  "title": "Wireframe to Final",
+  "desc": "A gray wireframe dashboard resolves into the finished product UI.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:word-acts",
+  "name": "word-acts",
+  "title": "Word Acts",
+  "desc": "Short acts of one word each, with changing styles, end on a gradient word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:word-burst-cards",
+  "name": "word-burst-cards",
+  "title": "Word Burst Cards",
+  "desc": "The Remocn wordmark holds the centre while UI cards and photos burst outward around it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:word-gap-media",
+  "name": "word-gap-media",
+  "title": "Word Gap Media",
+  "desc": "A video tile slots into the gap between \"Launch all\" and \"of this\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:word-insert",
+  "name": "word-insert",
+  "title": "Word Insert",
+  "desc": "A sentence edits itself, opening a gap and inserting a new word with a gradient.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:word-ladder",
+  "name": "word-ladder",
+  "title": "Word Ladder",
+  "desc": "A word changes a letter or two per rung, climbing a ladder to the last word.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:word-pullback",
+  "name": "word-pullback",
+  "title": "Word Pullback",
+  "desc": "The camera pulls back from a big word to reveal \"The cinematic toolkit for every launch\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:word-push",
+  "name": "word-push",
+  "title": "Word Push",
+  "desc": "A phrase builds from its first word centered: each next word drives in from the right and pushes the line left, easing into the new center.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:word-stack",
+  "name": "word-stack",
+  "title": "Word Stack",
+  "desc": "Caps words stack in a tight poster, the last one swapped for a serif gradient italic.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:word-stream",
+  "name": "word-stream",
+  "title": "Word Stream",
+  "desc": "Voiceover-paced phrases that build word by word — the next word looms as a blurred ghost before it resolves, then the phrase cuts away.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:workflow-console",
+  "name": "workflow-console",
+  "title": "Workflow Console",
+  "desc": "An independent 46.8-second release automation demo with typed commands, environment diagrams, pipeline metrics, and an original node mark.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:world-signups",
+  "name": "world-signups",
+  "title": "World Signups",
+  "desc": "A dotted world map pings signup locations next to a rolling signup counter and live feed.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:wrapped-squash",
+  "name": "wrapped-squash",
+  "title": "Wrapped Squash",
+  "desc": "Each caps line squashes to fill its own coloured block, stacking into a poster.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:x-follow-card",
+  "name": "x-follow-card",
+  "title": "X Follow Card",
+  "desc": "Animated X profile follow card — spring bounce-in, staggered blur-in, a synthetic cursor that clicks Follow and flips it to Following. Light/dark, horizontal or vertical.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:x-followers-overview",
+  "name": "x-followers-overview",
+  "title": "X Followers Overview",
+  "desc": "X follow notifications cycle through as 3D flipping text — '<name> followed you · 7h' — then the total follower count pops in with a confetti burst. Hardcoded sample list (X API ready). Light/dark, horizontal or vertical.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:x-ray-scan",
+  "name": "x-ray-scan",
+  "title": "X-Ray Scan",
+  "desc": "A glowing scanner bar sweeps across a device, turning the shell dark and revealing white-line internals with one part in red.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:year-in-review",
+  "name": "year-in-review",
+  "title": "Year in Review",
+  "desc": "A bold story card with 2026 stats is presented with a Share this story button.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:yes-run",
+  "name": "yes-run",
+  "title": "Yes Run",
+  "desc": "\"Free?\" is answered by a black \"Yes.\" tag on bright orange.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:your-name-here",
+  "name": "your-name-here",
+  "title": "Your Name Here",
+  "desc": "\"A launch film for {yourProduct}.\" with a swap-one-prop caption on a red card.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:zero-stretch",
+  "name": "zero-stretch",
+  "title": "Zero Stretch",
+  "desc": "The zero in '200' stretches into a glossy pill that holds the word 'components'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:zoom-blur",
+  "name": "zoom-blur",
+  "title": "Zoom Blur",
+  "desc": "A depth punch-in transition that pushes the outgoing scene through the viewer while the incoming one resolves out of blur.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:zoom-words",
+  "name": "zoom-words",
+  "title": "Zoom Words",
+  "desc": "A close-up word reveal: huge words fade into a long line while the camera rides the write head, the line streaming off-frame as the shot eases into focus.",
+  "lib": "remocn"
+ },
+ {
+  "id": "snapcn:agent-steps",
+  "name": "agent-steps",
+  "title": "Agent Steps",
+  "desc": "AI agent steps animation: a streaming task log with spinner and checkmarks for agent demos. An agent narrating its own work: the prompt lands in a pill, and under it a log writes itself one line at a time — each step running with a faint spinning globe, then flipping to past tense behind a check while the whole column steps up a row so the live line always sits on the centre. When the work is done the column swells and clears, and the last line slides to the middle and becomes the answer. Every ",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:announce-title",
+  "name": "announce-title",
+  "title": "Announce Title",
+  "desc": "Launch title animation, product announcement intro with kinetic typography. A four-shot launch title: the eyebrow rushes past the camera on a receding type plane and lands on a colour field, the name assembles word by word on paper, and a macro pan across the tagline cuts wide as the line builds itself last word first while a white sweep drains it out of colour. Content, palette and the mark that leads the closing line are all props.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:answer-highlight",
+  "name": "answer-highlight",
+  "title": "Answer Highlight",
+  "desc": "AI answer highlight animation, ChatGPT-style chat response with a text selection. A question in a pill, an answer that writes itself a word at a time, and then the beat the whole shot is for: a caret lands mid-sentence and a selection band drags across one statement, wrapping the line the way a real one does — and settles onto the single word that matters. Name the sentence and the word as strings; the run is found in the answer for you, punctuation and all.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:answer-stream",
+  "name": "answer-stream",
+  "title": "Answer Stream",
+  "desc": "Streaming AI response animation, from the send button to the answer typing in. The beat after send: a macro shot on the button that cuts — hard, on its fastest frame — to the answer building itself on the page, while the camera pulls back 1.364× about a focal point above the frame to keep up with it. Every word arrives hot and cools to the foreground.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:block-wordmark",
+  "name": "block-wordmark",
+  "title": "Block Wordmark",
+  "desc": "Logo sting and wordmark animation: blocks build into your brand name. A wordmark builds out of solid blocks — a square scales in, a coloured deck fans out around it and winds back, the stack collapses and stretches into one block per letter, then each block flashes a colour and swaps for its real letterform.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:bloom-lockup",
+  "name": "bloom-lockup",
+  "title": "Bloom Lockup",
+  "desc": "Logo reveal in four seconds. A wall of finished work blooms outward from your logo, cuts in tight on it, then bends away through a lens and a flash while the logo rises to take its wordmark and tagline. Measured frame by frame off a reference recording.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:button-press",
+  "name": "button-press",
+  "title": "Button Press",
+  "desc": "Cursor clicks a button: a cursor walks onto a split action button (label, divider, chevron), it darkens on hover, gives on press, spins while pending and lands on a drawn tick. The deploy, publish or send beat of every launch video. Built on cursor-track.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:capture-reveal",
+  "name": "capture-reveal",
+  "title": "Capture Reveal",
+  "desc": "Screenshot capture animation: a toast counts \"Capturing selection…\" up to 100% over a browser window, the window drops away and shrinks, the toast pops to \"Copied to clipboard.\" and a two-line headline rises out from behind the window while the cursor glides up. Every curve was measured off a recording frame by frame: the window's drop and shrink share one cubic-bezier, the toast pops on another, the headline rises without scaling or blurring, and type moves by fractions of a pixel.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:card-rail",
+  "name": "card-rail",
+  "title": "Card Rail",
+  "desc": "Card carousel animation: cards flicked sideways on a tilted 3D plane. A rail of cards flicked sideways across a tilted plane. The cards do not crawl past on a loop — they are flicked: the rail leaves at speed, decelerates for well over a second and comes to rest about a card further along, the way a carousel behaves under a thumb rather than under a timer. The plane is not flat to the camera either. Measured on a recording's card edges, the horizontal scale grows 0.000825 per pixel of height abo",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:channel-thread",
+  "name": "channel-thread",
+  "title": "Channel Thread",
+  "desc": "Slack-style chat animation: team messages arrive with typing dots. A work chat filling itself in, the way the channel actually reads: an avatar, a name in bold, a quiet timestamp and the messages as plain lines under them. Messages land one at a time, a second message from the same person joins the group without repeating the name, and when somebody new starts typing three dots hold their line until the words arrive. The transcript never creeps — it sits perfectly still between arrivals and then",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:check-cycle",
+  "name": "check-cycle",
+  "title": "Check Cycle",
+  "desc": "Rotating words beside a checkbox: a sentence that finishes itself several ways. \"Create your own\" sits left of a ticked shadcn-style checkbox and the word to its right rolls up out of a slot — Intros, Demos, Launches, Changelogs, Tutorials, And more — then the line steps back a little and rests. Every number came off a recording, frame by frame: the two words in the slot move as one strip on the in-out cubic over exactly half a second, a roll every twenty frames. The type moves by fractions of a",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:click-type",
+  "name": "click-type",
+  "title": "Click Type",
+  "desc": "Click to type: a prompt composer (Prompt Send's glass panel, writing surface and round send button) whose placeholder writes itself while a cursor flies in from the edge and clicks the field, then a hard cut into the field where the real prompt types at the caret and send arms. Two shots of one composer under a constant camera, anchored on the first letter, so the type never scales while it moves. Built on cursor-track.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:count-grid",
+  "name": "count-grid",
+  "title": "Count Grid",
+  "desc": "Number count-up grid: cards multiply and a counter jumps, the it-scales stat shot. A grid of cards rushes in under a horizontal smear, settles on five and a label, then the camera pulls back a fraction while every empty cell around them fills in from the middle out and the number jumps. The \"and it scales\" shot, without a cut — one card is deliberately late to land, which is what makes the entry read as five separate things arriving rather than one picture being pushed in.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:cursor-track",
+  "name": "cursor-track",
+  "title": "Cursor Track",
+  "desc": "Cursor click animation: a mouse pointer that moves and clicks over any UI. A synthetic cursor that walks a path of normalized waypoints over any children and pulses a click ring on arrival. A hand-drawn macOS-style arrow with an outline that keeps it readable over arbitrary footage, or a touch puck — for UI sims, and for recordings whose real cursor never made it into the file.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:cut-lockup",
+  "name": "cut-lockup",
+  "title": "Cut Lockup",
+  "desc": "Logo reveal in hard cuts. The logo lands huge on grid paper, steps down in three cuts, pushes in, cuts to night where its construction lines and anchor points draw themselves, then a paper panel wipes up onto the resting lockup. Cuts, scales, push and wipe are measured frame by frame off a reference recording.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:dot-bloom",
+  "name": "dot-bloom",
+  "title": "Dot Bloom",
+  "desc": "Halftone dot transition. White dots spark over the outgoing shot while it washes out to cream, then the cream breaks into warm coral, peach and blush dots in drifting diagonal bands that thin out cell by cell until the incoming shot is all that is left. Every cell of every step is replayed from a reference recording.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:drop-line",
+  "name": "drop-line",
+  "title": "Drop Line",
+  "desc": "Words cut past one card at a time, then the last word sinks out from under the dot of its own i",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:follower-rush",
+  "name": "follower-rush",
+  "title": "Follower Rush",
+  "desc": "Follower count animation: X/Twitter follower notification with a count-up and avatar wave, for social proof. An X-style follower notification that piles up — avatars stack in and the count explodes, then the row bends into an undulating wave of faces.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:font-shuffle",
+  "name": "font-shuffle",
+  "title": "Font Shuffle",
+  "desc": "Launch title animation: the line decodes out of scrambled glyphs set in the wrong typeface, flashes the accent, settles to ink, then the product name cycles through eleven typefaces (mono, light, humanist, pixel, script, slab, condensed, italic, blackletter, wide, bold grotesk) while the line zooms a step closer on each swap. Every beat is a held state measured off a recording frame by frame — timing, masks, layout, zoom and colour.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:gather-lockup",
+  "name": "gather-lockup",
+  "title": "Gather Lockup",
+  "desc": "Logo reveal in two and a half seconds. A wall of your work sits under a line of type. The line falls apart word by word, the wall cuts in to a row of four, and each slot swaps its picture and hands over to your mark and wordmark. Measured frame by frame off a reference recording.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:hello-zoom",
+  "name": "hello-zoom",
+  "title": "Hello Zoom",
+  "desc": "Words flicker in place, one line types on, then the camera dives through its own letters into the next card",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:hero-launch",
+  "name": "hero-launch",
+  "title": "Product Hero",
+  "desc": "Product launch hero scene for a SaaS launch video intro. Cinematic product-launch hero — two cards slide into formation as the headline reveals above.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:karaoke-captions",
+  "name": "karaoke-captions",
+  "title": "Karaoke Captions",
+  "desc": "Karaoke captions: word-by-word highlighted subtitles synced to speech. A caption line that fills word by word as it is spoken — heavy outlined type that reads on any footage. Three presets: karaoke, highlight (the word rides an accent bar), clean.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:laptop-frame",
+  "name": "laptop-frame",
+  "title": "Laptop Frame",
+  "desc": "MacBook laptop mockup animation that opens and zooms into your screenshot or video. MacBook-style laptop that opens, runs a dynamic-island notch notification, then dives the camera into the screen until an image or video fills the frame.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:logo-assemble",
+  "name": "logo-assemble",
+  "title": "Logo Assemble",
+  "desc": "Logo reveal animation: image cards orbit and collapse into your logo and brand name. A single ring of image cards revolves around a centred title, then spins inward and drains to the middle — giving birth to a simple logo that slides left as the brand name reveals to its right.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:logo-collapse",
+  "name": "logo-collapse",
+  "title": "Logo Collapse",
+  "desc": "Logo reveal intro: a stack of photos flicks through and collapses into your logo. A stack of shots flicked through, collapsing into your mark, and the wordmark landing beside it. One card holds the middle of the frame and cuts to the next shot, each smaller and each held for less time than the last, so the sequence winds itself up instead of running at a constant clip. Nothing cross-fades and nothing tweens between shots — the reference holds each card at a fixed size for its whole beat and then",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:logo-drift",
+  "name": "logo-drift",
+  "title": "Logo Drift",
+  "desc": "Logo wall animation: a logo cloud of integrations drifting behind a headline. A field of tiles drifting past a headline while the camera pulls steadily back, so the wall of things-it-works-with keeps arriving from every edge. The pull-back is one linear scale measured at 0.176 per second across every tile; the words do not fade in, they arrive 1.216× large and 4.3px soft and land in 140ms.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:logo-flicker",
+  "name": "logo-flicker",
+  "title": "Logo Flicker",
+  "desc": "Logo reveal intro: a fast image flicker that settles on your logo. Images flip across a central card very fast, the flicker decelerates and fades, and the logo and brand name resolve underneath — a strobe of imagery settling onto the mark.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:moodboard-reveal",
+  "name": "moodboard-reveal",
+  "title": "Moodboard Reveal",
+  "desc": "Photo gallery reveal: a moodboard fly-through that lands on a hero image. A kinetic headline with a swapping inline image, then a scattered gallery of photos flies in, the camera pushes through it as the background lifts from near-black to off-white, and it lands on a single hero image.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:orb-swarm",
+  "name": "orb-swarm",
+  "title": "Orb Swarm",
+  "desc": "Kinetic typography scene with glass orbs: a sentence told one beat at a time while four orbs burst out of it, split into eight and sixteen, wind into a clockwise vortex, collapse into a knot, pay out as a chain, loop around the closing words and shrink away bead by bead. Every phase was measured frame by frame off a 24fps reference and is replayed on the same clock; the orbs are shaded per pixel into a canvas (a scrolling band texture bowed like latitude lines, a soft glass edge) and the type is",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:orbit-gallery",
+  "name": "orbit-gallery",
+  "title": "Orbit Gallery",
+  "desc": "Image gallery intro: photos spiral into the centre around a title. An image-universe hero: a continuous stream of photos flows along an Archimedean spiral (a vortex) from the frame edges into the center — evenly spaced by arc length, shrinking and rotating to follow the coil, with the title held in the clear middle. A slow, cinematic opener for launch and editorial videos.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:phone-frame",
+  "name": "phone-frame",
+  "title": "Phone Frame",
+  "desc": "iPhone mockup animation: phone device frame for app screenshots and screen recordings. iPhone-style device frame with a dynamic island and a screen slot — flat or lightly 3D-tilted, with rise, rotate-in, or float entrances and a subtle float loop.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:phone-stack",
+  "name": "phone-stack",
+  "title": "Phone Stack",
+  "desc": "Stacked phone screens with video. Phone screens rise out of a blur from below one after another, and each new one pushes the stack back: the older screens shrink and step up so only their tops peek out above the newest. Every screen plays its own clip under an iOS status bar. Proportions measured off a reference recording.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:portal-intro",
+  "name": "portal-intro",
+  "title": "Portal Intro",
+  "desc": "Sentence-to-picture intro. The lead words fade up one at a time, the line re-sets with a small rounded picture chip inside it and leans in until the chip takes the frame; a title types itself over the picture, lifts away, and the mark and the name arrive. Fitted frame by frame from a reference recording.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:prompt-send",
+  "name": "prompt-send",
+  "title": "Prompt Send",
+  "desc": "AI prompt typing animation: a chat input types a prompt and a cursor clicks send. A composer that unrolls from a hairline, writes a brief into itself while the camera cuts in and rides the caret, then cuts back out to the send button as a pointer arrives and clicks it. The typing is eased, not constant — 17 chars/sec on the first word, 33 in the middle, a settle on the last three. Long copy scrolls the field under its own caret and extra suggestions wrap, so the panel fits whatever you put in it",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:prompt-zoom",
+  "name": "prompt-zoom",
+  "title": "Prompt Zoom",
+  "desc": "AI prompt zoom: an assistant home screen that cuts into the chat input as the prompt types. An assistant landing screen that offers its suggestions, then cuts — hard, in a single frame — into the caret, where the prompt types itself. The push-in is a measured 2.547× anchored on the text insertion point, not an animated zoom.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:pulsing-border",
+  "name": "pulsing-border",
+  "title": "Pulsing Border",
+  "desc": "AI glow border: a pulsing thinking frame around the screen. Glowing 'AI is working' frame — a soft pulsing border overlay that breathes around the scene edges while a response streams.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:punch-lines",
+  "name": "punch-lines",
+  "title": "Punch Lines",
+  "desc": "Kinetic typography title cards: bold statements that cut hard between beats. A run of full-frame title cards that cut hard between beats. A statement card is flicked in from the left line by line and settles on a critically damped curve, then rushes past the camera; a hero card punches its words up from a third of their size in a wave and pushes slowly forward until it cuts. Every curve is fitted from frame measurements — the slide to 0.42px rms over 37 frames.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:reel-collage",
+  "name": "reel-collage",
+  "title": "Reel Collage",
+  "desc": "Photo reel that shuts into a collage. A picture cuts through a quick reel between two captions and slowly zooms, then shuts like an eyelid while the captions fold into one stacked line; the copy swaps, the lines split, and a scattered collage blooms in around them on a peach flush. Every curve is fitted from a reference recording, frame by frame.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:reel-wall",
+  "name": "reel-wall",
+  "title": "Reel Wall",
+  "desc": "Curved video wall for Remotion. A ring of vertical clips turns past in the dark: it eases in from rest on twos, then keeps turning at an even speed. The ring, lens and ease are fitted frame by frame from a reference recording.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:roster-grant",
+  "name": "roster-grant",
+  "title": "Roster Grant",
+  "desc": "Access granted animation: a cursor clicks a CTA and team avatars switch on. Three rows of roster cards stream past a call to action, a pointer walks in and clicks it, and the monograms start turning to the accent one every seven frames — top row, middle, bottom, top, bottom, middle, so it reads as a system granting rather than a list iterating. The camera and the middle row's clearance around the pill settle on the same measured exponential; the outer rows deliberately do not, which is what stop",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:screen-recording",
+  "name": "screen-recording",
+  "title": "Screen Recording",
+  "desc": "Screen recording zoom: crop and auto-zoom a product demo capture. The treatment that turns a raw screen capture into a shot: crop the browser and OS chrome off each edge as a fraction, fit what is left to the frame, and run a keyframed camera that pushes in on whatever matters at a given frame and holds until the next move. Takes a video or a still through the same track.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:search-typing",
+  "name": "search-typing",
+  "title": "Search Typing",
+  "desc": "Search bar typing animation for AI search and command palette demos. A search field wider than the shot: two thirds in frame, then it comes forward, types across its left half, pages to its right half, and goes back. Every proportion is measured, and the scale pivots on the text baseline so the type never climbs the pixel grid.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:sky-lockup",
+  "name": "sky-lockup",
+  "title": "Sky Lockup",
+  "desc": "Logo outro in under two seconds. A one-line promise takes itself apart word by word, the white page washes off to a soft sky, and the mark in the middle of the sentence slides over, turns white and picks up your wordmark. Measured frame by frame off a reference recording.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:spec-sweep",
+  "name": "spec-sweep",
+  "title": "Spec Sweep",
+  "desc": "A one-line spec slides in word by word while a highlight runs along it and an icon charges up",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:status-cycle",
+  "name": "status-cycle",
+  "title": "Status Cycle",
+  "desc": "Status badge animation: a pill whose label cycles through states. A centred line whose status pill cycles: the label rolls up behind a hard clip while the pill's width springs past its target and back, and the line re-centres around it. The field then crossfades and a column of chips steps up from below. Copy, palette and every timing are props; the curves are fitted from frame measurements, not eyeballed.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:terminal-simulator",
+  "name": "terminal-simulator",
+  "title": "Terminal Simulator",
+  "desc": "Terminal animation: CLI demo that types commands and prints output. Terminal window with chunked command playback, freeze-frame pauses, step scrolling, and an optional cursor-pinned zoom camera.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:text-build",
+  "name": "text-build",
+  "title": "Text Build",
+  "desc": "Word-by-word text build animation that keeps the line centred. Words enter one at a time while already-placed words physically reflow to stay centered — a growing line on the x axis or a growing stack on the y axis.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:text-highlight",
+  "name": "text-highlight",
+  "title": "Text Highlight",
+  "desc": "Text highlight animation: marker highlighter, underline, strikethrough and shimmer on a word. Animated emphasis on one span inside a static sentence — marker sweep, color shift, underline, strikethrough-replace, or shimmer.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:text-reveal",
+  "name": "text-reveal",
+  "title": "Text Reveal",
+  "desc": "Text reveal animation: word-by-word and letter-by-letter kinetic typography with blur-in, fade, slide, scale and tracking-in presets. One staggered enter/exit text animator: fade, slide, blur, scale, mask and tracking effects over character, word, line or block units, with 14 classic looks as presets.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:text-rewrite",
+  "name": "text-rewrite",
+  "title": "Text Rewrite",
+  "desc": "Text rewrite animation, a typewriter line that deletes and retypes its ending. A line that writes itself a word at a time, comes forward and gets selected — then its opening is swept away by a clip that cuts letters in half as it passes, and a new ending is written on while the line slides to its new centre. The mark rides the sweeping edge throughout.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:text-select",
+  "name": "text-select",
+  "title": "Text Select",
+  "desc": "Typewriter with text selection: a line types word by word, then gets highlighted. A line that writes itself a word at a time — each one arriving in the accent and cooling to the foreground a beat later, so exactly one word is ever coloured — then pushes forward to full size on a baseline-pivoted scale and gets selected, the drag sweeping across under a gradient sheen with a hard caret edge.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:text-swap",
+  "name": "text-swap",
+  "title": "Text Swap",
+  "desc": "Text swap animation, rotating headline that replaces one line with another. Replaces one line of text with another using exit-then-enter scheduling, with five transition presets: fade-through, crossfade, shared-axis-y, shared-axis-z, and cut.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:text-swell",
+  "name": "text-swell",
+  "title": "Text Swell",
+  "desc": "Kinetic typography title with a bouncing letter wave. A title reveal where the lead word floats toward the viewer and hangs there while the sentence assembles around it — each trailing word pushes in and its letters bounce up off the baseline in a wave — before the whole line falls back to size.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:title-sweep",
+  "name": "title-sweep",
+  "title": "Title Sweep",
+  "desc": "An end title lit by a gradient that travels through the letters, cuts in the dark, and a second title takes over",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:type-morph",
+  "name": "type-morph",
+  "title": "Type Morph",
+  "desc": "Typewriter effect: a headline types with a blinking caret, then morphs letter by letter. A headline that types itself under a glowing caret, sheds its lead, morphs letter by letter, and ends under a colour flood.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:word-captions",
+  "name": "word-captions",
+  "title": "Word Captions",
+  "desc": "TikTok-style captions: animated subtitles with word pop, Hormozi and MrBeast styles for Reels and Shorts. Burned-in captions in the styles big channels actually use — heavy Montserrat, a real outside outline so they read on any footage, and the spoken word springing to an accent. Four presets: beast, hormozi, pop, clean.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:word-flip",
+  "name": "word-flip",
+  "title": "Word Flip",
+  "desc": "Word flip text rotator: a typewriter headline with a 3D rotating word. A headline types itself out, then one word cycles on a 3D flip — it sinks into an anticipation dip, throws up and away about its baseline under motion blur, and the next word unfurls from below. The slot is reserved from the first keystroke, so nothing in the sentence ever reflows.",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:word-gather",
+  "name": "word-gather",
+  "title": "Word Gather",
+  "desc": "Word-by-word sentence animation: words fly in out of order and settle into the line. A sentence that arrives one word at a time, out of order, and gathers. The first word holds the middle of the frame on its own; then the rest drop in around it — not in reading order and not where they belong — each landing near its slot in the accent colour and sliding the last of the way home, turning to ink as it settles. The line makes room for them as they come, and when the last one is down the whole block",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:word-wheel",
+  "name": "word-wheel",
+  "title": "Word Wheel",
+  "desc": "Rotating words text: a slot machine word wheel that spins and stops on one word. A column of words that spins like a reel and stops on one of them. A fixed lead-in holds the left of the line and the word that finishes the sentence lives in a slot beside it — one row of a taller column whose other words are visible above and below, smaller and grey, fading out toward the top and bottom of the frame. The reel rolls, decelerates over a second and three quarters and comes to rest with one word at fu",
+  "lib": "snapcn"
+ },
+ {
+  "id": "snapcn:wordmark-cut",
+  "name": "wordmark-cut",
+  "title": "Wordmark Cut",
+  "desc": "Wordmark reveal end card: a huge brand name with a hard cut to a close-up. A wordmark twice the width of the frame, cooling from a lit gradient to ink while it settles, and then a hard cut onto its last letters and the dot — 1.71× nearer, with a shallow depth of field the wide shot does not have, which is the only thing that says the second shot is closer rather than just bigger. It holds a beat and pushes in, still accelerating on the last frame.",
+  "lib": "snapcn"
+ }
+]

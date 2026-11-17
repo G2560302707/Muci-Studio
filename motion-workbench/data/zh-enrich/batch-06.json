@@ -1,0 +1,702 @@
+[
+ {
+  "id": "remocn:micro-scale-fade",
+  "name": "micro-scale-fade",
+  "title": "Micro Scale Fade",
+  "desc": "A calm, tiny scale pop used as subtle premium polish for labels and headings.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:milestone-roll",
+  "name": "milestone-roll",
+  "title": "Milestone Roll",
+  "desc": "A counter races through milestones to a 1,000,000 poster over a gradient ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:mobile-paywall",
+  "name": "mobile-paywall",
+  "title": "Mobile Paywall",
+  "desc": "A phone paywall selects a plan and shows a Welcome to Pro confirmation.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:module-count",
+  "name": "module-count",
+  "title": "Module Count",
+  "desc": "A pixel-block number snaps to 48 on a gridded teal ground with a short caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:moire-reveal",
+  "name": "moire-reveal",
+  "title": "Moire Reveal",
+  "desc": "A big 10x resolves out of a moire line pattern with a small pill caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:mondrian-split",
+  "name": "mondrian-split",
+  "title": "Mondrian Split",
+  "desc": "Black lines cut the frame into a seeded De Stijl grid, primaries wipe into its cells, the grid reflows like rubber, and one cell pushes its own lines out past the edges to become a clean color field or the next scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:money-send",
+  "name": "money-send",
+  "title": "Money Send",
+  "desc": "A phone payment screen confirms Sent to Maya with a receipt.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:mono-settle",
+  "name": "mono-settle",
+  "title": "Mono Settle",
+  "desc": "Two lines set in monospace settle into proportional type: 'From your editor to the edit.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:mono-voice",
+  "name": "mono-voice",
+  "title": "Mono Voice",
+  "desc": "Three stacked lines shift voice mid-line, ending in a large accent 'delivery.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:moves-up",
+  "name": "moves-up",
+  "title": "Moves Up",
+  "desc": "A Now/Next/Later roadmap list where the current item moves up and enlarges.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:multi-file-drop",
+  "name": "multi-file-drop",
+  "title": "Multi File Drop",
+  "desc": "Files drop into a prompt box as chips, then a cursor presses send.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:multiplayer-cursors",
+  "name": "multiplayer-cursors",
+  "title": "Multiplayer Cursors",
+  "desc": "Collaborator cursors drop stickies, select cards and comment on a shared board.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:mvp-card",
+  "name": "mvp-card",
+  "title": "Mvp Card",
+  "desc": "A player card slams open with logo and counting stats beside a giant gradient 'MVP'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:name-gloss",
+  "name": "name-gloss",
+  "title": "Name Gloss",
+  "desc": "Two big words, \"Brand kit\", each get a small gloss line and a closing teal sentence.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:ndot-resolve",
+  "name": "ndot-resolve",
+  "title": "Ndot Resolve",
+  "desc": "A headline scans in as a dot-matrix face, then refreshes letter by letter into solid type.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:negation-drop",
+  "name": "negation-drop",
+  "title": "Negation Drop",
+  "desc": "Condensed caps poster where each line's key word drops in on a lime highlight block.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:neon-sign",
+  "name": "neon-sign",
+  "title": "Neon Sign",
+  "desc": "A glass neon tube stutters alive segment by segment with a hot white core and wall glow, buzzes off once, then holds lit.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:neural-pulse",
+  "name": "neural-pulse",
+  "title": "Neural Pulse",
+  "desc": "A neural network fires a prompt through its nodes and resolves into the Remocn logo.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:no-buts",
+  "name": "no-buts",
+  "title": "No Buts",
+  "desc": "A hesitant \"But...\" is answered by a yellow \"Go on. We'll wait.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:node-trail",
+  "name": "node-trail",
+  "title": "Node Trail",
+  "desc": "A prompt node trails dotted lines into a workflow graph: script, scenes, render, publish.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:noise-forge-sting",
+  "name": "noise-forge-sting",
+  "title": "Noise Forge Sting",
+  "desc": "The Remocn wordmark forges out of noise on a warm glow, tagline fading in below.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:nonstop",
+  "name": "nonstop",
+  "title": "Nonstop",
+  "desc": "A stops counter ticks down from three until the line resolves to the big phrase 'No stops'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:not-yet",
+  "name": "not-yet",
+  "title": "Not Yet",
+  "desc": "A stack of \"It can't ... Yet.\" lines, the last one brightest, each ending in an orange \"Yet.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:notification-avalanche",
+  "name": "notification-avalanche",
+  "title": "Notification Avalanche",
+  "desc": "Notifications pile onto a lock screen, group into a stack, then clear to All caught up.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:now-playing",
+  "name": "now-playing",
+  "title": "Now Playing",
+  "desc": "A music player with lyrics highlights a line on a colored gradient background.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:number-mosaic",
+  "name": "number-mosaic",
+  "title": "Number Mosaic",
+  "desc": "A field of square pixels organizes into the number 10,000 with a caption below.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:number-split",
+  "name": "number-split",
+  "title": "Number Split",
+  "desc": "A big 300+ splits down a bracket into four category counts on colored bars.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:number-wheel",
+  "name": "number-wheel",
+  "title": "Number Wheel",
+  "desc": "Mechanical odometer that rolls an integer up or down to its target, direction inferred from the values.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:off-the-charts",
+  "name": "off-the-charts",
+  "title": "Off The Charts",
+  "desc": "Quarterly bars climb until the last one breaks its axis and overshoots the target at 260%.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:on-approach",
+  "name": "on-approach",
+  "title": "on Approach",
+  "desc": "'Wheels up' stays fixed while the time phrase swaps from 'in June' down to 'today.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:onboarding-stepper-flow",
+  "name": "onboarding-stepper-flow",
+  "title": "UI Onboarding Stepper Flow",
+  "desc": "A multi-step onboarding composition: a horizontal stepper advances through panels of input, radio, and switch fields, finishing on a Finish button that runs to success. Panel crossfade derives linearly from the stepper's exposed position channel; every other channel comes from a composed primitive's hook.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:opencode",
+  "name": "opencode",
+  "title": "OpenCode",
+  "desc": "Animated OpenCode TUI welcome screen — two-tone wordmark, an input box with a blue accent bar that types a query, a model status line, and command hints. Dark/light themes.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:orbit-lock",
+  "name": "orbit-lock",
+  "title": "Orbit Lock",
+  "desc": "Three moons ride tilted, shrinking orbits into a red core that bursts into a ring flash and springs the logo into place.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:out-of-context",
+  "name": "out-of-context",
+  "title": "Out of Context",
+  "desc": "\"Stop making launch videos by hand.\" with the last words in pink on a blue ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:outline-fill-track-text",
+  "name": "outline-fill-track-text",
+  "title": "Outline Fill Track Text",
+  "desc": "A rising lead word gives way to an outlined value that fills from left to right while both travel on one continuous track.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:outline-trace",
+  "name": "outline-trace",
+  "title": "Outline Trace",
+  "desc": "Every glyph contour draws itself as a stroke, letter by letter, then the fill wipes up inside each letter and the stroke fades into it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:oval-type",
+  "name": "oval-type",
+  "title": "Oval Type",
+  "desc": "Each word rides inside its own glossy gradient capsule, finishing as a three-capsule poster.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:overheard",
+  "name": "overheard",
+  "title": "Overheard",
+  "desc": "A question quote, \"Who made our launch video?\", answered by \"I did. It's in the repo.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:overnight",
+  "name": "overnight",
+  "title": "Overnight",
+  "desc": "A dated story line, \"The demo went up before the launch post did.\", on a yellow ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:packed-count",
+  "name": "packed-count",
+  "title": "Packed Count",
+  "desc": "A big blue counter reaches 41,900 with digits packing tight, caption above.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:page-turn",
+  "name": "page-turn",
+  "title": "Page Turn",
+  "desc": "The exiting scene swings up and away like a notebook page in stop-motion poses, staying above the scene it reveals.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:panel-split",
+  "name": "panel-split",
+  "title": "Panel Split",
+  "desc": "A portfolio page splits into stacked panels of bio, case study and reel.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:paper-plane",
+  "name": "paper-plane",
+  "title": "Paper Plane",
+  "desc": "A dotted flight path loops past three stops and lands on the Remocn wordmark.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:paper-sticker",
+  "name": "paper-sticker",
+  "title": "Paper Sticker",
+  "desc": "A taped paper chip that slaps onto the scene over two stop-motion poses, keeping a hand-placed tilt and per-pose wobble.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:paper-tear",
+  "name": "paper-tear",
+  "title": "Paper Tear",
+  "desc": "A jagged rip runs down the frame, then both halves peel apart on a spring with white fibrous torn edges, revealing the scene underneath.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:paper-wobble",
+  "name": "paper-wobble",
+  "title": "Paper Wobble",
+  "desc": "Per-pose reshoot jitter that makes any content feel hand-placed on a desk.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:parallax-depth",
+  "name": "parallax-depth",
+  "title": "Parallax Depth",
+  "desc": "A flat landscape built from depth layers trucks sideways with a gentle push-in, near layers sliding faster than far ones.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:parallax-lockup",
+  "name": "parallax-lockup",
+  "title": "Parallax Lockup",
+  "desc": "A three-line headline locks up with parallax, the last line in a gradient.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:particle-dissolve",
+  "name": "particle-dissolve",
+  "title": "Particle Dissolve",
+  "desc": "The frame is ground into drifting grey dust whose specks carry real fragments of the picture, and the next scene coalesces back out of the same dust.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pass-swap",
+  "name": "pass-swap",
+  "title": "Pass Swap",
+  "desc": "An object passes across the frame and each pass swaps the headline to the next one.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:path-ride",
+  "name": "path-ride",
+  "title": "Path Ride",
+  "desc": "A line draws itself along a curve with the text riding behind its head, then the curve pulls taut and the text settles on a straight, centered baseline.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:path-search",
+  "name": "path-search",
+  "title": "Path Search",
+  "desc": "A pathfinding search floods a grid and traces the route from start to goal.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:path-text",
+  "name": "path-text",
+  "title": "Path Text",
+  "desc": "Text starts along a loose path then straightens into a clean line with an italic tail.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pattern-tile",
+  "name": "pattern-tile",
+  "title": "Pattern Tile",
+  "desc": "A quarter-disc tile is rotated, mirrored and translated into a wall of 72 tiles.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:peek-shut",
+  "name": "peek-shut",
+  "title": "Peek Shut",
+  "desc": "\"Want a peek?\" is cut off by a shutter: \"That's all you get. The rest, Monday.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pendulum-wave",
+  "name": "pendulum-wave",
+  "title": "Pendulum Wave",
+  "desc": "A row of pendulums with tuned periods drifts from a straight line into waves and braids, then realigns for a seamless loop.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:per-character-rise",
+  "name": "per-character-rise",
+  "title": "Per Character Rise",
+  "desc": "Letters slide up from below with no blur — crisp, deliberate, kinetic.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:per-word-crossfade",
+  "name": "per-word-crossfade",
+  "title": "Per-Word Crossfade",
+  "desc": "Words gently fade into place one after another, with a short vertical drift for a calm keynote rhythm.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:period-drop",
+  "name": "period-drop",
+  "title": "Period Drop",
+  "desc": "A word rises out of its line, then a colored dot falls from above the frame, bounces with squash and stretch, and settles as the period.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:perlin-dissolve",
+  "name": "perlin-dissolve",
+  "title": "Perlin Dissolve",
+  "desc": "A perlin-noise shader transition that sweeps its noise threshold to dissolve one scene into the next.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:perspective-marquee",
+  "name": "perspective-marquee",
+  "title": "Perspective Marquee",
+  "desc": "A 3D-tilted infinite marquee with depth-of-field blur on items rolling toward the horizon.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:perspective-squeeze",
+  "name": "perspective-squeeze",
+  "title": "Perspective Squeeze",
+  "desc": "Two lines of heavy type endlessly trade height while corner-pinned perspective bends the flat stack into receding planes.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:phone-scroll",
+  "name": "phone-scroll",
+  "title": "Phone Scroll",
+  "desc": "A phone app screen flicks through stops while a headline sits beside it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:phone-trio",
+  "name": "phone-trio",
+  "title": "Phone Trio",
+  "desc": "Three phones side by side show a notification, a photo feed and a profile.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:photo-caret",
+  "name": "photo-caret",
+  "title": "Photo Caret",
+  "desc": "A three-line headline types out with a caret while product photos float around it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:photo-fill-type",
+  "name": "photo-fill-type",
+  "title": "Photo Fill Type",
+  "desc": "A word cut out of the stage reveals a generated mountain landscape and a caption.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:photo-halo",
+  "name": "photo-halo",
+  "title": "Photo Halo",
+  "desc": "The Remocn wordmark sits next to a halo of circular photo thumbnails.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:phrase-list-bridge",
+  "name": "phrase-list-bridge",
+  "title": "Phrase List Bridge",
+  "desc": "An inline highlight chip bridges two phrases: \"Browse through ... ready-made scenes\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:phyllotaxis",
+  "name": "phyllotaxis",
+  "title": "Phyllotaxis",
+  "desc": "Seeds spiral out at the golden angle into a sunflower head, then an accent Fibonacci arm pulses outward.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pill-morph",
+  "name": "pill-morph",
+  "title": "Pill Morph",
+  "desc": "A logo pill opens into a product card, splits into feature pills and becomes an app tile.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pinned-word",
+  "name": "pinned-word",
+  "title": "Pinned Word",
+  "desc": "A serif italic word is pinned in a sentence while the rest changes, 'Own every video frame.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pitch-blanks",
+  "name": "pitch-blanks",
+  "title": "Pitch Blanks",
+  "desc": "A fill-in-the-blank pitch where product, category and audience labels annotate each underlined phrase.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pitch-over",
+  "name": "pitch-over",
+  "title": "Pitch Over",
+  "desc": "A large number counts to 7,200 with a ruler of ticks and a marker sliding beneath it.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pixel-bars",
+  "name": "pixel-bars",
+  "title": "Pixel Bars",
+  "desc": "LED-style pixel bars climb, the last column lighting orange and blue to +64%.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pixel-sort",
+  "name": "pixel-sort",
+  "title": "Pixel Sort",
+  "desc": "The scene melts into seeded vertical streaks like glitch-art pixel sorting, then the next scene's columns fall in and snap into place.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pixelate-region",
+  "name": "pixelate-region",
+  "title": "Pixelate Region",
+  "desc": "Cover rectangles of a scene with an opaque mosaic while the rest passes through untouched — redact keys, addresses and personal data before a demo goes out.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:plain-license",
+  "name": "plain-license",
+  "title": "Plain License",
+  "desc": "A big green \"Free,\" then \"for anyone, for anything.\" in condensed type.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:play-of-the-game",
+  "name": "play-of-the-game",
+  "title": "Play of The Game",
+  "desc": "A 'Play of the Game' banner slices in over the remocn logo with a role label and stat.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:plus-open",
+  "name": "plus-open",
+  "title": "Plus Open",
+  "desc": "A plus sign opens into the next statement on a soft aurora ground, 'Here's everything new.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:point-expand",
+  "name": "point-expand",
+  "title": "Point Expand",
+  "desc": "Short statements land one at a time, ending 'Copy, paste, render.' with a pulsing accent period.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:point-hop",
+  "name": "point-hop",
+  "title": "Point Hop",
+  "desc": "A decimal figure 34.2 with a pink point that hops between digits, then a unit like microseconds.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:point-intro",
+  "name": "point-intro",
+  "title": "Point Intro",
+  "desc": "A headline is written word by word and a colored point lands after it: 'Introducing remocn 2.0.'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:polaroid",
+  "name": "polaroid",
+  "title": "Polaroid",
+  "desc": "An instant-photo frame with a handwritten caption for video, images, or live compositions.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:popover",
+  "name": "popover",
+  "title": "UI Popover",
+  "desc": "A popover/hover-card whose opened/closed state is a pure function of the timeline. The Popover renderer is a pure function of a PopoverStyle (opacity, scale, translate); usePopoverTransition eases both the open and the close. The static `side` prop sets the enter translate axis; renders title + description and/or arbitrary children in a popover card.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:post-script",
+  "name": "post-script",
+  "title": "Post Script",
+  "desc": "A red card with a \"Thanks for watching\" line and a \"P.S. The next launch film is yours.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:poster-crop",
+  "name": "poster-crop",
+  "title": "Poster Crop",
+  "desc": "A poster headline crops in tight, line by line, over a ruled blue ground.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pov-setup",
+  "name": "pov-setup",
+  "title": "POV Setup",
+  "desc": "A 'POV:' setup line slides in word by word, then a serif italic punchline lands.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pr-merge",
+  "name": "pr-merge",
+  "title": "PR Merge",
+  "desc": "A pull request is approved and merged, then its branch is deleted.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:press-stat",
+  "name": "press-stat",
+  "title": "Press Stat",
+  "desc": "A mono caption presses out and a huge green 73% lands beside 'Edit time down'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:press-warp-dive",
+  "name": "press-warp-dive",
+  "title": "Press Warp Dive",
+  "desc": "A button press warps and dives into a video player, landing on the next scene.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:price-page",
+  "name": "price-page",
+  "title": "Price Page",
+  "desc": "A huge teal \"Free.\" fills the frame with \"That's the whole pricing page.\".",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:price-slate",
+  "name": "price-slate",
+  "title": "Price Slate",
+  "desc": "A price reel spins to land on $0 with the old $29 struck through.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pricing-reveal",
+  "name": "pricing-reveal",
+  "title": "Pricing Reveal",
+  "desc": "A pricing table highlights the Pro plan and strikes the old price for the new one.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:progress",
+  "name": "progress",
+  "title": "UI Progress",
+  "desc": "A progress bar whose fill is a pure function of a numeric value channel (value-channel deviation). The Progress renderer takes a clamped 0–100 value; useProgressTransition reads the frame and eases the fill between value steps. Muted track + primary indicator, optional floored percentage label.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:prompt-restyle",
+  "name": "prompt-restyle",
+  "title": "Prompt Restyle",
+  "desc": "A headline is restyled by prompt instructions, ending in a serif italic gradient 'you own'.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:prompt-swell",
+  "name": "prompt-swell",
+  "title": "Prompt Swell",
+  "desc": "A prompt swells into a builder that generates a pricing page with checklist and waitlist form.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:prompt-to-app",
+  "name": "prompt-to-app",
+  "title": "Prompt to App",
+  "desc": "A prompt types into a chat and a site preview builds as files are written.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pull-in",
+  "name": "pull-in",
+  "title": "Pull in",
+  "desc": "'Now in' stays put while spaced-out place words pull into view, such as vertical, 4K, your codebase.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:pulse-line",
+  "name": "pulse-line",
+  "title": "Pulse Line",
+  "desc": "A heartbeat-style pulse runs through 'Every frame has a pulse.' with the last word in teal.",
+  "lib": "remocn"
+ },
+ {
+  "id": "remocn:push-through",
+  "name": "push-through",
+  "title": "Push Through",
+  "desc": "A dolly transition that blows the outgoing scene past the camera while the next one approaches from the depth.",
+  "lib": "remocn"
+ }
+]

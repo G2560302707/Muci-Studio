@@ -1,0 +1,7 @@
+{
+  "name": "ProjectCard",
+  "description": "单项目详情卡，融合 OG 图、评分、亮点、标签和仓库地址。",
+  "props": ["rank", "title", "org", "image", "githubUrl", "points", "stars", "weeklyStars", "overlayTags", "caption"],
+  "usage": "GitHub 推荐、开源项目讲解、产品亮点展示。",
+  "relations": ["项目", "开源", "详情"]
+}

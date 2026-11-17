@@ -1,0 +1,7 @@
+{
+  "name": "ScreenCard",
+  "description": "截图/录屏展示卡，支持标题、倍速徽标和聚焦推拉。",
+  "props": ["src", "aspect", "title", "speedBadge", "focusFrom", "focusTo"],
+  "usage": "产品演示、界面讲解、真实素材展示。",
+  "relations": ["录屏", "截图", "演示"]
+}

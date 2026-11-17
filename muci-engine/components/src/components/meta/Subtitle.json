@@ -1,0 +1,7 @@
+{
+  "name": "Subtitle",
+  "description": "底部字幕卡，按 cue 时间显示语音文本。",
+  "props": ["cues"],
+  "usage": "口播字幕、解释说明、转写同步。",
+  "relations": ["字幕", "口播", "时间轴"]
+}

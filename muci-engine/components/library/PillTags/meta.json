@@ -1,0 +1,19 @@
+{
+  "name": "PillTags",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-PillTags",
+  "sourcePath": "src/components/PillTags.tsx",
+  "previewPath": "out/previews/PillTags.mp4",
+  "description": "按时间 cue 依次激活的浅色标签组。",
+  "props": {
+    "items": "string[]",
+    "cues": "number[]"
+  },
+  "usageRules": {
+    "background": "#FFFFFF",
+    "typography": "MiSans Semibold 600",
+    "highlight": "#7C3AED",
+    "rule": "use labels sparingly and only for real function points"
+  }
+}

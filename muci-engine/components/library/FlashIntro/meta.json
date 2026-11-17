@@ -1,0 +1,19 @@
+{
+  "name": "FlashIntro",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-FlashIntro",
+  "sourcePath": "src/components/FlashIntro.tsx",
+  "previewPath": "out/previews/FlashIntro.mp4",
+  "description": "榜单开场闪入卡，按序建立多个项目。",
+  "props": {
+    "items": "Array<{ image: string; title: string; rank: number; stars: number }>",
+    "framesPerCard": "number?"
+  },
+  "usageRules": {
+    "background": "#FFFFFF",
+    "typography": "MiSans Semibold 600",
+    "highlight": "#7C3AED",
+    "rule": "one active item at a time; no extra particles"
+  }
+}

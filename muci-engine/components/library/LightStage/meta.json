@@ -1,0 +1,17 @@
+{
+  "name": "LightStage",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-LightStage",
+  "sourcePath": "src/components/LightStage.tsx",
+  "previewPath": "out/previews/LightStage.mp4",
+  "description": "白色舞台承载层，用来集中展示窗口内容。",
+  "props": {
+    "children": "React.ReactNode?",
+    "padding": "React.CSSProperties['padding']?"
+  },
+  "usageRules": {
+    "background": "#FFFFFF",
+    "rule": "pair with WindowShell when a carrier boundary is needed"
+  }
+}

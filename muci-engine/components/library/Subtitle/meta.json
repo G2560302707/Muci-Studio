@@ -1,0 +1,17 @@
+{
+  "name": "Subtitle",
+  "status": "approved",
+  "approvedAt": "2026-11-13",
+  "remotionComposition": "Preview-Subtitle",
+  "sourcePath": "src/components/Subtitle.tsx",
+  "previewPath": "out/previews/Subtitle.mp4",
+  "description": "底部口播字幕组件，按 cue 时间轴显示。",
+  "props": {
+    "cues": "Array<{ text: string; from: number; duration: number }>"
+  },
+  "usageRules": {
+    "background": "inherit stage background",
+    "typography": "MiSans Semibold 600",
+    "rule": "bind every cue to spoken wording"
+  }
+}
